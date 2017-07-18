@@ -22,4 +22,7 @@
 		<!-- 后缀 -->
 		<property name="suffix" value=".jsp" />
 	</bean>
+	
+	<!-- 配置静态资源的访问 -->
+	<mvc:resources location="/static/" mapping="/static/**"/>
 </beans>

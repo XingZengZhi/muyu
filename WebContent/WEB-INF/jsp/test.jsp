@@ -8,8 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<c:forEach items="${users }" var="user">
-${user.UserName }
-</c:forEach>
+	<c:forEach items="${users }" var="user">
+		${user.userName }
+	</c:forEach>
+	${self }
 </body>
 </html>

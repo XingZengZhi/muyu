@@ -2,10 +2,12 @@ package com.qingchengcjk.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
 import com.qingchengcjk.pojo.User;
 import com.qingchengcjk.service.UserService;
@@ -16,12 +18,9 @@ public class UserController {
 	private UserService userService;
 	
 	@RequestMapping("/userlist")
-	public ModelAndView getUserList(){
+	public String getUserList(Model model){
 		List<User> users = userService.getUserList();
-		ModelAndView model = new ModelAndView();
-		model.addObject("users", users);
-		System.out.println(users.get(0).getUserName());
-		model.setViewName("test");
-		return model;
+		model.addAttribute("users", users);
+		return "test";
 	}
 }
