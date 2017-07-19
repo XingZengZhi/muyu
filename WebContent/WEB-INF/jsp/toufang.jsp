@@ -9,14 +9,42 @@
     <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/toufang.js"></script>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/static/css/toufang.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/index_style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath }/static/img/qc-icon.ico" />
   </head>
   <body>
+    <div id="head_box">
+      <img src="${pageContext.request.contextPath }/static/img/qc-index-logo.png" title="logo" />
+      <ul>
+        <li>
+          <a href="${pageContext.request.contextPath}/pages/register" target="_self">注册</a>
+        </li>
+        <li>
+          <a href="">登录</a>
+        </li>
+        <li>
+          <a href="${pageContext.request.contextPath}/pages/toufang">广告投放</a>
+        </li>
+        <li>
+          <a href="${pageContext.request.contextPath}/pages/aboutus" target="_self">关于我们</a>
+        </li>
+        <li>
+          <a href="${pageContext.request.contextPath}/pages/information" target="_self">资讯</a>
+        </li>
+        <li>
+          <a href="${pageContext.request.contextPath}/pages/works" target="_self">作品</a>
+        </li>
+        <li>
+          <a href="${pageContext.request.contextPath}/pages/index" target="_self">主页</a>
+        </li>
+      </ul>
+    </div>
     <div class="all">
       <!-- 类型选择 -->
       <section>
         <div class="cat-box">
           <div class="cat-content">
-            <p>---请选择---</p>
+            <p>请选择类型</p>
           </div>
           <div class="cat-btn">
             <button type="button" name="button"><i class="up"></i></button>
@@ -102,6 +130,10 @@
               <img src="${pageContext.request.contextPath }/static/img/test.jpg" />
             </a>
           </div>
+          <div class="productPrice">
+            <p class="p"><span>&#165;540</span>元/月</p>
+            <p class="d">本季度成交量 <span>7740笔</span></p>
+          </div>
           <div class="productTitle">
             <p>
               来自倾城创意影视文化传媒有限公司的介绍
@@ -118,6 +150,10 @@
             <a href="#" target="_blank">
               <img src="${pageContext.request.contextPath }/static/img/test2.jpg" />
             </a>
+          </div>
+          <div class="productPrice">
+            <p class="p"><span>&#165;540</span>元/月</p>
+            <p class="d">本季度成交量 <span>7740笔</span></p>
           </div>
           <div class="productTitle">
             <p>
@@ -136,6 +172,10 @@
               <img src="${pageContext.request.contextPath }/static/img/test3.jpg" />
             </a>
           </div>
+          <div class="productPrice">
+            <p class="p"><span>&#165;540</span>元/月</p>
+            <p class="d">本季度成交量 <span>7740笔</span></p>
+          </div>
           <div class="productTitle">
             <p>
               来自倾城创意影视文化传媒有限公司的介绍
@@ -152,6 +192,10 @@
             <a href="#" target="_blank">
               <img src="${pageContext.request.contextPath }/static/img/test4.jpg" />
             </a>
+          </div>
+          <div class="productPrice">
+            <p class="p"><span>&#165;540</span>元/月</p>
+            <p class="d">本季度成交量 <span>7740笔</span></p>
           </div>
           <div class="productTitle">
             <p>
@@ -170,6 +214,10 @@
               <img src="${pageContext.request.contextPath }/static/img/test5.jpg" />
             </a>
           </div>
+          <div class="productPrice">
+            <p class="p"><span>&#165;540</span>元/月</p>
+            <p class="d">本季度成交量 <span>7740笔</span></p>
+          </div>
           <div class="productTitle">
             <p>
               来自倾城创意影视文化传媒有限公司的介绍
@@ -186,6 +234,10 @@
             <a href="#" target="_blank">
               <img src="${pageContext.request.contextPath }/static/img/test6.jpg" />
             </a>
+          </div>
+          <div class="productPrice">
+            <p class="p"><span>&#165;540</span>元/月</p>
+            <p class="d">本季度成交量 <span>7740笔</span></p>
           </div>
           <div class="productTitle">
             <p>
@@ -204,6 +256,10 @@
               <img src="${pageContext.request.contextPath }/static/img/test7.jpg" />
             </a>
           </div>
+          <div class="productPrice">
+            <p class="p"><span>&#165;540</span>元/月</p>
+            <p class="d">本季度成交量 <span>7740笔</span></p>
+          </div>
           <div class="productTitle">
             <p>
               来自倾城创意影视文化传媒有限公司的介绍
@@ -220,6 +276,10 @@
             <a href="#" target="_blank">
               <img src="${pageContext.request.contextPath }/static/img/test8.jpg" />
             </a>
+          </div>
+          <div class="productPrice">
+            <p class="p"><span>&#165;540</span>元/月</p>
+            <p class="d">本季度成交量 <span>7740笔</span></p>
           </div>
           <div class="productTitle">
             <p>
@@ -238,10 +298,7 @@
       <div class="page">
         <div class="page-item">
           <ul>
-            <li><span>&lt;&lt;</span></li>
-            <!--<li><span>1</span></li>-->
-            <!--<li><span>2</span></li>-->
-            <!--<li><span>3</span></li>-->
+            <li class="active_li"><span>&lt;&lt;</span></li>
             <li><span>&gt;&gt;</span></li>
           </ul>
         </div>

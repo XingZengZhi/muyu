@@ -14,4 +14,20 @@ public class PageController {
 	public String pageToufang(){
 		return "toufang";
 	}
+	@RequestMapping("/aboutus")
+	public String pageAboutus(){
+		return "aboutus";
+	}
+	@RequestMapping("/information")
+	public String pageInformation(){
+		return "information";
+	}
+	@RequestMapping("/register")
+	public String pageRegister(){
+		return "register";
+	}
+	@RequestMapping("/works")
+	public String pageWorks(){
+		return "works";
+	}
 }

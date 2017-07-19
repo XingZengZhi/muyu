@@ -1,0 +1,195 @@
+/*总框架*/
+#register_box{
+	width:100%;
+}
+#register_head{
+	border-bottom:1px solid #CCCCCC;
+	min-height:60px;
+}
+#register_head h3,ul{
+	display: inline-block;
+}
+#register_head h3{
+	display: inline-block;
+	width: 600px;
+	height:60px;
+	position: relative;
+	margin-left:50px;
+	margin-top:10px;
+}
+#register_head h3 img{
+	display: block;
+	width:100%;
+	height:100%;
+}
+#register_head ul{
+	display: inline-block;
+	margin-left:180px;
+}
+#register_head ul li{
+	font-size:14px;
+	float: left;
+	display: block;
+	width:100px;
+	text-align:center;
+	border-right:1px solid #ccc;
+}
+#register_head ul li:last-child{
+	border:none;
+}
+/*会员注册信息框*/
+#register_content form{
+	min-height: 100px;
+	width:500px;
+	margin:100px auto;
+}
+#register_content form ul{
+	width:100%;
+}
+#register_content form ul li{
+	margin-bottom:20px;
+	width:100%;
+	display: block;
+	height:30px;
+}
+#register_content form ul li span{
+	font-size: 13px;
+	display: inline-block;
+	height:30px;
+	float:left;
+	line-height:30px;
+}
+#register_content form ul li span:nth-child(1){
+	color:#7F7F7F;
+	width:100px;
+	text-align: right;
+}
+#register_content form ul li span:nth-child(2){
+	width:240px;
+	margin-left:8px;
+}
+#register_content form ul li span:nth-child(2) input{
+	border:1px solid #CCCCCC;
+	padding-left: 5px;
+	outline: none;
+	height: 30px;
+	width:240px;
+}
+#register_content form ul li span:nth-child(2) input[type='radio']{
+	float:left;
+	margin-top:5px;
+	border:1px solid #CCCCCC;
+	outline: none;
+	height: 20px;
+	width:20px;
+}
+#register_content form ul li span:nth-child(2) b{
+	display: inline-block;
+	float:left;
+	margin:0 5px;
+	font-weight:500;
+}
+#register_content form ul li span:nth-child(2) input:focus{
+	border:1px solid #00C1DE;
+	box-shadow: 0 0 5px #00C1DE;
+	-webkit-box-shadow: 0 0 5px #00C1DE;
+	-moz-box-shadow: 0 0 5px #00C1DE;
+	-ms-box-shadow: 0 0 5px #00C1DE;
+	-o-box-shadow: 0 0 5px #00C1DE;
+}
+#register_content form ul li:nth-child(1) span:nth-child(1){
+	color:black;
+	font-weight: bold;
+}
+#register_content form ul li span:nth-child(3){
+	margin-left: 10px;
+	color:#FF3F13;
+}
+#register_content form ul li input[type='submit']{
+	display: block;
+	width:130px;
+	height:30px;
+	letter-spacing: 2px;
+	margin-left: 105px;
+	background-color: #008FB2;
+	border:none;
+	color:white;
+	font-weight: bold;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+#register_content form ul li input[type='submit']:hover{
+	cursor: pointer;
+}
+/*页脚布局*/
+#foot_{
+	position: relative;
+	background-color:#1B1F2A;
+	width:100%;
+	height: 400px;
+}
+.foot_left,.foot_mid,.foot_right{
+	float: left;
+	color:rgb(123,129,141);
+}
+.foot_left{
+	width:30%;
+	margin-top:70px;
+}
+.foot_left img{
+	margin: 0 auto;
+	display: block;
+	height: 30%;
+	width:30%;
+}
+.foot_left p{
+	margin:10px 0;
+	text-align: center;
+}
+.foot_left p:nth-child(3){
+	font-size:30px;
+}
+.foot_mid{
+	width:40%;
+	height:200px;
+	margin-top:100px;
+	border-left: 2px solid rgba(123,129,141,0.5);
+	border-right:2px solid rgba(123,129,141,0.5);
+	position: relative;
+}
+.foot_mid ul{
+	position: absolute;
+	list-style: none;
+	display: inline-block;
+}
+.foot_mid ul li{
+	font-size: 16px;
+	margin:17px;
+}
+.foot_mid ul:nth-child(1){
+	left:10%;
+	width:20%;
+}
+
+.foot_mid ul:nth-child(2){
+	right:10%;
+}
+.foot_link{
+	width: 100%;
+	text-align: center;
+	bottom: -40%;
+	position: absolute;
+}
+.foot_right{
+	margin-top:20px;
+	margin-left:120%;
+}
+/*二维码像素最好是43像素的整数倍*/
+.foot_right img{
+	display: block;
+	width: 129px;
+	height: 129px;
+}

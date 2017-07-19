@@ -74,7 +74,7 @@ $(function() {
 	});
 
 	//设置团队介绍鼠标划过事件,有子元素继承事件的bug
-	$("#com_team div[class*='com']").mouseenter(function(e) {
+	$(".coms div[class*='com']").mouseenter(function(e) {
 		$(this).children().eq(1).stop(true).animate({
 			top: 20 + '%'
 		});

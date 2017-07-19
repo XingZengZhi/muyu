@@ -316,10 +316,9 @@
 @media screen and (max-width:1250px){
 	#max_box,#com_team,#news,#foot_{
 		display: block;
-		width:1250px;
+		width:1300px;
 	}
 }
-
 /*侧边信息栏*/
 
 #Message_box {
@@ -659,7 +658,7 @@
 /*公司团队*/
 #com_team{
 	position:relative;
-	height:900px;
+	height:500px;
 	text-align: center;
 	background-color:#F5F5F5;
 }
@@ -675,42 +674,37 @@
 	margin: 10px auto;
 	background-color:#03B2B5;
 }
-#com_team div{
-	display: block;
+.coms{
+	width:1300px;
+	margin:0 auto;
+}
+.coms div{
+	display:inline-block;
 	width: 230px;
 	height: 300px;
-	position:absolute;
+	position:relative;
 	color:white;
+	margin:10px;
 }
 #com_team .com_1{
 	background-size: 100% 100%;
 	background-image: url(../img/team_1.jpg);
-	top:20%;
-	left:41%;
 }
 #com_team .com_2{
 	background-size: 100% 100%;
 	background-image: url(../img/team_2.jpg);
-	top:20%;
-	left:18%;
 }
 #com_team .com_3{
 	background-size: 100% 100%;
 	background-image: url(../img/team_3.jpg);
-	top:20%;
-	left:65%;
 }
 #com_team .com_4{
 	background-size: 100% 100%;
 	background-image: url(../img/team_4.jpg);
-	top:60%;
-	left:18%;
 }
 #com_team .com_5{
 	background-size: 100% 100%;
 	background-image: url(../img/team_5.jpg);
-	top:60%;
-	left:65%;
 }
 /*公司团队模块蒙板设置*/
 .com_1 p,.com_2 p,.com_3 p,.com_4 p,.com_5 p{
@@ -736,18 +730,19 @@
 }
 /*公司团队内容标题设置*/
 .com_1 span,.com_2 span,.com_3 span,.com_4 span,.com_5 span{
-	display: inline-block;
+	display:block;
+
 	width:100%;
 	left: 0;
 	position:absolute;
 }
 .com_1 span:nth-child(2),.com_2 span:nth-child(2),.com_3 span:nth-child(2),.com_4 span:nth-child(2),.com_5 span:nth-child(2){
-	width:90%;
+	width:100%;
 	font-size: 25px;
 	top:40%;
 }
 .com_1 span:nth-child(3),.com_2 span:nth-child(3),.com_3 span:nth-child(3),.com_4 span:nth-child(3),.com_5 span:nth-child(3){
-	width:90%;
+	width:100%;
 	font-size:14px;
 	top:60%;
 	display: block;
@@ -766,6 +761,10 @@
 	top:80%;
 	left:29%;
 	opacity: 0;
+}
+.com_1 a:hover,.com_2 a:hover,.com_3 a:hover,.com_4 a:hover,.com_5 a:hover{
+	border:1px solid #FF404B;
+	color:#FF404B;
 }
 /*新闻资讯*/
 #news{
@@ -787,11 +786,18 @@
 	width:500px;
 	height:50%;
 }
-#news .show_img{
+.show_img{
 	top:30%;
 	left:8%;
-	background-image: url(../img/barner_1.jpg);
-	background-size: 100% 100%;
+}
+@media screen and (min-width:1250px){
+	#news .show_img{
+		left:15%;
+	}
+}
+.show_img img{
+	display: block;
+	width:100%;
 }
 #news .show_news{
 	top:30%;

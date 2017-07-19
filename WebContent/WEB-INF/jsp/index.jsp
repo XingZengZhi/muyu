@@ -27,10 +27,10 @@
 		<!--侧边信息栏位-->
 		<div id="Message_box">
 			<a href="">
-				<img src="${pageContext.request.contextPath }/img/wx.png" />
+				<img src="${pageContext.request.contextPath }/static/img/wx.png" />
 			</a>
 			<a href="">
-				<img src="${pageContext.request.contextPath }/img/phone.png" />
+				<img src="${pageContext.request.contextPath }/static/img/phone.png" />
 			</a>
 			<a href="" id="backTop">
 				<i class="top_"></i>
@@ -42,28 +42,28 @@
 
 		<div id="max_box">
 			<div id="head_box">
-				<img src="${pageContext.request.contextPath }/img/qc-index-logo.png" title="logo" />
+				<img src="${pageContext.request.contextPath }/static/img/qc-index-logo.png" title="logo" />
 				<ul>
 					<li>
-						<a href="register.html" target="_self">注册</a>
+						<a href="${pageContext.request.contextPath}/pages/register" target="_self">注册</a>
 					</li>
 					<li>
 						<a href="">登录</a>
 					</li>
 					<li>
-						<a href="">联系我们</a>
+						<a href="${pageContext.request.contextPath}/pages/toufang">广告投放</a>
 					</li>
 					<li>
-						<a href="AboutUs.html">关于我们</a>
+						<a href="${pageContext.request.contextPath}/pages/aboutus" target="_self">关于我们</a>
 					</li>
 					<li>
-						<a href="Information.html">资讯</a>
+						<a href="${pageContext.request.contextPath}/pages/information" target="_self">资讯</a>
 					</li>
 					<li>
-						<a href="works.html">作品</a>
+						<a href="${pageContext.request.contextPath}/pages/works" target="_self">作品</a>
 					</li>
 					<li>
-						<a href="index.html">主页</a>
+						<a href="${pageContext.request.contextPath}/pages/index" target="_self">主页</a>
 					</li>
 				</ul>
 				<!--轮播开始-->
@@ -81,9 +81,9 @@
 						<i class="left_"></i>
 					</p>
 					<!--轮播图片-->
-					<a href="" class="barner_1"><img src="${pageContext.request.contextPath }/img/barner_new_1.jpg" /></a>
-					<a href="" class="barner_2"><img src="${pageContext.request.contextPath }/img/barner_2.jpg" /></a>
-					<a href="" class="barner_3"><img src="${pageContext.request.contextPath }/img/barner_3.jpg" /></a>
+					<a href="" class="barner_1"><img src="${pageContext.request.contextPath }/static/img/barner_new_1.jpg" /></a>
+					<a href="" class="barner_2"><img src="${pageContext.request.contextPath }/static/img/barner_2.jpg" /></a>
+					<a href="" class="barner_3"><img src="${pageContext.request.contextPath }/static/img/barner_3.jpg" /></a>
 					<!--结束-->
 					<p class="right">
 						<i class="right_"></i>
@@ -105,30 +105,30 @@
 				<h2>经典案例</h2>
 				<div class="case_item">
 					<a href="">
-						<img src="${pageContext.request.contextPath }/img/35435.jpg" />
+						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
 					</a>
 					<a href="">
-						<img src="${pageContext.request.contextPath }/img/35435.jpg" />
+						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
 					</a>
 					<a href="">
-						<img src="${pageContext.request.contextPath }/img/35435.jpg" />
+						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
 					</a>
 					<a href="">
-						<img src="${pageContext.request.contextPath }/img/35435.jpg" />
+						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
 					</a>
 				</div>
 				<div class="case_item">
 					<a href="">
-						<img src="${pageContext.request.contextPath }/img/35435.jpg" />
+						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
 					</a>
 					<a href="">
-						<img src="${pageContext.request.contextPath }/img/35435.jpg" />
+						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
 					</a>
 					<a href="">
-						<img src="${pageContext.request.contextPath }/img/35435.jpg" />
+						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
 					</a>
 					<a href="">
-						<img src="${pageContext.request.contextPath }/img/35435.jpg" />
+						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
 					</a>
 				</div>
 			</div>
@@ -140,14 +140,14 @@
 				<span><i></i></span>
 				<ul>
 					<li>
-						<i><img src="${pageContext.request.contextPath }/img/ys.png" /></i>
+						<i><img src="${pageContext.request.contextPath }/static/img/ys.png" /></i>
 						<h3>影视广告制作</h3>
 						<span class="ad_title">
 							集合了多元素创作，对影片价值的极致追求，画面内容的精准把控，帮助企业提升品牌与商业价值。
 						</span>
 					</li>
 					<li>
-						<i><img src="${pageContext.request.contextPath }/img/zn.png" alt="" /></i>
+						<i><img src="${pageContext.request.contextPath }/static/img/zn.png" alt="" /></i>
 						<h3>智能广告</h3>
 						<span class="ad_title">
 							用户可通过手机手机软件管理投放，使广告更加方便，快捷，简单，消费透明化，
@@ -155,7 +155,7 @@
 						</span>
 					</li>
 					<li>
-						<i><img src="${pageContext.request.contextPath }/img/gg.png" alt="" /></i>
+						<i><img src="${pageContext.request.contextPath }/static/img/gg.png" alt="" /></i>
 						<h3>广告投放</h3>
 						<span class="ad_title">
 							平面广告：（可投放）红桥小区，天蕴南加州小区，新蒲大学城，
@@ -163,7 +163,7 @@
 						</span>
 					</li>
 					<li>
-						<i><img src="${pageContext.request.contextPath }/img/rj.png" alt="" /></i>
+						<i><img src="${pageContext.request.contextPath }/static/img/rj.png" alt="" /></i>
 						<h3>广告软件管理</h3>
 						<span class="ad_title">
 							用户可通过手机APP软件客户端投放以及管理自己的广告，包括每天的投放次数，
@@ -202,56 +202,39 @@
 			<h2>公司团队</h2>
 			<p>凝聚多年案例经验，奠定遵义多家中小公司及政府机构合作关系</p>
 			<i></i>
-			<div class="com_1">
-				<p></p>
-				<span>
-					开发团队
-				</span>
-				<span>
-					专注智能广告系统的开发，用户平台的建设及app开发
-				</span>
-				<a href="">详情</a>
+			<div class="coms">
+				<div class="com_1">
+					<p></p>
+					<span>开发团队</span>
+					<span>专注智能广告系统的开发，用户平台的建设及app开发</span>
+					<a href="">详情</a>
+				</div>
+				<div class="com_2">
+					<p></p>
+					<span>广告设计团队</span>
+					<span>专注智能广告系统的开发，用户平台的建设及app开发</span>
+					<a href="">详情</a>
+				</div>
+				<div class="com_3">
+					<p></p>
+					<span>视频设计团队</span>
+					<span>专注智能广告系统的开发，用户平台的建设及app开发</span>
+					<a href="">详情</a>
+				</div>
+				<div class="com_4">
+					<p></p>
+					<span>市场营销团队</span>
+					<span>专注智能广告系统的开发，用户平台的建设及app开发</span>
+					<a href="">详情</a>
+				</div>
+				<div class="com_5">
+					<p></p>
+					<span>策划团队</span>
+					<span>专注智能广告系统的开发，用户平台的建设及app开发</span>
+					<a href="">详情</a>
+				</div>
 			</div>
-			<div class="com_2">
-				<p></p>
-				<span>
-					广告设计团队
-				</span>
-				<span>
-					专注智能广告系统的开发，用户平台的建设及app开发
-				</span>
-				<a href="">详情</a>
-			</div>
-			<div class="com_3">
-				<p></p>
-				<span>
-					视频设计团队
-				</span>
-				<span>
-					专注智能广告系统的开发，用户平台的建设及app开发
-				</span>
-				<a href="">详情</a>
-			</div>
-			<div class="com_4">
-				<p></p>
-				<span>
-					市场营销团队
-				</span>
-				<span>
-					专注智能广告系统的开发，用户平台的建设及app开发
-				</span>
-				<a href="">详情</a>
-			</div>
-			<div class="com_5">
-				<p></p>
-				<span>
-					策划团队
-				</span>
-				<span>
-					专注智能广告系统的开发，用户平台的建设及app开发
-				</span>
-				<a href="">详情</a>
-			</div>
+
 		</div>
 		<!-- 新闻资讯 -->
 		<div id="news">
@@ -259,7 +242,7 @@
 			<p>案例分享与行业分析，源于我们长年对行业趋势的观察与解读。在此，与您分享。</p>
 			<i></i>
 			<div class="show_img">
-				<img src="">
+				<img src="${pageContext.request.contextPath}/static/img/35435.jpg" />
 			</div>
 			<div class="show_news">
 				<div class="news_top">
@@ -302,7 +285,7 @@
 		<!--页脚信息-->
 		<div id="foot_">
 			<div class="foot_left">
-				<img src="${pageContext.request.contextPath }/img/head.png" />
+				<img src="${pageContext.request.contextPath }/static/img/head.png" />
 				<p>(9:00-21:00)</p>
 				<p>0851--28781520</p>
 				<p>qq联系方式:1157216408</p>
@@ -320,7 +303,7 @@
 					<li>留言板</li>
 				</ul>
 				<div class="foot_right">
-					<img src="${pageContext.request.contextPath }/img/erweima.jpg" />
+					<img src="${pageContext.request.contextPath }/static/img/erweima.jpg" />
 				</div>
 				<p class="foot_link">
 					2017-3-17
