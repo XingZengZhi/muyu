@@ -42,30 +42,7 @@
 
 		<div id="max_box">
 			<div id="head_box">
-				<img src="${pageContext.request.contextPath }/static/img/qc-index-logo.png" title="logo" />
-				<ul>
-					<li>
-						<a href="${pageContext.request.contextPath}/pages/register" target="_self">注册</a>
-					</li>
-					<li>
-						<a href="">登录</a>
-					</li>
-					<li>
-						<a href="${pageContext.request.contextPath}/pages/toufang">广告投放</a>
-					</li>
-					<li>
-						<a href="${pageContext.request.contextPath}/pages/aboutus" target="_self">关于我们</a>
-					</li>
-					<li>
-						<a href="${pageContext.request.contextPath}/pages/information" target="_self">资讯</a>
-					</li>
-					<li>
-						<a href="${pageContext.request.contextPath}/pages/works" target="_self">作品</a>
-					</li>
-					<li>
-						<a href="${pageContext.request.contextPath}/pages/index" target="_self">主页</a>
-					</li>
-				</ul>
+				<jsp:include page="head.jsp" />
 				<!--轮播开始-->
 				<div id="barner_box">
 					<div class="barner_">
@@ -283,33 +260,7 @@
 			</div>
 		</div>
 		<!--页脚信息-->
-		<div id="foot_">
-			<div class="foot_left">
-				<img src="${pageContext.request.contextPath }/static/img/head.png" />
-				<p>(9:00-21:00)</p>
-				<p>0851--28781520</p>
-				<p>qq联系方式:1157216408</p>
-			</div>
-			<div class="foot_mid">
-				<ul>
-					<li>首页</li>
-					<li>广告宣传</li>
-					<li>影视制作</li>
-					<li>成功案例</li>
-				</ul>
-				<ul>
-					<li>行业动态</li>
-					<li>关于我们</li>
-					<li>留言板</li>
-				</ul>
-				<div class="foot_right">
-					<img src="${pageContext.request.contextPath }/static/img/erweima.jpg" />
-				</div>
-				<p class="foot_link">
-					2017-3-17
-				</p>
-			</div>
-		</div>
+		<jsp:include page="footer.jsp" />
 	</body>
 
 </html>

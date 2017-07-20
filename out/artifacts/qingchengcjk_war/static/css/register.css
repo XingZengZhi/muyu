@@ -5,6 +5,7 @@
 #register_head{
 	border-bottom:1px solid #CCCCCC;
 	min-height:60px;
+	position:relative;
 }
 #register_head h3,ul{
 	display: inline-block;
@@ -24,7 +25,9 @@
 }
 #register_head ul{
 	display: inline-block;
-	margin-left:180px;
+	position:absolute;
+	right:20px;
+	top:50px;
 }
 #register_head ul li{
 	font-size:14px;
