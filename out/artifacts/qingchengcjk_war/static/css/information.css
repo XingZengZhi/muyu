@@ -2,20 +2,26 @@
     height:60px;
 }
 #information{
+    width:90%;
+    margin:0 auto;
     display:block;
+}
+
+@media screen and (max-width:1200px) {
+    #information{
+        width:1200px;
+    }
 }
 #information blockquote h1{
     margin-top:20px;
-    margin-left:110px;
     padding-left:10px;
     letter-spacing: 2px;
     font-weight: 300;
     border-left:3px solid #E0244D;
 }
 #news{
+    width:100%;
     display:block;
-    width:1040px;
-    min-height:600px;
     margin:20px auto;
 }
 .news-item{
