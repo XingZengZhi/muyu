@@ -1,3 +1,36 @@
+body, html{
+    background-color:#EDEFF0;
+}
 #head_box{
     height:60px;
+}
+.aboutContent{
+    position:relative;
+    background-color:white;
+    width:1000px;
+    min-height:200px;
+    margin:20px auto;
+    box-shadow:0 3px 10px #ccc;
+}
+.aboutBox{
+    height:400px;
+}
+.aboutImg, .aboutTitle{
+    position:relative;
+    display:inline-block;
+    width:490px;
+    height:400px;
+}
+.aboutImg img{
+    margin-top:50px;
+}
+.aboutTitle h1{
+    font-weight:100;
+    text-align:center;
+}
+.aboutTitle p{
+    color:#999999;
+    width:90%;
+    margin:20px auto;
+    text-align:justify;
 }
