@@ -263,6 +263,7 @@
 }
 
 .ad_class a {
+	position:relative;
 	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
@@ -272,31 +273,29 @@
 	height: 220px;
 	text-decoration: none;
 	margin: 15px;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	background-image: url(../img/35435.jpg);
-	background-size: cover;
+}
+.ad_class img{
+	position:absolute;
+	top:0;
+	display:block;
+	width:100%;
+	height:100%;
 }
 
 .ad_class a span {
+	position:absolute;
+	top:0;
+	z-index:99;
 	width: 100%;
 	height: 40px;
 	line-height: 40px;
 	background-color: rgba(0, 0, 0, 0.3);
 	display: block;
-	border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-	-ms-border-radius: 5px 5px 0 0;
-	-o-border-radius: 5px 5px 0 0;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;

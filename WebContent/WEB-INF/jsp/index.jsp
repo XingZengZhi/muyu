@@ -71,10 +71,22 @@
 			<div id="mid_box">
 				<h2>广告分类</h2>
 				<div class="ad_class">
-					<a href=""><span>宣传广告</span></a>
-					<a href=""><span>多媒体广告</span></a>
-					<a href=""><span>视频广告投放</span></a>
-					<a href=""><span>平面广告</span></a>
+					<a href="">
+						<span>宣传广告</span>
+						<img src="${pageContext.request.contextPath}/static/img/xuanchuan.jpg" alt="">
+					</a>
+					<a href="">
+						<span>多媒体广告</span>
+						<img src="${pageContext.request.contextPath}/static/img/duomeitijieshao.jpg" alt="">
+					</a>
+					<a href="">
+						<span>视频广告</span>
+						<img src="${pageContext.request.contextPath}/static/img/shiping.jpg" alt="">
+					</a>
+					<a href="">
+						<span>平面广告</span>
+						<img src="${pageContext.request.contextPath}/static/img/pingmian.jpg" alt="">
+					</a>
 				</div>
 			</div>
 			<!--经典案例-->
