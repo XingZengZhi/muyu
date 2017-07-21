@@ -9,3 +9,12 @@ a{
 ul{
     list-style: none;
 }
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}

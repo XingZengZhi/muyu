@@ -12,6 +12,14 @@ body, html{
     margin:20px auto;
     box-shadow:0 3px 10px #ccc;
 }
+.leftNav{
+    border:1px solid red;
+    width:100px;
+}
+/*第一个介绍盒子*/
+.aboutBox-1{
+    width:100%;
+}
 .aboutBox{
     height:400px;
 }
@@ -34,3 +42,4 @@ body, html{
     margin:20px auto;
     text-align:justify;
 }
+/*end*/
