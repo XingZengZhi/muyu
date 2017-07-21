@@ -135,9 +135,9 @@ $(function() {
 	var caseItemBoxImgArr = new Array(caseItemBox.length);
 	var caseItemLeft = new Array(30, 0, 15);
     var caseItemZindex = new Array(79, 79, 81);
-	$.each(caseItemBox, function(i, n){
-		caseItemBoxImgArr[i] = $(n);//用数组保存对象
-	});
+	// $.each(caseItemBox, function(i, n){
+	// 	caseItemBoxImgArr[i] = $(n);//用数组保存对象
+	// });
 	// for(var i = 0;i<caseItemBoxImgArr.length;i++){
 	// 	console.log($(caseItemBoxImgArr[i]).children("a").children("img").prop("src"));
 	// 	console.log(caseItemLeft[i]);
@@ -146,12 +146,12 @@ $(function() {
 	 var timeout;
 	 timeout = setInterval(test, 5000);
 	function test(){
-		for(var i = 0;i<caseItemBoxImgArr.length;i++){
-            $(caseItemBoxImgArr[i]).animate({
+		$.each(caseItemBox, function(i, n){
+            $(n).animate({
                 left:caseItemLeft[i] + "%",
                 zIndex:caseItemZindex[i]
-			}, "normal");
-		}
+            }, "normal");
+		})
 
         var firstBoxLeftArr = caseItemLeft[0];
         for(var i = 1;i<caseItemLeft.length;i++){
@@ -164,7 +164,5 @@ $(function() {
             caseItemZindex[i-1] = caseItemZindex[i];
         }
         caseItemZindex[caseItemZindex.length - 1] = firstBoxZindexArr;
-		clearInterval(timeout);
-		timeout = setInterval(test, 5000);
 	}
 });
