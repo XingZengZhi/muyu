@@ -135,16 +135,8 @@ $(function() {
 	var caseItemBoxImgArr = new Array(caseItemBox.length);
 	var caseItemLeft = new Array(30, 0, 15);
     var caseItemZindex = new Array(79, 79, 81);
-	// $.each(caseItemBox, function(i, n){
-	// 	caseItemBoxImgArr[i] = $(n);//用数组保存对象
-	// });
-	// for(var i = 0;i<caseItemBoxImgArr.length;i++){
-	// 	console.log($(caseItemBoxImgArr[i]).children("a").children("img").prop("src"));
-	// 	console.log(caseItemLeft[i]);
-     //    console.log(caseItemZindex[i]);
-	// }
-	 var timeout;
-	 timeout = setInterval(test, 5000);
+	var timeout;
+	timeout = setInterval(test, 5000);
 	function test(){
 		$.each(caseItemBox, function(i, n){
             $(n).animate({

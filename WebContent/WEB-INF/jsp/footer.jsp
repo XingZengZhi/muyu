@@ -1,9 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Administrator
+  User: Ben
   Date: 2017/7/20
   Time: 11:52
-  To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div id="foot_">
@@ -11,7 +10,7 @@
         <img src="${pageContext.request.contextPath }/static/img/head.png" />
         <p>(9:00-21:00)</p>
         <p>0851--28781520</p>
-        <p>qq联系方式:1157216408</p>
+        <p>企业邮箱:qingckjcom@sina.com</p>
     </div>
     <div class="foot_mid">
         <ul>
@@ -29,7 +28,7 @@
             <img src="${pageContext.request.contextPath }/static/img/erweima.jpg" />
         </div>
         <p class="foot_link">
-            2017-3-17
+            通讯地址：遵义市新浦新区平安街创业园4栋303
         </p>
     </div>
 </div>
