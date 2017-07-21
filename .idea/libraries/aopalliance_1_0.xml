@@ -30,7 +30,6 @@
       <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar!/" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES />
   </library>
 </component>
