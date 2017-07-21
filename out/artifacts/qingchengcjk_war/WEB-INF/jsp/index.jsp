@@ -93,32 +93,26 @@
 			<div id="case_box">
 				<h2>经典案例</h2>
 				<div class="case_item">
-					<a href="">
-						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
-					</a>
-					<a href="">
-						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
-					</a>
-					<a href="">
-						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
-					</a>
-					<a href="">
-						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
-					</a>
-				</div>
-				<div class="case_item">
-					<a href="">
-						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
-					</a>
-					<a href="">
-						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
-					</a>
-					<a href="">
-						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
-					</a>
-					<a href="">
-						<img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
-					</a>
+					<div class="mask"></div>
+
+					<div class="case_item_box">
+						<a href="">
+							<img src="${pageContext.request.contextPath }/static/img/35435.jpg" /><!--2 -->
+						</a>
+					</div>
+
+					<div class="case_item_box">
+						<a href="">
+							<img src="${pageContext.request.contextPath }/static/img/barner_2.jpg" /><!--3 -->
+						</a>
+					</div>
+
+					<div class="case_item_box">
+						<a href="">
+							<img src="${pageContext.request.contextPath }/static/img/barner_3.jpg" /><!--1 -->
+						</a>
+					</div>
+
 				</div>
 			</div>
 			<!--------->

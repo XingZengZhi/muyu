@@ -371,23 +371,37 @@
 	margin-bottom:20px;
 }
 .case_item{
-	width:100%;
+	width:1000px;
+	height:400px;
 	margin:0 auto;
-	text-align: center;
+	position:relative;
 }
-.case_item a{
-	display: inline-block;
-	width:22%;
-	height:220px;
-	margin:5px;
-	padding:5px;
-	position: relative;
-	border:1px solid #ccc;
+.case_item_box{
+	position:absolute;
+	width:700px;
+	height:400px;
 }
-.case_item a img{
+.case_item_box:nth-child(1){
+	left:0;
+}
+.case_item_box:nth-child(2){
+	left:15%;
+	z-index:99;
+}
+.case_item_box:nth-child(3){
+	left:30%;
+}
+.case_item img{
 	display: block;
 	width:100%;
 	height:100%;
+}
+.mask{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.5);
+	z-index:80;
 }
 /*金典案例蒙板*/
 #case_bar{

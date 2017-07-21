@@ -129,4 +129,42 @@ $(function() {
 		$(window).scrollTop(0 + 'px');
 	});
 
+	// 金典案例轮播图
+	var caseItemBox = $(".case_item_box");
+    var caseItem = $(".case_item");
+	var caseItemBoxImgArr = new Array(caseItemBox.length);
+	var caseItemLeft = new Array(30, 0, 15);
+    var caseItemZindex = new Array(79, 79, 81);
+	$.each(caseItemBox, function(i, n){
+		caseItemBoxImgArr[i] = $(n);//用数组保存对象
+	});
+	// for(var i = 0;i<caseItemBoxImgArr.length;i++){
+	// 	console.log($(caseItemBoxImgArr[i]).children("a").children("img").prop("src"));
+	// 	console.log(caseItemLeft[i]);
+     //    console.log(caseItemZindex[i]);
+	// }
+	 var timeout;
+	 timeout = setInterval(test, 5000);
+	function test(){
+		for(var i = 0;i<caseItemBoxImgArr.length;i++){
+            $(caseItemBoxImgArr[i]).animate({
+                left:caseItemLeft[i] + "%",
+                zIndex:caseItemZindex[i]
+			}, "normal");
+		}
+
+        var firstBoxLeftArr = caseItemLeft[0];
+        for(var i = 1;i<caseItemLeft.length;i++){
+            caseItemLeft[i-1] = caseItemLeft[i];
+        }
+        caseItemLeft[caseItemLeft.length - 1] = firstBoxLeftArr;
+
+        var firstBoxZindexArr = caseItemZindex[0];
+        for(var i = 1;i<caseItemZindex.length;i++){
+            caseItemZindex[i-1] = caseItemZindex[i];
+        }
+        caseItemZindex[caseItemZindex.length - 1] = firstBoxZindexArr;
+		clearInterval(timeout);
+		timeout = setInterval(test, 5000);
+	}
 });
