@@ -76,7 +76,23 @@
             </div>
 
             <div class="aboutBox-2">
-                
+                <h1>开发团队简介</h1>
+            </div>
+
+            <div class="aboutBox-3">
+                <h1>广告设计团队简介</h1>
+            </div>
+
+            <div class="aboutBox-4">
+                <h1>视频设计团队简介</h1>
+            </div>
+
+            <div class="aboutBox-5">
+                <h1>市场营销团队简介</h1>
+            </div>
+
+            <div class="aboutBox-6">
+                <h1>策划团队简介</h1>
             </div>
 
         </div>
