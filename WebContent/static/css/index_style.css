@@ -2,16 +2,11 @@
 	width: 100%;
 	position: relative;
 }
-
-
-/*链接和barner滚动图部分*/
-
 #head_box {
 	width: 100%;
 	position: relative;
 	background-color:#24282C;
 }
-
 #head_box > img{
 	display:inline-block;
 	position:absolute;
@@ -21,7 +16,6 @@
 	left:50px;
 	z-index:99;
 }
-
 #head_box ul{
 	list-style: none;
 	position: relative;
@@ -30,7 +24,6 @@
 	float: right;
 	background-color:#24282C;
 }
-
 #head_box ul li {
 	float: right;
 	width: 100px;
@@ -54,41 +47,33 @@
 	text-decoration: none;
 	transition: all 0.3s;
 }
-
 #head_box ul li a:hover{
 	color:white;
 	background-color:#02B2B5;
 }
-/*轮播图盒子*/
 #barner_box {
 	position: relative;
 	width:100%;
 	height:450px;	
 	overflow: hidden;
 }
-
 .barner_1,.barner_2,.barner_3{
 	position: absolute;
 	display: block;
 	width:100%;
 	height: 500px;
 }
-
 #barner_box img {
 	display: block;
 	width: 100%;
 	height: 450px;
 }
-/*设置轮播图片*/
 .barner_2{
 	left:100%;
 }
 .barner_3{
 	left:200%;
 }
-
-/*轮播图片蒙板*/
-
 .barner_ {
 	position: absolute;
 	width: 100%;
@@ -96,20 +81,12 @@
 	background-color: rgba(0, 0, 0, 0.3);
 	z-index: 2;
 }
-
-
-/************/
-
-
-/*蒙板内标题*/
-
 .barner_title {
 	width: 50%;
 	height: 20%;
 	margin: 15% auto;
 	position: relative;
 }
-
 .barner_title b,
 .barner_title p {
 	letter-spacing:2px;
@@ -118,11 +95,9 @@
 	text-align: center;
 	color: #FFFFFF;
 }
-
 .barner_title b {
 	font-size: 35px;
 }
-
 .barner_title a {
 	position: absolute;
 	display: inline-block;
@@ -134,7 +109,6 @@
 	color: #FFFFFF;
 	top: 80%;
 }
-
 .show_map {
 	letter-spacing: 3px;
 	border: 1px solid #1ED3AE;
@@ -145,7 +119,6 @@
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 }
-
 .show_details {
 	letter-spacing: 3px;
 	border: 1px solid #FFFFFF;
@@ -156,18 +129,12 @@
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 }
-
 .show_map:hover {
 	background-color: #1ED3AE;
 }
-
 .show_details:hover {
 	box-shadow: 0 0 10px #fff;
 }
-
-
-/**********/
-
 .left,
 .right {
 	position: absolute;
@@ -183,7 +150,6 @@
 	-ms-transition: all 0.5s;
 	z-index: 5;
 }
-
 .left_,
 .right_,
 .top_ {
@@ -196,56 +162,42 @@
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 }
-
 .left_ {
 	margin: 18px 0 15px 18px;
 	border-left: 3px solid #fff;
 	border-bottom: 3px solid #fff;
 }
-
 .right_ {
 	margin: 18px 0 15px 13px;
 	border-right: 3px solid #fff;
 	border-top: 3px solid #fff;
 }
-
 .top_ {
 	margin: 22px 0 15px 18px;
 	border-left: 3px solid #fff;
 	border-top: 3px solid #fff;
 	opacity: 0.5;
 }
-
 .left {
 	top: 50%;
 	left: 0%;
 }
-
 .right {
 	top: 50%;
 	right: 0%;
 }
-
 .left:hover,
 .right:hover {
 	opacity: 0.8;
 	cursor: pointer;
 	background-color: #1CD1AE;
 }
-
-
-/*结束*/
-
-
-/*广告分类链接*/
-
 #mid_box {
 	min-height: 30px;
 	position: relative;
 	padding-top: 20px;
 	background-color: #F7F8FA;
 }
-
 #mid_box h2,#case_box h2 {
 	width: 30%;
 	font-size: 30px;
@@ -255,7 +207,6 @@
 	border-left: 5px solid #1ED3AE;
 	border-right: 5px solid #1ED3AE;
 }
-
 .ad_class {
 	width: 80%;
 	margin: 30px auto;
@@ -311,15 +262,12 @@
 	background-color: #1ED3AE;
 }
 
-/*适应不同尺寸屏幕*/
 @media screen and (max-width:1250px){
 	#max_box,#com_team,#news,#foot_{
 		display: block;
 		width:1300px;
 	}
 }
-/*侧边信息栏*/
-
 #Message_box {
 	position: fixed;
 	right: 0%;
@@ -361,7 +309,6 @@
 #Message_box a:nth-child(2):hover {
 	background-color: rgb(255, 129, 27);
 }
-/*金典案例*/
 #case_box{
 	width:100%;
 	min-height: 30px;
@@ -403,7 +350,6 @@
 	background-color:rgba(255,255,255,0.5);
 	z-index:80;
 }
-/*金典案例蒙板*/
 #case_bar{
 	display: none;
 	position: fixed;
@@ -444,7 +390,6 @@
 .case_btn{
 	background-color: #347FDB;
 }
-/*优势介绍*/
 #ad_int{
 	margin-top:40px;
 	background-color:#F5F5F5;
@@ -476,7 +421,6 @@
 	left:25%;
 	top:-3px;
 }
-/*介绍框设置*/
 #ad_int ul{
 	margin:0 auto;
 	padding-left:3%;
@@ -493,7 +437,6 @@
 	height:100%;
 	border:1px solid #CCCCCC;
 }
-/*图标设置*/
 #ad_int ul li i{
 	position: absolute;
 	top:-45px;
@@ -592,12 +535,10 @@
 	text-align: left;
 	text-indent: 2em;
 }
-/*关于我们*/
 #us_box{
 	position: relative;
 	margin-top:40px;
 }
-/*消除子元素浮动后带来的影响(让父元素的高度塌缩)*/
 #us_box:after{
 	content: "";
 	height: 0;
@@ -668,7 +609,6 @@
 	left:70%;
 	top:30%;
 }
-/*公司团队*/
 #com_team{
 	position:relative;
 	height:500px;
@@ -719,7 +659,6 @@
 	background-size: 100% 100%;
 	background-image: url(../img/team_5.jpg);
 }
-/*公司团队模块蒙板设置*/
 .com_1 p,.com_2 p,.com_3 p,.com_4 p,.com_5 p{
 	display: block;
 	width:100%;
@@ -736,12 +675,10 @@
 	-o-transition:all 0.5s;
 	-ms-transition:all 0.5s;
 }
-/*设置结束*/
 .com_1:hover p,.com_2:hover p,.com_3:hover p,.com_4:hover p,.com_5:hover p{
 	background-color:rgba(0,193,222,0.5);
 	cursor: pointer;
 }
-/*公司团队内容标题设置*/
 .com_1 span,.com_2 span,.com_3 span,.com_4 span,.com_5 span{
 	display:block;
 
@@ -779,7 +716,6 @@
 	border:1px solid #FF404B;
 	color:#FF404B;
 }
-/*新闻资讯*/
 #news{
 	height:800px;
 	position: relative;
@@ -836,11 +772,9 @@
 	text-indent: 2em;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	/*white-space: nowrap;*/
 	display: -webkit-box;
 	-webkit-line-clamp: 3;
 	-webkit-box-orient:vertical;
-	/*以上是解决webkit内核的多行省略号*/
 	font-size: 13px;
 	height: 90px;
 	line-height: 30px;
@@ -884,7 +818,6 @@
 .news_list ul li span:nth-child(2){
 	float: right;
 }
-/*页脚布局*/
 #foot_{
 	position: relative;
 	background-color:#1B1F2A;
@@ -946,7 +879,6 @@
 	margin-top:20px;
 	margin-left:120%;
 }
-/*二维码像素最好是43像素的整数倍*/
 .foot_right img{
 	display: block;
 	width: 129px;
