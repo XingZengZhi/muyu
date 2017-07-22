@@ -31,40 +31,47 @@
                 </ul>
             </div>
 
+            <div class="aboutBox-2">
+
+            </div>
+
             <div class="aboutBox-1">
-                <div class="aboutBox">
+                <div class="aboutBox clearfix">
                     <div class="aboutImg">
-                        <img src="${pageContext.request.contextPath}/static/img/about_p1.png" alt="">
+                        <img src="${pageContext.request.contextPath}/static/img/aboutImg/aboutImg1.png" alt="">
                     </div>
                     <div class="aboutTitle">
-                        <h1>运营模式</h1>
+                        <h1>云速智能广告共享平台</h1>
                         <p>
-                            北京晴云科技有限公司成立于2014年，旗下产品一起写是国内唯一可以完整替代google docs的产品，提供多人实时同步协作文档/表格/演示，同时为团队合作提供实时通信服务。在云时代的今天，「一起写OFFICE」希望重新定义office软件——无论是文档协同、笔记信息分享、实时沟通，都可以通过其轻松实现。其创始人团队来自 Google 总部，拥有超过10年的Google工程师开发经验。
+                            打造最大的互联网O2O智能传媒、智能广告研发中心。智能广告是以倾城公司研发的互联网广告系统为平台，
+                            以人工智能等技术为支撑的新兴广告形态，通过移动端和PC端，将广告制作、投放与互联网相结合，实行线上制作、定向投放
+                            和智能管理，为用户提供更加方便、快捷、简单、有效、透明的广告制作与推送服务。
                         </p>
                     </div>
                 </div>
 
-                <div class="aboutBox">
+                <div class="aboutBox clearfix">
                     <div class="aboutTitle">
-                        <h1>运营模式</h1>
+                        <h1>建立互联网+广告传媒</h1>
                         <p>
-                            北京晴云科技有限公司成立于2014年，旗下产品一起写是国内唯一可以完整替代google docs的产品，提供多人实时同步协作文档/表格/演示，同时为团队合作提供实时通信服务。在云时代的今天，「一起写OFFICE」希望重新定义office软件——无论是文档协同、笔记信息分享、实时沟通，都可以通过其轻松实现。其创始人团队来自 Google 总部，拥有超过10年的Google工程师开发经验。
+                            智能广告：广告受众识别的智能化，广告发布方式的智能化，广告内容生成的智能化，广告效果监测的智能化。
+                            规范广告市场，建立“标准广告”。
                         </p>
                     </div>
                     <div class="aboutImg">
-                        <img src="${pageContext.request.contextPath}/static/img/about_p1.png" alt="">
+                        <img src="${pageContext.request.contextPath}/static/img/aboutImg/aboutImg1.png" alt="">
                     </div>
-
                 </div>
 
-                <div class="aboutBox">
+                <div class="aboutBox clearfix">
                     <div class="aboutImg">
-                        <img src="${pageContext.request.contextPath}/static/img/about_p1.png" alt="">
+                        <img src="${pageContext.request.contextPath}/static/img/aboutImg/aboutImg1.png" alt="">
                     </div>
                     <div class="aboutTitle">
-                        <h1>运营模式</h1>
+                        <h1>我们的目标</h1>
                         <p>
-                            北京晴云科技有限公司成立于2014年，旗下产品一起写是国内唯一可以完整替代google docs的产品，提供多人实时同步协作文档/表格/演示，同时为团队合作提供实时通信服务。在云时代的今天，「一起写OFFICE」希望重新定义office软件——无论是文档协同、笔记信息分享、实时沟通，都可以通过其轻松实现。其创始人团队来自 Google 总部，拥有超过10年的Google工程师开发经验。
+                            让每一个客户都能做好自己的生意。通过互联网，将全世界的广告系统相连接，为客户解决异地投放的难题。
+                            加速推动企业快速发展，打造企业优良品牌文化。节约用户广告投放成本，解决中、小型企业推广经费不足等问题。
                         </p>
                     </div>
                 </div>
