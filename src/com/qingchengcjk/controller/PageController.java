@@ -30,4 +30,8 @@ public class PageController {
 	public String pageWorks(){
 		return "works";
 	}
+	@RequestMapping("/uploadvideo")
+	public String pageUploadVideo(){
+		return "uploadvideo";
+	}
 }
