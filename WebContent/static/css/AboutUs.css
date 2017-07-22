@@ -13,10 +13,64 @@ body, html{
     box-shadow:0 3px 10px #ccc;
 }
 .leftNav{
-    border:1px solid red;
+	position:absolute;
     width:100px;
+    left:-100px;
+    overflow:hidden;
 }
-/*第一个介绍盒子*/
+.leftNav span{
+	display:block;
+	width:95%;
+	text-align:left;
+	color:white;
+	font-size:13px;
+	border-radius:8px 0 0 8px;
+	margin-top:10px;
+	height:30px;
+	line-height:30px;
+	padding-left:5px;
+	margin-left:20px;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+	box-shadow:0 5px 5px #ccc;
+	user-select:none;
+}
+.leftNav li:nth-child(1) span{
+	background-color:#CF4646;
+}
+.leftNav li:nth-child(2) span{
+	background-color:#6AB5CF;
+}
+.leftNav li:nth-child(3) span{
+	background-color:#41C4A4;
+}
+.leftNav li:nth-child(4) span{
+	background-color:#FBB527;
+}
+.leftNav li:nth-child(5) span{
+	background-color:#24282C;
+}
+.leftNav span:hover{
+	padding-left:15px;
+	margin-left:0;
+	cursor:pointer;
+}
+.leftNav li{
+	position:relative;
+}
+.leftNav li:after{
+	border-radius:100%;
+	position:absolute;
+	right:-1px;
+	top:7px;
+	display:block;
+	content:"";
+	width:1px;
+	height:22px;
+	box-shadow:0 0px 20px 5px #949494;
+}
 .aboutBox-1{
     width:100%;
 }
@@ -42,4 +96,3 @@ body, html{
     margin:20px auto;
     text-align:justify;
 }
-/*end*/
