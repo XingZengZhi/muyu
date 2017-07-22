@@ -17,21 +17,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="aboutus.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aboutus.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/aboutus.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="533">
+              <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutUs.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AboutUs.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/css/AboutUs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="87" column="11" lean-forward="false" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+            <state relative-caret-position="504">
+              <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aboutUs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/static/js/aboutUs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -43,6 +53,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -79,8 +90,9 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/footer.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/WebContent/static/css/reset.css" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/aboutus.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/static/js/aboutUs.js" />
         <option value="$PROJECT_DIR$/WebContent/static/css/AboutUs.css" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/aboutus.jsp" />
       </list>
     </option>
   </component>
@@ -157,15 +169,7 @@
               <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="aboutImg" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
@@ -317,12 +321,12 @@
       <workItem from="1500620878245" duration="2791000" />
       <workItem from="1500654079812" duration="62000" />
       <workItem from="1500687695651" duration="717000" />
-      <workItem from="1500689131861" duration="3967000" />
+      <workItem from="1500689131861" duration="6465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48067000" />
+    <option name="totallyTimeSpent" value="50565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1940" height="1056" extended-state="0" />
@@ -600,18 +604,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/aboutus.jsp">
+    <entry file="file://$PROJECT_DIR$/WebContent/static/js/aboutUs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="96">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/css/AboutUs.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/aboutus.jsp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
-          <caret line="87" column="11" lean-forward="false" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+          <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
           <folding />
         </state>
       </provider>

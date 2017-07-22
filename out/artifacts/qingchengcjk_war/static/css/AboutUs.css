@@ -8,6 +8,7 @@ body, html{
     position:relative;
     background-color:white;
     width:1000px;
+	height:1200px;
     min-height:200px;
     margin:20px auto;
     box-shadow:0 3px 10px #ccc;
@@ -52,6 +53,9 @@ body, html{
 .leftNav li:nth-child(5) span{
 	background-color:#24282C;
 }
+.leftNav li:nth-child(6) span{
+	background-color:#0366D6;
+}
 .leftNav span:hover{
 	padding-left:15px;
 	margin-left:0;
@@ -73,7 +77,6 @@ body, html{
 }
 .aboutBox-1{
     width:100%;
-	border:1px solid red;
 }
 .aboutBox{
     height:400px;
@@ -104,4 +107,12 @@ body, html{
     width:90%;
     margin:20px auto;
     text-align:justify;
+}
+.aboutBox-2{
+	top:0;
+	display:none;
+	position:absolute;
+	height:1200px;
+	width:1000px;
+	border:1px solid blue;
 }

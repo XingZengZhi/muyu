@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/AboutUs.css" />
     <link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/index_style.css" />
     <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/aboutUs.js"></script>
 </head>
 <body>
     <div id="max_box">
@@ -23,16 +24,13 @@
         <div class="aboutContent">
             <div class="leftNav">
                 <ul>
-                    <li><span>开发团队</span></li>
-                    <li><span>广告设计团队</span></li>
-                    <li><span>视频设计团队</span></li>
-                    <li><span>市场营销团队</span></li>
-                    <li><span>策划团队</span></li>
+                    <li><span id="aboutBox-1">简介</span></li>
+                    <li><span id="aboutBox-2">开发团队</span></li>
+                    <li><span id="aboutBox-3">广告设计团队</span></li>
+                    <li><span id="aboutBox-4">视频设计团队</span></li>
+                    <li><span id="aboutBox-5">市场营销团队</span></li>
+                    <li><span id="aboutBox-6">策划团队</span></li>
                 </ul>
-            </div>
-
-            <div class="aboutBox-2">
-
             </div>
 
             <div class="aboutBox-1">
@@ -75,6 +73,10 @@
                         </p>
                     </div>
                 </div>
+            </div>
+
+            <div class="aboutBox-2">
+                
             </div>
 
         </div>
