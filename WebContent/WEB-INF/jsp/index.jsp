@@ -29,8 +29,8 @@
 			<a href="">
 				<img src="${pageContext.request.contextPath }/static/img/wx.png" />
 			</a>
-			<a href="">
-				<img src="${pageContext.request.contextPath }/static/img/phone.png" />
+			<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2148688736&site=qq&menu=yes">
+				<img src="http://wpa.qq.com/pa?p=2:2148688736:48" />
 			</a>
 			<a href="" id="backTop">
 				<i class="top_"></i>
@@ -44,8 +44,8 @@
 			<div id="head_box">
 				<jsp:include page="head.jsp" />
 				<!--轮播开始-->
-				<div id="barner_box">
-					<div class="barner_">
+				<div id="barner_box" class="clearfix">
+					<!-- <div class="barner_">
 						<div class="barner_title">
 							<b>
 								开启广告之旅！
@@ -53,14 +53,14 @@
 							<a href="" class="show_map">显示地图</a>
 							<a href="" class="show_details">详情</a>
 						</div>
-					</div>
+					</div> -->
 					<p class="left">
 						<i class="left_"></i>
 					</p>
 					<!--轮播图片-->
-					<a href="" class="barner_1"><img src="${pageContext.request.contextPath }/static/img/barner_new_1.jpg" /></a>
-					<a href="" class="barner_2"><img src="${pageContext.request.contextPath }/static/img/barner_2.jpg" /></a>
-					<a href="" class="barner_3"><img src="${pageContext.request.contextPath }/static/img/barner_3.jpg" /></a>
+					<a href="" class="barner_1"><img src="${pageContext.request.contextPath }/static/img/barner/barner1.jpg" /></a>
+					<a href="" class="barner_2"><img src="${pageContext.request.contextPath }/static/img/barner/barner2.jpg" /></a>
+					<a href="" class="barner_3"><img src="${pageContext.request.contextPath }/static/img/barner/barner3.jpg" /></a>
 					<!--结束-->
 					<p class="right">
 						<i class="right_"></i>
@@ -97,19 +97,19 @@
 
 					<div class="case_item_box">
 						<a href="">
-							<img src="${pageContext.request.contextPath }/static/img/35435.jpg" /><!--2 -->
+							<img src="${pageContext.request.contextPath }/static/img/barner/barner1.jpg" /><!--2 -->
 						</a>
 					</div>
 
 					<div class="case_item_box">
 						<a href="">
-							<img src="${pageContext.request.contextPath }/static/img/barner_2.jpg" /><!--3 -->
+							<img src="${pageContext.request.contextPath }/static/img/barner/barner2.jpg" /><!--3 -->
 						</a>
 					</div>
 
 					<div class="case_item_box">
 						<a href="">
-							<img src="${pageContext.request.contextPath }/static/img/barner_3.jpg" /><!--1 -->
+							<img src="${pageContext.request.contextPath }/static/img/barner/barner3.jpg" /><!--1 -->
 						</a>
 					</div>
 

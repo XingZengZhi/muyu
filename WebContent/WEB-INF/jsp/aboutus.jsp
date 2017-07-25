@@ -84,10 +84,22 @@
 
             <div class="aboutBox-3">
                 <h1>广告设计团队简介</h1>
+                <div class="Box2Img">
+                	<img alt="" src="${pageContext.request.contextPath }/static/img/aboutImg/work2.jpg" />
+                	<p>贵州倾城智能广告研发团队贵阳分部 &reg;<span>贵州倾城影视文化传媒有限公司</span></p>
+                </div>
             </div>
 
             <div class="aboutBox-4">
                 <h1>视频设计团队简介</h1>
+                <div class="Box2Img">
+                	<img alt="" src="${pageContext.request.contextPath }/static/img/aboutImg/work3.jpg" />
+                	<p>贵州倾城智能广告研发团队贵阳分部 &reg;<span>贵州倾城影视文化传媒有限公司</span></p>
+                </div>
+                <div class="Box2Img">
+                	<img alt="" src="${pageContext.request.contextPath }/static/img/aboutImg/work4.jpg" />
+                	<p>贵州倾城智能广告研发团队贵阳分部 &reg;<span>贵州倾城影视文化传媒有限公司</span></p>
+                </div>
             </div>
 
             <div class="aboutBox-5">
