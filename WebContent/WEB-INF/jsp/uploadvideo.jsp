@@ -20,6 +20,7 @@
 	        <div class="uploadBtns">
 	        	<label for="InputFile">上传文件</label>
 	        	<span class="startUpload">开始上传</span>
+	        	<span class="">预览</span>
 	        </div>
         	
         	<form action="${pageContext.request.contextPath }/upload" method="POST" 
