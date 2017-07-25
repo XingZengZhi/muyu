@@ -212,14 +212,13 @@
 @media screen and (max-width:1250px){
 	#max_box,#com_team,#news,#foot_{
 		display: block;
-		width:1300px;
+		width:1250px;
 	}
 }
 #Message_box {
 	position: fixed;
 	right: 0%;
 	top: 70%;
-	height: 150px;
 	width: 70px;
 	background-color: rgba(204, 204, 204, 0.5);
 	z-index: 39;
@@ -575,13 +574,14 @@
 	background-color:#03B2B5;
 }
 .coms{
-	width:1300px;
+	width:1200px;
 	margin:0 auto;
+	text-align:center;
 }
 .coms div{
 	display:inline-block;
-	width: 230px;
-	height: 300px;
+	width: 210px;
+	height: 280px;
 	position:relative;
 	color:white;
 	margin:10px;
@@ -628,7 +628,6 @@
 }
 .com_1 span,.com_2 span,.com_3 span,.com_4 span,.com_5 span{
 	display:block;
-
 	width:100%;
 	left: 0;
 	position:absolute;
