@@ -34,4 +34,8 @@ public class PageController {
 	public String pageUploadVideo(){
 		return "uploadvideo";
 	}
+	@RequestMapping("/login")
+	public String pageLogin(){
+		return "login";
+	}
 }

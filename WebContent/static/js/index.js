@@ -141,7 +141,7 @@ $(function() {
 		$.each(caseItemBox, function(i, n){
             $(n).animate({
                 left:caseItemLeft[i] + "%",
-                zIndex:caseItemZindex[i]
+                zIndex:caseItemZindex[i],
             }, "normal");
 		})
 
@@ -156,5 +156,6 @@ $(function() {
             caseItemZindex[i-1] = caseItemZindex[i];
         }
         caseItemZindex[caseItemZindex.length - 1] = firstBoxZindexArr;
+        
 	}
 });

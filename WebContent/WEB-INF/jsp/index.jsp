@@ -94,25 +94,21 @@
 				<h2>案例</h2>
 				<div class="case_item">
 					<div class="mask"></div>
-
 					<div class="case_item_box">
 						<a href="">
 							<img src="${pageContext.request.contextPath }/static/img/barner/barner1.jpg" /><!--2 -->
 						</a>
 					</div>
-
 					<div class="case_item_box">
 						<a href="">
 							<img src="${pageContext.request.contextPath }/static/img/barner/barner2.jpg" /><!--3 -->
 						</a>
 					</div>
-
 					<div class="case_item_box">
 						<a href="">
 							<img src="${pageContext.request.contextPath }/static/img/barner/barner3.jpg" /><!--1 -->
 						</a>
 					</div>
-
 				</div>
 			</div>
 			<!--------->

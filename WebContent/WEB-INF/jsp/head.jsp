@@ -12,7 +12,7 @@
         <a href="${pageContext.request.contextPath}/pages/register" target="_self">注册</a>
     </li>
     <li>
-        <a href="">登录</a>
+        <a href="${pageContext.request.contextPath}/pages/login">登录</a>
     </li>
     <li>
         <a href="${pageContext.request.contextPath}/pages/toufang">广告投放</a>
