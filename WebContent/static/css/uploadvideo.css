@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+.uploadBox{
+	border:1px solid #ccc;
+	width:1200px;
+	margin:0 auto;
+}
+.uploadBox form{
+	display:none;
+}
+.uploadBtns label{
+	display:inline-block;
+	width:80px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	background-color:#3073AD;
+	border-radius:3px;
+}
+.uploadBtns label:hover{
+	cursor:pointer;
+}
+.startUpload{
+	display:none;
+	width:80px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	background-color:#3073AD;
+	border-radius:3px;
+}
+.startUpload:hover{
+	cursor:pointer;
+}
