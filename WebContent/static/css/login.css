@@ -1,4 +1,11 @@
 @CHARSET "UTF-8";
 .loginBox{
 	border:1px solid red;
+	width:1200px;
+	margin:0 auto;
+}
+.loginBox img{
+	display:block;
+	width:100%;
+	height:100%;
 }

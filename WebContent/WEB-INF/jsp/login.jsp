@@ -16,6 +16,7 @@
         </div>
         
         <div class="loginBox">
+        	<img src="${pageContext.request.contextPath }/static/img/login.jpg" />
         	<form action="" method="POST">
         		<ul>
         			<li>
