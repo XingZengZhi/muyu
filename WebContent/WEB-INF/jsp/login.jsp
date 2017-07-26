@@ -7,6 +7,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath }/static/img/qc-icon.ico" />
 	<link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/reset.css" />
 	<link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/login.css" />
+	<script type="text/javascript" src="${pageContext.request.contextPath }/static/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath }/static/js/login.js"></script>
 	<title>登录</title>
 </head>
 <body>
@@ -21,11 +23,11 @@
         		<ul>
         			<li>
         				<input type="text" placeholder="请输入用户名" />
-        				<p>该用户名不存在</p>
+        				<p id="userTitle">该用户名不存在</p>
         			</li>
         			<li>
         				<input type="password" placeholder="请输入密码" />
-        				<p>密码错误</p>
+        				<p></p>
         			</li>
         			<li>
         				<input type="submit" value="确认登录" />
