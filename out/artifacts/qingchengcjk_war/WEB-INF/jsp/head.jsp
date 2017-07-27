@@ -3,7 +3,6 @@
   User: Ben
   Date: 2017/7/20
   Time: 11:47
-  To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
@@ -13,7 +12,7 @@
         <a href="${pageContext.request.contextPath}/pages/register" target="_self">注册</a>
     </li>
     <li>
-        <a href="">登录</a>
+        <a href="${pageContext.request.contextPath}/pages/login">登录</a>
     </li>
     <li>
         <a href="${pageContext.request.contextPath}/pages/toufang">广告投放</a>

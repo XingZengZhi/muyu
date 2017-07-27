@@ -8,6 +8,7 @@
     <title>广告投放</title>
     <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/toufang.js"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/static/css/reset.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/static/css/toufang.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/index_style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath }/static/img/qc-icon.ico" />
