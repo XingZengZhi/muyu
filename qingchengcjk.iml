@@ -296,5 +296,6 @@
     <orderEntry type="library" name="aopalliance-1.0" level="project" />
     <orderEntry type="library" name="jsp-api" level="project" />
     <orderEntry type="library" name="kaptcha-2.3" level="project" />
+    <orderEntry type="library" name="javax.mail:mail:1.4" level="project" />
   </component>
 </module>

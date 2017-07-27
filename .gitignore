@@ -1,1 +1,7 @@
 *.mp4
+.classpath
+.project
+.tern-project
+qingchengcjk.iml
+.idea
+.settings
