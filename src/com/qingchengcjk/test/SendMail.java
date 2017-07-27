@@ -11,24 +11,26 @@ import java.util.Properties;
  * Created by 94404 on 2017/7/28.
  */
 public class SendMail {
-    private static String myEmailAccount = "944047118@qq.com";
-//    private static String myEmailPassword = "pinivgqtvkcrbegd";
-    private static String myEmailPassword = "pinivgqtvkcrbegd";
-    private static String myEmailSMTPHost = "smtp.qq.com";
+    private static String myEmailAccount = "944047118@qq.com";  //发件人邮箱
+    private static String myEmailPassword = "pinivgqtvkcrbegd"; //邮箱授权码
+    private static String myEmailSMTPHost = "smtp.qq.com";      //发件人的服务器地址
 
-    public static String receiveMailAccount = "2148688736@qq.com";
+    public static String receiveMailAccount = "2148688736@qq.com"; //收件人邮箱
 
     public static void main(String[] args) throws Exception {
         Properties props = new Properties();
         props.setProperty("mail.transport.protocol", "smtp");   // 使用的协议（JavaMail规范要求）
         props.setProperty("mail.smtp.host", myEmailSMTPHost);   // 发件人的邮箱的 SMTP 服务器地址
-        props.setProperty("mail.smtp.auth", "true");
+        props.setProperty("mail.smtp.auth", "true");            //需要请求认证
+        /**
+         * QQ邮箱必须开启安全认证
+         */
         final String smtpPort = "465";
         props.setProperty("mail.smtp.port", smtpPort);
         props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         props.setProperty("mail.smtp.socketFactory.fallback", "false");
         props.setProperty("mail.smtp.socketFactory.port", smtpPort);
-
+        // 2. 根据配置创建会话对象, 用于和邮件服务器交互
         Session session = Session.getDefaultInstance(props);
         session.setDebug(true);
         // 3. 创建一封邮件
