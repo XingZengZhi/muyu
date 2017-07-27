@@ -25,6 +25,7 @@
 	margin-top:20px;
 }
 .loginBox li{
+	position:relative;
 	border:1px solid red;
 	width:250px;
 	height:60px;
@@ -59,4 +60,18 @@
 	background-color:#02B2B5;
 	color:white;
 	border:none;
+}
+#jcaptcha{
+	display:inline-block;
+	width:70px;
+	margin-top:0;
+	position:relative;
+}
+#CodeImage{
+	position:absolute;
+	display:inline-block;
+	width:70px;
+	height:38px;
+	margin-left:10px;
+	border:1px solid blue;
 }

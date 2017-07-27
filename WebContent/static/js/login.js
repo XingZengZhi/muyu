@@ -1,6 +1,6 @@
 $(function(){
 	var $userTitle = $("#userTitle");
-	var $inputText = $(".loginBox form input[type='text']");
+	var $inputText = $("#userText");
 	
 	$inputText.focus(function(){
 		$userTitle.stop(true).animate({

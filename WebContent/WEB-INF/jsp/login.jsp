@@ -22,12 +22,16 @@
         	<form action="" method="POST">
         		<ul>
         			<li>
-        				<input type="text" placeholder="请输入用户名" />
+        				<input type="text" placeholder="请输入用户名" id="userText" />
         				<p id="userTitle">该用户名不存在</p>
         			</li>
         			<li>
         				<input type="password" placeholder="请输入密码" />
         				<p></p>
+        			</li>
+        			<li>
+        				<input type="text" id="jcaptcha" />
+        				<img id="CodeImage" alt="" src="" />
         			</li>
         			<li>
         				<input type="submit" value="确认登录" />
