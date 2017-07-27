@@ -31,7 +31,7 @@
         			</li>
         			<li>
         				<input type="text" id="jcaptcha" />
-        				<img id="CodeImage" alt="" src="" />
+        				<img id="CodeImage" alt="" src="${pageContext.request.contextPath }/code.jpg" />
         			</li>
         			<li>
         				<input type="submit" value="确认登录" />
