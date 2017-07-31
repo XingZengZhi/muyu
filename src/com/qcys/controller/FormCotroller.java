@@ -27,21 +27,22 @@ public class FormCotroller {
 		String r = request.getParameter("r");
 		response.setCharacterEncoding("UTF-8");
 		if(k.equals(r)){
-			//登录成功
+			//验证成功，执行用户登录
 			String account = request.getParameter("account");
 			String password = request.getParameter("password");
-			System.out.print(account + " " + password);
 			User user = userService.UserLogin(account, password);
-			HttpSession session = request.getSession();
-			session.setAttribute("luser", user);
-			System.out.print(user.getUserAccount());
+			if(user != null){
+				HttpSession session = request.getSession();
+				session.setAttribute("luser", user);
+				System.out.print(user.getUserAccount());
+			}else{
+				request.setAttribute("fail", "用户名或密码错误");
+				return "login";
+			}
 		}else{
-			//登录失败
-			//response.getWriter().write("fail!");
 			request.setAttribute("fail", "验证码错误");
 			return "login";
 		}
-
 		return "index";
 	}
 }
