@@ -6,62 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="更新了用户登录">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/controller/FormCotroller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/controller/PageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/controller/ValidateCodeCotroller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/controller/VideoUpload.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/mapper/UserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/pojo/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/pojo/Video.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/serviceimpl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/test/SendMail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/qingchengcjk/util/VarifyCodeUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/com/qingchengcjk/controller/PageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/com/qingchengcjk/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/com/qingchengcjk/mapper/UserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/com/qingchengcjk/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/com/qingchengcjk/pojo/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/com/qingchengcjk/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/com/qingchengcjk/serviceimpl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/controller/FormCotroller.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="优化">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/login.css" afterPath="$PROJECT_DIR$/WebContent/static/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/login.js" afterPath="$PROJECT_DIR$/WebContent/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/build/classes/applicationContext-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/applicationContext-service.xml" afterPath="$PROJECT_DIR$/build/classes/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/springmvc.xml" afterPath="$PROJECT_DIR$/build/classes/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/sqlMapConfig.xml" afterPath="$PROJECT_DIR$/build/classes/sqlMapConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/.gitignore" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/applicationContext-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/applicationContext-service.xml" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/springmvc.xml" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/sqlMapConfig.xml" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/sqlMapConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/login.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/login.js" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/src/applicationContext-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext-service.xml" afterPath="$PROJECT_DIR$/src/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/springmvc.xml" afterPath="$PROJECT_DIR$/src/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sqlMapConfig.xml" afterPath="$PROJECT_DIR$/src/sqlMapConfig.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/controller/PageController.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/PageController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/controller/UserController.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/controller/ValidateCodeCotroller.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/ValidateCodeCotroller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/controller/VideoUpload.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/pojo/User.java" afterPath="$PROJECT_DIR$/src/com/qcys/pojo/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/pojo/Video.java" afterPath="$PROJECT_DIR$/src/com/qcys/pojo/Video.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/service/UserService.java" afterPath="$PROJECT_DIR$/src/com/qcys/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/serviceimpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/qcys/serviceimpl/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/test/SendMail.java" afterPath="$PROJECT_DIR$/src/com/qcys/test/SendMail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qingchengcjk/util/VarifyCodeUtils.java" afterPath="$PROJECT_DIR$/src/com/qcys/util/VarifyCodeUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,8 +34,8 @@
       <file leaf-file-name="FormCotroller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+            <state relative-caret-position="551">
+              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -892,12 +839,20 @@
       <workItem from="1501168480223" duration="6401000" />
       <workItem from="1501214599273" duration="1214000" />
       <workItem from="1501491385145" duration="451000" />
-      <workItem from="1501508336344" duration="5508000" />
+      <workItem from="1501508336344" duration="6228000" />
     </task>
+    <task id="LOCAL-00001" summary="优化">
+      <created>1501514668241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501514668241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65411000" />
+    <option name="totallyTimeSpent" value="66131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -911,7 +866,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4239905" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4239905" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -944,7 +899,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新了用户登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了用户登录" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1320,8 +1276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        <state relative-caret-position="551">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding />
         </state>
       </provider>
