@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qcys.mapper.UserMapper">
+	<select id="getUserList" resultType="com.qcys.pojo.User">
+		select * from UserTb
+	</select>
+	<select id="UserLogin" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
+		select * from UserTb where UserAccount = #{0} and UserPassword = #{1}
+	</select>
+</mapper>

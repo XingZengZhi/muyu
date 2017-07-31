@@ -1,7 +1,7 @@
 $(function(){
 	var $userTitle = $("#userTitle");
 	var $inputText = $("#userText");
-	
+	//帐号输入提示框
 	$inputText.focus(function(){
 		$userTitle.stop(true).animate({
 			opacity:1,
@@ -13,12 +13,12 @@ $(function(){
 			marginLeft:0 + 'px'
 		});
 	});
-	
+	//表单提交，提交验证码
 	$(".loginBox form").submit(function(){
 		var code = $("#jcaptcha").val();
 		$(this).prop("action", $(this).prop("action") + "?r=" + code);
 	});
-
+	//登录背景图片效果
     $(".loginBox form").mouseenter(function(){
     	//背景图片变大...
 		$(this).siblings("img").animate({

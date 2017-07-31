@@ -40,7 +40,7 @@
 	
 	<!-- 配置mapper扫描器 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.qingchengcjk.mapper" />
+		<property name="basePackage" value="com.qcys.mapper" />
 	</bean>
 	
 </beans>

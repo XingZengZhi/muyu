@@ -45,8 +45,11 @@
 	letter-spacing: 2px;
 	width:200px;
 	font-size:12px;
-	margin-left:0px;
+	margin-left:25px;
 	display:block;
+}
+#userTitle{
+	margin-left:0px;
 	opacity:0;
 }
 .loginBox input[type='text'],.loginBox input[type='password']{

@@ -22,17 +22,18 @@
         	<form action="${pageContext.request.contextPath }/forms/loginForm" method="POST">
         		<ul>
         			<li>
-        				<input type="text" placeholder="请输入用户名" id="userText" />
+        				<input name="account" type="text" placeholder="请输入用户名" id="userText" />
         				<p id="userTitle">*请输入正确的格式</p>
         			</li>
         			<li>
-        				<input type="password" placeholder="请输入密码" />
+        				<input name="password" type="password" placeholder="请输入密码" />
         				<p></p>
         			</li>
         			<li>
         				<input type="text" id="jcaptcha" />
         				<img id="CodeImage" alt="" src="${pageContext.request.contextPath }/code.jpg" />
-        			</li>
+        				<p>${fail}</p>
+					</li>
         			<li>
         				<input type="submit" value="登录" />
 						<a href="" id="forget">忘记密码</a>

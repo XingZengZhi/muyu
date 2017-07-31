@@ -8,7 +8,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
 	<!-- 配置Controller扫描 -->
-	<context:component-scan base-package="com.qingchengcjk.controller" />
+	<context:component-scan base-package="com.qcys.controller" />
 
 	<!-- 配置注解驱动 -->
 	<!-- 默认创建处理器映射器和处理器适配器并使controller中的相关注解生效 -->
