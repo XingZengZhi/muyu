@@ -20,7 +20,7 @@ public class FormCotroller {
 	@Autowired
 	private UserService userService;
 	@RequestMapping("/loginForm")
-	public String loginForm(HttpServletRequest request, HttpServletResponse response) throws IOException{
+	public String UserLogin(HttpServletRequest request) throws IOException{
 		String k = (String) request.getSession().getAttribute(Constants.KAPTCHA_SESSION_KEY);
 		String r = request.getParameter("r");
 		if(k.equals(r)){
@@ -40,5 +40,10 @@ public class FormCotroller {
 			return "login";
 		}
 		return "index";
+	}
+	@RequestMapping("/registerForm")
+	public String UserRegister(){
+
+		return "login";
 	}
 }
