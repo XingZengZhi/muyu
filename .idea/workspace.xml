@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/qingchengcjk_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/qingchengcjk_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qingchengcjk.iml" afterPath="$PROJECT_DIR$/qcys.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +33,8 @@
       <file leaf-file-name="FormCotroller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="190">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -843,7 +839,7 @@
       <workItem from="1501214599273" duration="1214000" />
       <workItem from="1501491385145" duration="451000" />
       <workItem from="1501508336344" duration="6360000" />
-      <workItem from="1501559055734" duration="230000" />
+      <workItem from="1501559055734" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1501514668241</created>
@@ -859,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501514813740</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="去掉没必要的配置文件">
+      <created>1501559311473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1501559311473</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66493000" />
+    <option name="totallyTimeSpent" value="66600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -912,7 +915,8 @@
     <MESSAGE value="更新了用户登录" />
     <MESSAGE value="优化" />
     <MESSAGE value="再优化..." />
-    <option name="LAST_COMMIT_MESSAGE" value="再优化..." />
+    <MESSAGE value="去掉没必要的配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="去掉没必要的配置文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1275,8 +1279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="190">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding />
         </state>
       </provider>
