@@ -11,6 +11,7 @@
 		<link rel="shortcut icon" href="${pageContext.request.contextPath }/static/img/qc-icon.ico" />
 		<script type="text/javascript" src="${pageContext.request.contextPath }/static/js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="${pageContext.request.contextPath }/static/js/Register.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath }/static/js/md5.js"></script>
 	</head>
 
 	<body>
@@ -67,7 +68,7 @@
 								手机号
 							</span>
 							<span>
-								<input type="password" name="password" placeholder="便于联系或通知" />
+								<input type="text" id="telNum" name="telNum" placeholder="便于联系或通知" />
 							</span>
 						</li>
 						<li>
@@ -78,7 +79,7 @@
 								<input style="width:90px;" type="text" name="code" />
 							</span>
 							<span style="opacity:1;">
-								<button disabled="true">发送验证码</button>
+								<button type="button">发送验证码</button>
 							</span>
 						</li>
 						<li>
