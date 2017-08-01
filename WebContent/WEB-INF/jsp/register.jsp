@@ -43,7 +43,7 @@
 								<input type="password" name="password" id="" placeholder="设置登录密码" />
 							</span>
 							<span>
-								* 密码不符合要求
+								* 6-12位，避免数字开头和使用特殊字符
 							</span>
 						</li>
 						<li>
@@ -69,18 +69,15 @@
 							<span>
 								<input type="password" name="password" placeholder="便于联系或通知" />
 							</span>
-							<span>
-								* 请输入你的手机号码
-							</span>
 						</li>
 						<li>
 							<span>
 								验证码
 							</span>
-							<span style="width:70px;">
-								<input style="width:70px;" type="text" name="code" />
+							<span style="width:90px;">
+								<input style="width:90px;" type="text" name="code" />
 							</span>
-							<span>
+							<span style="opacity:1;">
 								<button disabled="true">发送验证码</button>
 							</span>
 						</li>

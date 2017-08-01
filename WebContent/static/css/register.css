@@ -48,6 +48,7 @@
 }
 #register_content form ul{
 	width:100%;
+	margin-left:40px;
 }
 #register_content form ul li{
 	margin-bottom:20px;
@@ -68,7 +69,7 @@
 	text-align: right;
 }
 #register_content form ul li span:nth-child(2){
-	width:240px;
+	width:200px;
 	margin-left:8px;
 }
 #register_content form ul li span:nth-child(2) input{
@@ -76,7 +77,7 @@
 	padding-left: 5px;
 	outline: none;
 	height: 30px;
-	width:240px;
+	width:200px;
 	box-sizing:border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -111,10 +112,13 @@
 #register_content form ul li span:nth-child(3){
 	margin-left: 10px;
 	color:#FF3F13;
+	width:150px;
+	line-height:20px;
+	opacity:0;
 }
 #register_content form ul li input[type='submit']{
 	display: block;
-	width:244px;
+	width:204px;
 	height:30px;
 	letter-spacing: 2px;
 	margin-left: 105px;
@@ -133,9 +137,8 @@
 }
 #register_content span button{
 	display:block;
-	width:100%;
+	width:100px;
 	height:30px;
-
 }
 #code{
 	width:70px;

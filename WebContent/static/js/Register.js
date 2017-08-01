@@ -16,4 +16,18 @@ $(function(){
             $("#UserPos").fadeIn(0);
         }
     }
+    var $inputTxt = $("#register_content input");
+    $inputTxt.focus(function(){
+        if(!$(this).parent().next().find("button").length){
+            $(this).parent().next().animate({
+                opacity:1
+            });
+        }
+    }).blur(function(){
+        if(!$(this).parent().next().find("button").length){
+            $(this).parent().next().animate({
+                opacity:0
+            });
+        }
+    });
 });
