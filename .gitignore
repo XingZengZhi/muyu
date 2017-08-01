@@ -5,3 +5,5 @@
 qingchengcjk.iml
 .idea
 .settings
+/build
+/out
