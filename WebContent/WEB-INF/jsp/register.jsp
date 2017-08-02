@@ -41,7 +41,7 @@
 								登录密码
 							</span>
 							<span>
-								<input type="password" name="password" id="" placeholder="设置登录密码" />
+								<input type="password" name="password" id="" placeholder="输入密码" />
 							</span>
 							<span>
 								* 6-12位，避免数字开头和使用特殊字符
@@ -52,9 +52,9 @@
 								密码确认
 							</span>
 							<span>
-								<input type="password" name="repassword" placeholder="请再次输入你的密码" />
+								<input type="password" name="repassword" placeholder="再次输入密码" />
 							</span>
-							<span>
+							<span id="repassTitle">
 								* 请再次输入你的密码
 							</span>
 						</li>
@@ -79,7 +79,7 @@
 								<input style="width:90px;" type="text" name="code" />
 							</span>
 							<span style="opacity:1;">
-								<button type="button">发送验证码</button>
+								<button type="button" disabled="disabled">发送验证码</button>
 							</span>
 						</li>
 						<li>
