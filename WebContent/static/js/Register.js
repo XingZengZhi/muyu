@@ -9,15 +9,6 @@ $(function(){
     var inputTxt = $("#register_content input");
 
     inputTxt.focus(function(){
-        /*//判断是否为电话号输入框
-        if($(this).prop("name") == "telNum"){
-            //判断两次输入的密码是否一样
-            if(!(pass.val() == repass.val())){
-                $("#repassTitle").html("* 两次密码不一样").animate({
-                    opacity:1
-                });
-            }
-        }*/
         if(!$(this).parent().next().find("button").length){
             $(this).parent().next().animate({
                 opacity:1
