@@ -44,7 +44,7 @@ $(function(){
         $.ajax({
             type:"post",
             url:"https://sms.yunpian.com/v2/sms/single_send.json",
-            data:{"apikey":"5da4b4fe0e2007bbe0d38be7934be81c","text":"【倾城科技】您的验证码是"+code,"mobile":$telNum.val()},
+            data:{"apikey":"5da4b4fe0e2007bbe0d38be7934be81c","text":"【倾城科技】您的验证码是"+ code +"。如非本人操作，请忽略本短信","mobile":$telNum.val()},
             dataType:"json",
             success:function(data){
                 console.log(data);

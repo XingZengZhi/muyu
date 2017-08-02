@@ -9,6 +9,7 @@
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/Register.js" afterPath="$PROJECT_DIR$/WebContent/static/js/Register.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/Register.js" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/Register.js" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +68,8 @@
       <file leaf-file-name="Register.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/js/Register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+            <state relative-caret-position="491">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -849,7 +850,7 @@
       <workItem from="1501491385145" duration="451000" />
       <workItem from="1501508336344" duration="6360000" />
       <workItem from="1501559055734" duration="16119000" />
-      <workItem from="1501637267414" duration="4495000" />
+      <workItem from="1501637267414" duration="4919000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1501514668241</created>
@@ -907,11 +908,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501578633895</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="实现短信验证（前台）">
+      <created>1501642517501</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1501642517501</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86877000" />
+    <option name="totallyTimeSpent" value="87301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -966,7 +974,8 @@
     <MESSAGE value="修改注册页面" />
     <MESSAGE value="修改注册页JS" />
     <MESSAGE value="添加短信验证（未完成）" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加短信验证（未完成）" />
+    <MESSAGE value="实现短信验证（前台）" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现短信验证（前台）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1330,8 +1339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/js/Register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        <state relative-caret-position="491">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding />
         </state>
       </provider>

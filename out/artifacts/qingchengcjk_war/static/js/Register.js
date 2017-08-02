@@ -31,51 +31,26 @@ $(function(){
         }
     });
     //发送验证码
-    //https://api.ucpaas.com/2014-06-30/Accounts/6ca6af04d05a4f22d3b0426194dcf044/Messages/templateSMS?sig={SigParameter}
     var $SendCode = $("#register_content li span button");
     var $telNum = $("#telNum");
-    var time, date, nowTime, second = 10;
+    var time, date, code = "", second = 10;
     $SendCode.click(function(){
         // var tel = $telNum.val();
         $(this).html("重新发送"+ second-- + "s").prop("disabled", "disabled");
         time = setTimeout(SendTel, 1000);
-        nowTime = GetTime();
+        for(var i = 0;i<4;i++){
+            code += Math.round(Math.random() * 10);
+        }
         $.ajax({
             type:"post",
-            url:"https://api.ucpaas.com/2014-06-30/Accounts/6ca6af04d05a4f22d3b0426194dcf044/Messages/templateSMS?sig=" +
-            hex_md5("944047118@qq.com" + "73d55f5f3e805b71d8d02a51c517380f" + nowTime),
-            data:JSON.stringify(GetJsonData()),
-            accepts:"application/json",
-            contentType:"application/json",
+            url:"https://sms.yunpian.com/v2/sms/single_send.json",
+            data:{"apikey":"5da4b4fe0e2007bbe0d38be7934be81c","text":"【倾城科技】您的验证码是"+code,"mobile":$telNum.val()},
             dataType:"json",
             success:function(data){
                 console.log(data);
             }
         });
     });
-
-    function GetJsonData(){
-        var templateSMS = {
-            // "sig":hex_md5("944047118@qq.com" + "73d55f5f3e805b71d8d02a51c517380f" + GetTime()),
-            "Authorization":b64_md5("944047118@qq.com:" + nowTime),
-            "appId": "eafe0198eede444a9fa6e0925f928c41",
-            "param": "0000",
-            "templateId": "110191",
-            "to":$telNum.val()
-        };
-        return templateSMS;
-    }
-    //返回当前时间戳
-    function GetTime(){
-        date = new Date();
-        var year = date.getFullYear();
-        var month = date.getMonth() + 1;
-        var day = date.getDate();
-        var hours = date.getHours();
-        var m = date.getMinutes();
-        var s = date.getSeconds();
-        return year + "" + month + "" + day + "" + hours + "" + m + "" + s;
-    }
 
     function SendTel(){
         $SendCode.html("重新发送"+ second-- + "s");
