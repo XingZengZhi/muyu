@@ -9,7 +9,7 @@ $(function(){
     var inputTxt = $("#register_content input");
 
     inputTxt.focus(function(){
-        //判断是否为电话号输入框
+        /*//判断是否为电话号输入框
         if($(this).prop("name") == "telNum"){
             //判断两次输入的密码是否一样
             if(!(pass.val() == repass.val())){
@@ -17,7 +17,7 @@ $(function(){
                     opacity:1
                 });
             }
-        }
+        }*/
         if(!$(this).parent().next().find("button").length){
             $(this).parent().next().animate({
                 opacity:1
@@ -74,9 +74,14 @@ $(function(){
             var patrn=/^1[34578]\d{9}$/;
             if (!patrn.exec(s)) return false;
             return true;
+        },
+        isSame:function(pass, repass){
+            if(pass.val() == repass.val())return true;
+            return false;
         }
     }
 
+    //动态验证手机号
     telNum.bind('input propertychange', function(){
         if(check.isMobile($(this).val())){
             SendCode.removeAttr("disabled");
@@ -85,14 +90,29 @@ $(function(){
         }
     });
 
-    regForm.submit(function(){
-        if(check.isPasswd(pass.val())){
-            console.log("可以提交");
-            return false;
+    pass.bind('input propertychange', function(){
+        if(!check.isPasswd($(this).val())){
+            $(this).parent().next().html("* 格式不正确");
         }else{
-            console.log("不能提交");
-            return false;
+            $(this).parent().next().html("* 格式正确");
         }
+    });
+
+    repass.bind('input propertychange', function(){
+        if(!check.isPasswd($(this).val())){
+            $(this).parent().next().html("* 格式不正确");
+        }else{
+            $(this).parent().next().html("* 格式正确");
+        }
+    });
+
+    regForm.submit(function(){
+        if(!check.isPasswd(pass.val()) && !check.isPasswd(repass.val())
+            && pass.val() != "" && repass.val() != "" && check.isSame(pass, repass)){
+            return true;
+        }
+        alert("请检查两次密码是否一样，并且密码不能为空！");
+        return false;
     });
 
 });
