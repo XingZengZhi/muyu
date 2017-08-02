@@ -26,8 +26,8 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public boolean UserInsert(User user) {
-		return userMapper.UserInsert(user);
+	public void UserInsert(User user) {
+		userMapper.UserInsert(user);
 	}
 
 }

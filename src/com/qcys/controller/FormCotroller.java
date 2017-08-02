@@ -2,12 +2,14 @@ package com.qcys.controller;
 
 import java.io.IOException;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import com.qcys.pojo.User;
 import com.qcys.service.UserService;
+import com.qcys.util.MD5Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -42,10 +44,20 @@ public class FormCotroller {
 		return "index";
 	}
 	@RequestMapping("/registerForm")
-	public String UserRegister(HttpServletRequest request){
+	public String UserRegister(HttpServletRequest request, HttpServletResponse response){
 		String password = request.getParameter("password");
 		String phone = request.getParameter("telNum");
-
+		User user = new User();
+		user.setUserPassword(MD5Utils.md5(password));
+		user.setUserPhone(phone);
+		try{
+			userService.UserInsert(user);
+			Cookie insertTip = new Cookie("addTip", "1");
+			insertTip.setMaxAge(3600);
+			response.addCookie(insertTip);
+		}catch (Exception e){
+			e.printStackTrace();
+		}
 		return "login";
 	}
 }

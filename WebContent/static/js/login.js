@@ -33,5 +33,11 @@ $(function(){
             marginLeft:0 + "%"
         })
 	});
-	
+
+    //提取Cookie
+	var ck = document.cookie.split("=");
+	console.log(ck);
+	if(ck){
+		alert("注册成功！");
+	}
 });

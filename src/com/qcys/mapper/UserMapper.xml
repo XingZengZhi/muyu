@@ -9,7 +9,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="UserLogin" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
 		select * from UserTb where UserAccount = #{0} and UserPassword = #{1}
 	</select>
-	<select id="UserInsert" parameterType="com.qcys.pojo.User" resultType="java.lang.Boolean">
+	<select id="UserInsert" parameterType="com.qcys.pojo.User">
 		INSERT INTO UserTb (userPassword, userPhone)
 		values(#{userPassword}, #{userPhone})
 	</select>
