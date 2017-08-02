@@ -18,6 +18,15 @@ $(function(){
     }
     var $inputTxt = $("#register_content input");
     $inputTxt.focus(function(){
+        //判断是否为电话号输入框
+        if($(this).prop("name") == "telNum"){
+            //判断两次输入的密码是否一样
+            if($("input[name='password']").val() == $("input[name='repassword']").val()){
+                console.log("两次密码一样。");
+            }else{
+                console.log("两次密码不一样");
+            }
+        }
         if(!$(this).parent().next().find("button").length){
             $(this).parent().next().animate({
                 opacity:1
@@ -44,7 +53,7 @@ $(function(){
         $.ajax({
             type:"post",
             url:"https://sms.yunpian.com/v2/sms/single_send.json",
-            data:{"apikey":"5da4b4fe0e2007bbe0d38be7934be81c","text":"【倾城科技】您的验证码是"+code,"mobile":$telNum.val()},
+            data:{"apikey":"5da4b4fe0e2007bbe0d38be7934be81c","text":"【倾城科技】您的验证码是"+ code +"。如非本人操作，请忽略本短信","mobile":$telNum.val()},
             dataType:"json",
             success:function(data){
                 console.log(data);

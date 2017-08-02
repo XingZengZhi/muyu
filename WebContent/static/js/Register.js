@@ -18,6 +18,15 @@ $(function(){
     }
     var $inputTxt = $("#register_content input");
     $inputTxt.focus(function(){
+        //判断是否为电话号输入框
+        if($(this).prop("name") == "telNum"){
+            //判断两次输入的密码是否一样
+            if($("input[name='password']").val() == $("input[name='repassword']").val()){
+                console.log("两次密码一样。");
+            }else{
+                console.log("两次密码不一样");
+            }
+        }
         if(!$(this).parent().next().find("button").length){
             $(this).parent().next().animate({
                 opacity:1
