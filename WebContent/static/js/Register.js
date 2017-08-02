@@ -6,21 +6,8 @@ $(function(){
     var pass = $("input[name='password']");
     var repass = $("input[name='repassword']");
     var telNum = $("input[name='telNum']");
-    // 若用户是企业用户
-    var userType = $("input[name='UserType']");
-    userType.click(function(){
-        ChangeStatus($(this).val());
-    });
-    function ChangeStatus(x){
-        if(x == 1){
-            $("#UserCom").fadeOut(0);
-            $("#UserPos").fadeOut(0);
-        }else{
-            $("#UserCom").fadeIn(0);
-            $("#UserPos").fadeIn(0);
-        }
-    }
     var inputTxt = $("#register_content input");
+
     inputTxt.focus(function(){
         //判断是否为电话号输入框
         if($(this).prop("name") == "telNum"){
@@ -84,16 +71,17 @@ $(function(){
         },
         //校验手机号码：必须以数字开头，除数字外，可含有“-”
         isMobile:function(s){
-            var patrn=/^[+]{0,1}(\d){1,3}[ ]?([-]?((\d)|[ ]){1,12})+$/;
+            var patrn=/^1[34578]\d{9}$/;
             if (!patrn.exec(s)) return false;
             return true;
         }
     }
 
-    telNum.change(function(){
-        console.log($(this).val());
+    telNum.bind('input propertychange', function(){
         if(check.isMobile($(this).val())){
-            SendCode.removeProp("disabled");
+            SendCode.removeAttr("disabled");
+        }else{
+            SendCode.prop("disabled", "disabled");
         }
     });
 
