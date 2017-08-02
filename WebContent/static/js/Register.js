@@ -67,7 +67,7 @@ $(function(){
             return true;
         },
         isSame:function(pass, repass){
-            if(pass.val() == repass.val())return true;
+            if(pass == repass)return true;
             return false;
         }
     }
@@ -98,8 +98,9 @@ $(function(){
     });
 
     regForm.submit(function(){
-        if(!check.isPasswd(pass.val()) && !check.isPasswd(repass.val())
-            && pass.val() != "" && repass.val() != "" && check.isSame(pass, repass)){
+        console.log(check.isPasswd(pass.val()));
+        if(check.isPasswd(pass.val()) && check.isPasswd(repass.val())
+            && pass.val() != "" && repass.val() != "" && check.isSame(pass.val(), repass.val())){
             return true;
         }
         alert("请检查两次密码是否一样，并且密码不能为空！");

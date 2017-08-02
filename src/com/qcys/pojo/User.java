@@ -9,6 +9,8 @@ public class User {
 	private String UserProfession;
 	private String UserOrganization;
 	private char UserClassify;
+	private String UserEmail;
+	private String UserPhone;
 	public long getUserID() {
 		return UserID;
 	}
@@ -56,5 +58,21 @@ public class User {
 	}
 	public void setUserClassify(char userClassify) {
 		UserClassify = userClassify;
+	}
+
+	public String getUserEmail() {
+		return UserEmail;
+	}
+
+	public void setUserEmail(String userEmail) {
+		UserEmail = userEmail;
+	}
+
+	public String getUserPhone() {
+		return UserPhone;
+	}
+
+	public void setUserPhone(String userPhone) {
+		UserPhone = userPhone;
 	}
 }

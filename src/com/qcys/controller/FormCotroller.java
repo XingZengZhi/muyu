@@ -42,7 +42,9 @@ public class FormCotroller {
 		return "index";
 	}
 	@RequestMapping("/registerForm")
-	public String UserRegister(){
+	public String UserRegister(HttpServletRequest request){
+		String password = request.getParameter("password");
+		String phone = request.getParameter("telNum");
 
 		return "login";
 	}

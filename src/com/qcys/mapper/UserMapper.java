@@ -7,4 +7,5 @@ import com.qcys.pojo.User;
 public interface UserMapper {
 	List<User> getUserList();
 	User UserLogin(String userName, String passWord);
+	boolean UserInsert(User user);
 }

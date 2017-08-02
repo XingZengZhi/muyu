@@ -30,7 +30,7 @@
 				</ul>
 			</div>
 			<div id="register_content">
-				<form action="" method="post">
+				<form action="${pageContext.request.contextPath}/forms/registerForm" method="post">
 					<ul>
 						<li>
 							<span>账户设置</span>
