@@ -2,6 +2,10 @@
  * Created by 94404 on 2017/5/10.
  */
 $(function(){
+    var $regForm = $("#register_content form");
+    var $pass = $("input[name='password']");
+    var $repass = $("input[name='repassword']");
+    var $telnum = $("input[name='telNum']");
     // 若用户是企业用户
     var userType = $("input[name='UserType']");
     userType.click(function(){
@@ -71,4 +75,24 @@ $(function(){
             time = setTimeout(SendTel, 1000);
         }
     }
+
+    //校验输入的格式
+    var check = {
+        isPasswd:function(s){
+            var patrn=/^(\w){6,20}$/;
+            if (!patrn.exec(s)) return false;
+            return true;
+        }
+    }
+
+    $regForm.submit(function(){
+        if(check.isPasswd($pass.val())){
+            console.log("可以提交");
+            return false;
+        }else{
+            console.log("不能提交");
+            return false;
+        }
+    });
+
 });
