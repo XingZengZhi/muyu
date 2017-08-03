@@ -53,11 +53,12 @@ public class FormCotroller {
 		try{
 			userService.UserInsert(user);
 			Cookie insertTip = new Cookie("addTip", "1");
+			insertTip.setPath("/");
 			insertTip.setMaxAge(3600);
 			response.addCookie(insertTip);
 		}catch (Exception e){
 			e.printStackTrace();
 		}
-		return "login";
+		return "redirect:/pages/login";
 	}
 }
