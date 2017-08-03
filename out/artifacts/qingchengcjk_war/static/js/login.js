@@ -34,11 +34,13 @@ $(function(){
         })
 	});
 
+    $("#CodeImage").click(function(){
+    	$(this).prop("src", $(this).prop("src"));
+	});
+
     //提取Cookie
 	var ck = document.cookie.split(";")[0].split("=");
 	if(ck[1] == 1){
-		// var d = new Date();
-		// d.setTime(d.getTime() + (-1*24*60*60*1000));
 		alert("注册成功！");
 		document.cookie = ck[0]+"="+";"+"expires=-1";
 	}
