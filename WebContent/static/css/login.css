@@ -123,3 +123,10 @@
 #forPassUname{
 	color:#FF404B;
 }
+#sendMail input{
+	height:30px;
+	width:60px;
+}
+#sendMail button{
+	height:32px;
+}
