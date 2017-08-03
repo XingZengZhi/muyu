@@ -44,4 +44,18 @@ $(function(){
 		alert("注册成功！");
 		document.cookie = ck[0]+"="+";"+"expires=-1";
 	}
+
+	//省略号动态
+	var i = 0, time;
+    time = setTimeout(sldt, 1000);
+	function sldt(){
+		$("#sl").append(" .");
+        i++;
+        if(i == 4){
+        	i = 0;
+            $("#sl").html("");
+		}
+        time = setTimeout(sldt, 1000);
+	}
+
 });

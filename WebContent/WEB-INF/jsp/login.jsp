@@ -44,5 +44,19 @@
         
         <jsp:include page="footer.jsp" />
     </div>
+
+	<div id="forPass">
+		<h3>找回密码操作</h3>
+		<p id="searchMail">
+			正在查找用户名为：<span id="forPassUname">root</span> 的邮箱 <span id="sl"></span>
+		</p>
+		<p id="showMail">
+			邮箱为：<span>9*******8@qq.com</span>
+		</p>
+		<p id="sendMail">
+			<input type="text" id="mailValue" />
+			<button type="button">发送验证码</button>
+		</p>
+	</div>
 </body>
 </html>
