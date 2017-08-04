@@ -37,7 +37,7 @@
 					</li>
         			<li>
         				<input type="submit" value="登录" />
-						<a href="" id="forget">忘记密码</a>
+						<a href="javascript:;" id="forget">忘记密码</a>
         			</li>
         		</ul>
         	</form>
@@ -47,6 +47,7 @@
     </div>
 
 	<div id="forPass">
+		<span id="del"></span>
 		<h3>找回密码操作</h3>
 		<p id="searchMail">
 			查找用户名：<span id="forPassUname">root</span> 的邮箱 <span id="sl"></span>

@@ -1,6 +1,15 @@
 $(function(){
 	var $userTitle = $("#userTitle");
 	var $inputText = $("#userText");
+
+	$("#forget").click(function(){
+		$("#forPass").fadeIn();
+	});
+
+	$("#del").click(function(){
+		$("#forPass").fadeOut();
+	});
+
 	//帐号输入提示框
 	$inputText.focus(function(){
 		$userTitle.stop(true).animate({

@@ -92,7 +92,7 @@
 	text-decoration:underline;
 }
 #forPass{
-	display:block;
+	display:none;
 	position:absolute;
 	left:0;
 	right:0;
@@ -101,9 +101,17 @@
 	margin:auto;
 	width:400px;
 	height:300px;
-	border:1px solid red;
 	background-color:white;
 	border-radius:5px;
+}
+#forPass > span{
+	position:absolute;
+	width:40px;
+	height:40px;
+	right:-25px;
+	top:-25px;
+	background-color:#F9424D;
+	border-radius:100%;
 }
 #forPass h3{
 	margin-left:10px;
