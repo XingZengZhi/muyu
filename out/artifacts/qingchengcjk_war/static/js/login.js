@@ -58,4 +58,40 @@ $(function(){
         time = setTimeout(sldt, 1000);
 	}
 
+	//查找用户邮箱
+	var host = window.location.href;
+	var pathname = window.location.pathname;
+	var localhost = host.substring(0, host.indexOf(pathname));
+	while(pathname.lastIndexOf("/")){
+        pathname = pathname.substring(0, pathname.lastIndexOf("/"));
+
+	}
+	var hostHref = localhost + pathname;
+	$.ajax({
+		type:"GET",
+		url:hostHref + "/findMail",
+		data:"userName=" + $("#forPassUname").html(),
+		dataType:"text",
+		success:function(result){
+			var emailValue = result.substring(0, result.indexOf("@"));
+			var emailType = result.substr(result.indexOf("@"));
+			var numArr = emailValue.split("");
+			console.log(emailValue);
+			for(var i = 0;i<numArr.length;i++){
+				if(i != 0 && i != numArr.length - 1){
+					numArr[i] = "*";
+				}
+			}
+			var newEmailValue = numArr.join("");//将数组转换成字符串
+			var userEmail = newEmailValue + emailType
+			clearTimeout(time);
+			$("#sl").html("");
+			$("#showMail").stop(true).animate({
+				opacity:1
+			}, function(){
+                $("#hiddenEmail").html(userEmail);
+			});
+		}
+	});
+
 });

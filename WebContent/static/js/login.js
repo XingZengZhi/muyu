@@ -73,7 +73,24 @@ $(function(){
 		data:"userName=" + $("#forPassUname").html(),
 		dataType:"text",
 		success:function(result){
-			console.log(result);
+			var emailValue = result.substring(0, result.indexOf("@"));
+			var emailType = result.substr(result.indexOf("@"));
+			var numArr = emailValue.split("");
+			console.log(emailValue);
+			for(var i = 0;i<numArr.length;i++){
+				if(i != 0 && i != numArr.length - 1){
+					numArr[i] = "*";
+				}
+			}
+			var newEmailValue = numArr.join("");//将数组转换成字符串
+			var userEmail = newEmailValue + emailType
+			clearTimeout(time);
+			$("#sl").html("");
+			$("#showMail").stop(true).animate({
+				opacity:1
+			}, function(){
+                $("#hiddenEmail").html(userEmail);
+			});
 		}
 	});
 

@@ -119,7 +119,10 @@
 }
 #searchMail, #showMail, #sendMail{
 	margin:10px;
-	padding-left:80px;
+	padding-left:90px;
+}
+#showMail{
+	opacity: 0;
 }
 #forPassUname{
 	color:#FF404B;
