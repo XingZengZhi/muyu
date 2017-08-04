@@ -58,4 +58,23 @@ $(function(){
         time = setTimeout(sldt, 1000);
 	}
 
+	//查找用户邮箱
+	var host = window.location.href;
+	var pathname = window.location.pathname;
+	var localhost = host.substring(0, host.indexOf(pathname));
+	while(pathname.lastIndexOf("/")){
+        pathname = pathname.substring(0, pathname.lastIndexOf("/"));
+
+	}
+	var hostHref = localhost + pathname;
+	$.ajax({
+		type:"GET",
+		url:hostHref + "/findMail",
+		data:"userName=" + $("#forPassUname").html(),
+		dataType:"text",
+		success:function(result){
+			console.log(result);
+		}
+	});
+
 });

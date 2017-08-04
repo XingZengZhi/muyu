@@ -8,4 +8,5 @@ public interface UserService {
 	List<User> getUserList();
 	User UserLogin(String userAccount, String passWord);
 	void UserInsert(User user);
+	String FindUserMail(String userName);
 }

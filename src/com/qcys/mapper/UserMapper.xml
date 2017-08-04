@@ -13,4 +13,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		INSERT INTO UserTb (userPassword, userPhone)
 		values(#{userPassword}, #{userPhone})
 	</select>
+	<select id="FindUserMail" parameterType="java.lang.String" resultType="java.lang.String">
+		select UserEmail from UserTb where UserAccount = #{0}
+	</select>
 </mapper>

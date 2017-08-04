@@ -30,4 +30,9 @@ public class UserServiceImpl implements UserService {
 		userMapper.UserInsert(user);
 	}
 
+	@Override
+	public String FindUserMail(String userName) {
+		return userMapper.FindUserMail(userName);
+	}
+
 }

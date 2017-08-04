@@ -8,4 +8,5 @@ public interface UserMapper {
 	List<User> getUserList();
 	User UserLogin(String userName, String passWord);
 	void UserInsert(User user);
+	String FindUserMail(String userName);
 }
