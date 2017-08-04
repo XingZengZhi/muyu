@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="cache-control" content="no-cache" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath }/static/img/qc-icon.ico" />
 	<link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/reset.css" />
@@ -48,10 +49,10 @@
 	<div id="forPass">
 		<h3>找回密码操作</h3>
 		<p id="searchMail">
-			正在查找用户名为：<span id="forPassUname">root</span> 的邮箱 <span id="sl"></span>
+			查找用户名：<span id="forPassUname">root</span> 的邮箱 <span id="sl"></span>
 		</p>
 		<p id="showMail">
-			邮箱为：<span>9*******8@qq.com</span>
+			邮箱为：<span id="hiddenEmail">9*******8@qq.com</span>
 		</p>
 		<p id="sendMail">
 			<input type="text" id="mailValue" />

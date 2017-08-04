@@ -66,7 +66,7 @@ $(function(){
         pathname = pathname.substring(0, pathname.lastIndexOf("/"));
 
 	}
-	var hostHref = localhost + pathname;
+	var hostHref = localhost + pathname; //服务根路径
 	$.ajax({
 		type:"GET",
 		url:hostHref + "/findMail",
@@ -76,7 +76,6 @@ $(function(){
 			var emailValue = result.substring(0, result.indexOf("@"));
 			var emailType = result.substr(result.indexOf("@"));
 			var numArr = emailValue.split("");
-			console.log(emailValue);
 			for(var i = 0;i<numArr.length;i++){
 				if(i != 0 && i != numArr.length - 1){
 					numArr[i] = "*";
@@ -93,5 +92,13 @@ $(function(){
 			});
 		}
 	});
-
+	//发送邮件信息
+	var codes = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","g","h","i","j","k","l"];
+	var length = 6; //验证码长度
+	var validate = "";
+	for(var i = 0;i < length;i++){
+		var index = Math.round(Math.random() * 10 + Math.random() * 10);
+		validate += codes[index];
+	}
+	console.log(validate);
 });

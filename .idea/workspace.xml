@@ -8,10 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/login.css" afterPath="$PROJECT_DIR$/WebContent/static/css/login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/login.js" afterPath="$PROJECT_DIR$/WebContent/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/login.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/login.js" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/login.js" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -48,8 +46,8 @@
       <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="80" column="45" lean-forward="false" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+            <state relative-caret-position="425">
+              <caret line="98" column="30" lean-forward="false" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -899,7 +897,7 @@
       <workItem from="1501637267414" duration="20908000" />
       <workItem from="1501678779851" duration="4634000" />
       <workItem from="1501742174342" duration="9026000" />
-      <workItem from="1501822715679" duration="9793000" />
+      <workItem from="1501822715679" duration="10475000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1501514668241</created>
@@ -1069,11 +1067,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501831248574</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="显示用户的邮箱">
+      <created>1501832908199</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1501832908200</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126743000" />
+    <option name="totallyTimeSpent" value="127425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1119,7 +1124,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新了用户登录" />
     <MESSAGE value="优化" />
     <MESSAGE value="再优化..." />
     <MESSAGE value="去掉没必要的配置文件" />
@@ -1144,7 +1148,8 @@
     <MESSAGE value="更新UI" />
     <MESSAGE value="调整找回密码UI" />
     <MESSAGE value="增加查找邮箱功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加查找邮箱功能" />
+    <MESSAGE value="显示用户的邮箱" />
+    <option name="LAST_COMMIT_MESSAGE" value="显示用户的邮箱" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1523,8 +1528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="80" column="45" lean-forward="false" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        <state relative-caret-position="425">
+          <caret line="98" column="30" lean-forward="false" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
           <folding />
         </state>
       </provider>
