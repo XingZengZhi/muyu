@@ -67,6 +67,7 @@ $(function(){
 
 	}
 	var hostHref = localhost + pathname; //服务根路径
+	var userEmail;
 	$.ajax({
 		type:"GET",
 		url:hostHref + "/findMail",
@@ -82,7 +83,7 @@ $(function(){
 				}
 			}
 			var newEmailValue = numArr.join("");//将数组转换成字符串
-			var userEmail = newEmailValue + emailType
+			userEmail = newEmailValue + emailType;
 			clearTimeout(time);
 			$("#sl").html("");
 			$("#showMail").stop(true).animate({
@@ -96,10 +97,25 @@ $(function(){
 	var codes = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","g","h","i","j","k","l"];
 	var length = 6; //验证码长度
 	var validate = "";
-	console.log(codes.length);
 	for(var i = 0;i < length;i++){
 		var index = Math.round(Math.random() * 10 + Math.random() * 10);
 		validate += codes[index];
 	}
-	console.log(validate);
+	$("#SendCode").click(function(){
+		$.ajax({
+			type:"GET",
+			url:hostHref + "/findMail",
+            data:"userName=" + $("#forPassUname").html(),
+			success:function(data){
+				$.ajax({
+					type:"GET",
+					url:hostHref + "/SendMail",
+					data:"mail=" + data + "&validate=" + validate,
+					success:function(resultData){
+						console.log(resultData);
+					}
+				});
+			}
+		});
+	});
 });

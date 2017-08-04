@@ -1,4 +1,4 @@
-package com.qcys.test;
+package com.qcys.util;
 
 import javax.mail.Session;
 import javax.mail.Transport;
@@ -15,9 +15,16 @@ public class SendMail {
     private static String myEmailPassword = "pinivgqtvkcrbegd"; //邮箱授权码
     private static String myEmailSMTPHost = "smtp.qq.com";      //发件人的服务器地址
 
-    public static String receiveMailAccount = "2148688736@qq.com"; //收件人邮箱
+    public static String receiveMailAccount; //收件人邮箱
+    public static String CodeEmail;
 
-    public static void main(String[] args) throws Exception {
+    //初始化收件人和邮箱验证码
+    public SendMail(String receiveMailAccount, String CodeEmail){
+        this.receiveMailAccount = receiveMailAccount;
+        this.CodeEmail = CodeEmail;
+    }
+
+    public void StartSend()throws Exception{
         Properties props = new Properties();
         props.setProperty("mail.transport.protocol", "smtp");   // 使用的协议（JavaMail规范要求）
         props.setProperty("mail.smtp.host", myEmailSMTPHost);   // 发件人的邮箱的 SMTP 服务器地址
@@ -53,17 +60,17 @@ public class SendMail {
      * @return
      * @throws Exception
      */
-    public static MimeMessage createMimeMessage(Session session, String sendMail, String receiveMail) throws Exception {
+    private MimeMessage createMimeMessage(Session session, String sendMail, String receiveMail) throws Exception {
         // 1. 创建一封邮件
         MimeMessage message = new MimeMessage(session);
         // 2. From: 发件人
-        message.setFrom(new InternetAddress(sendMail, "某宝网", "UTF-8"));
+        message.setFrom(new InternetAddress(sendMail, "倾城科技公司", "UTF-8"));
         // 3. To: 收件人（可以增加多个收件人、抄送、密送）
         message.setRecipient(MimeMessage.RecipientType.TO, new InternetAddress(receiveMail, "XX用户", "UTF-8"));
         // 4. Subject: 邮件主题
-        message.setSubject("打折钜惠", "UTF-8");
+        message.setSubject("密码找回", "UTF-8");
         // 5. Content: 邮件正文（可以使用html标签）
-        message.setContent("XX用户你好, 今天全场5折, 快来抢购, 错过今天再等一年。。。", "text/html;charset=UTF-8");
+        message.setContent("用户您好，你的邮箱验证码为：" + CodeEmail, "text/html;charset=UTF-8");
         // 6. 设置发件时间
         message.setSentDate(new Date());
         // 7. 保存设置

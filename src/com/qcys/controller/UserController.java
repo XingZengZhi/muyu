@@ -3,6 +3,7 @@ package com.qcys.controller;
 import java.io.IOException;
 import java.util.List;
 
+import com.qcys.util.SendMail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -31,6 +32,19 @@ public class UserController {
 		try {
 			String mail = userService.FindUserMail(userName);
 			response.getWriter().print(mail);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	@RequestMapping("/SendMail")
+	public void sendUserMail(HttpServletRequest request, HttpServletResponse response)throws Exception{
+		String email = request.getParameter("mail");
+		String validate = request.getParameter("validate");
+		System.out.println(email + " " + validate);
+		try {
+			SendMail sendMail = new SendMail(email, validate);
+			sendMail.StartSend();
+			response.getWriter().print("OK");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

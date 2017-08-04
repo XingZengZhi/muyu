@@ -56,7 +56,7 @@
 		</p>
 		<p id="sendMail">
 			<input type="text" id="mailValue" />
-			<button type="button">发送验证码</button>
+			<button type="button" id="SendCode">发送验证码</button>
 		</p>
 	</div>
 </body>
