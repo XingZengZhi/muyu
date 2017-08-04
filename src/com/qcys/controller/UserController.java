@@ -30,7 +30,8 @@ public class UserController {
 	public void getUserMail(HttpServletRequest request, HttpServletResponse response){
 		String userName = request.getParameter("userName");
 		try {
-			String mail = userService.FindUserMail(userName);
+			String mail = userService.FindUserMail(userName) == null ? "" : userService.FindUserMail(userName);
+			System.out.println(mail);
 			response.getWriter().print(mail);
 		} catch (IOException e) {
 			e.printStackTrace();
