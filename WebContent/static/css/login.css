@@ -99,8 +99,8 @@
 	top:0;
 	bottom:0;
 	margin:auto;
-	width:700px;
-	height:400px;
+	width:400px;
+	height:300px;
 	border:1px solid red;
 	background-color:white;
 	border-radius:5px;
@@ -119,6 +119,7 @@
 }
 #searchMail, #showMail, #sendMail{
 	margin:10px;
+	padding-left:80px;
 }
 #forPassUname{
 	color:#FF404B;
