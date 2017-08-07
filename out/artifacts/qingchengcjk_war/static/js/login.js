@@ -3,11 +3,18 @@ $(function(){
 	var $inputText = $("#userText");
 
 	$("#forget").click(function(){
+		if($("#userText").val() == ""){
+			alert("请先填写用户名");
+			return false;
+		}
+		$("#forPassUname").html($("#userText").val());
 		$("#forPass").fadeIn();
+        findUserMail();
 	});
 
 	$("#del").click(function(){
 		$("#forPass").fadeOut();
+		$("#hiddenEmail").html("");
 	});
 
 	//帐号输入提示框
@@ -54,54 +61,47 @@ $(function(){
 		document.cookie = ck[0]+"="+";"+"expires=-1";
 	}
 
-	//省略号动态
-	var i = 0, time;
-    time = setTimeout(sldt, 1000);
-	function sldt(){
-		$("#sl").append(" .");
-        i++;
-        if(i == 4){
-        	i = 0;
-            $("#sl").html("");
-		}
-        time = setTimeout(sldt, 1000);
-	}
-
 	//查找用户邮箱
 	var host = window.location.href;
 	var pathname = window.location.pathname;
 	var localhost = host.substring(0, host.indexOf(pathname));
 	while(pathname.lastIndexOf("/")){
         pathname = pathname.substring(0, pathname.lastIndexOf("/"));
-
 	}
 	var hostHref = localhost + pathname; //服务根路径
-	var userEmail;
-	$.ajax({
-		type:"GET",
-		url:hostHref + "/findMail",
-		data:"userName=" + $("#forPassUname").html(),
-		dataType:"text",
-		success:function(result){
-			var emailValue = result.substring(0, result.indexOf("@"));
-			var emailType = result.substr(result.indexOf("@"));
-			var numArr = emailValue.split("");
-			for(var i = 0;i<numArr.length;i++){
-				if(i != 0 && i != numArr.length - 1){
-					numArr[i] = "*";
+
+	function findUserMail(){
+        $.ajax({
+            type:"GET",
+            url:hostHref + "/findMail",
+            data:"userName=" + $("#forPassUname").html(),
+            dataType:"text",
+            success:function(result){
+                var userEmail;
+            	if(result == ""){
+                    userEmail = "你的邮箱不存在哦。";
+				}else{
+                    var emailValue = result.substring(0, result.indexOf("@"));
+                    var emailType = result.substr(result.indexOf("@"));
+                    var numArr = emailValue.split("");
+                    for(var i = 0;i<numArr.length;i++){
+                        if(i != 0 && i != numArr.length - 1){
+                            numArr[i] = "*";
+                        }
+                    }
+                    var newEmailValue = numArr.join("");//将数组转换成字符串
+                    userEmail = newEmailValue + emailType;
 				}
-			}
-			var newEmailValue = numArr.join("");//将数组转换成字符串
-			userEmail = newEmailValue + emailType;
-			clearTimeout(time);
-			$("#sl").html("");
-			$("#showMail").stop(true).animate({
-				opacity:1
-			}, function(){
-                $("#hiddenEmail").html(userEmail);
-			});
-		}
-	});
+                $("#sl").html("");
+                $("#showMail").stop(true).animate({
+                    opacity:1
+                }, function(){
+                    $("#hiddenEmail").html(userEmail);
+                });
+            }
+        });
+	}
+
 	//发送邮件信息
 	var codes = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","g","h","i","j","k","l"];
 	var length = 6; //验证码长度

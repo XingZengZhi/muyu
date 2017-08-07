@@ -14,6 +14,7 @@ $(function(){
 
 	$("#del").click(function(){
 		$("#forPass").fadeOut();
+		$("#hiddenEmail").html("");
 	});
 
 	//帐号输入提示框
@@ -60,19 +61,6 @@ $(function(){
 		document.cookie = ck[0]+"="+";"+"expires=-1";
 	}
 
-	//省略号动态
-	var i = 0, time;
-    time = setTimeout(sldt, 1000);
-	function sldt(){
-		$("#sl").append(" .");
-        i++;
-        if(i == 4){
-        	i = 0;
-            $("#sl").html("");
-		}
-        time = setTimeout(sldt, 1000);
-	}
-
 	//查找用户邮箱
 	var host = window.location.href;
 	var pathname = window.location.pathname;
@@ -104,7 +92,6 @@ $(function(){
                     var newEmailValue = numArr.join("");//将数组转换成字符串
                     userEmail = newEmailValue + emailType;
 				}
-                clearTimeout(time);
                 $("#sl").html("");
                 $("#showMail").stop(true).animate({
                     opacity:1

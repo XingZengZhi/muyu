@@ -106,12 +106,15 @@
 }
 #forPass > span{
 	position:absolute;
-	width:40px;
-	height:40px;
-	right:-25px;
-	top:-25px;
+	width:30px;
+	height:30px;
+	right:-20px;
+	top:-20px;
 	background-color:#F9424D;
 	border-radius:100%;
+}
+#forPass > span:hover{
+	cursor:pointer;
 }
 #forPass h3{
 	margin-left:10px;
@@ -141,4 +144,26 @@
 }
 #sendMail button{
 	height:32px;
+}
+#forPass > span i{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	display:block;
+	width:20px;
+	height:5px;
+	background-color:white;
+}
+#forPass > span i:first-child{
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+}
+#forPass > span i:last-child{
+	transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
 }

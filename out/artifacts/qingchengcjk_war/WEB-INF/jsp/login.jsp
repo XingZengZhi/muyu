@@ -47,13 +47,16 @@
     </div>
 
 	<div id="forPass">
-		<span id="del"></span>
+		<span id="del">
+			<i></i>
+			<i></i>
+		</span>
 		<h3>找回密码操作</h3>
 		<p id="searchMail">
-			查找用户名：<span id="forPassUname">root</span> 的邮箱 <span id="sl"></span>
+			查找用户名：<span id="forPassUname"></span> 的邮箱 <span id="sl"></span>
 		</p>
 		<p id="showMail">
-			邮箱为：<span id="hiddenEmail">9*******8@qq.com</span>
+			邮箱为：<span id="hiddenEmail"></span>
 		</p>
 		<p id="sendMail">
 			<input type="text" id="mailValue" />
