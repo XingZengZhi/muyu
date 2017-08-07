@@ -8,13 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/login.css" afterPath="$PROJECT_DIR$/WebContent/static/css/login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/login.js" afterPath="$PROJECT_DIR$/WebContent/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/login.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/login.js" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/controller/UserController.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/UserController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="155" column="45" lean-forward="true" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
+            <state relative-caret-position="491">
+              <caret line="161" column="43" lean-forward="true" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -82,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="419">
+              <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -173,8 +168,8 @@
         <option value="$PROJECT_DIR$/src/com/qcys/util/SendMail.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/WebContent/static/css/login.css" />
-        <option value="$PROJECT_DIR$/WebContent/static/js/login.js" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/WebContent/static/js/login.js" />
       </list>
     </option>
   </component>
@@ -966,7 +961,7 @@
       <workItem from="1501822715679" duration="16368000" />
       <workItem from="1501858512354" duration="2958000" />
       <workItem from="1501907603081" duration="129000" />
-      <workItem from="1502070712112" duration="12735000" />
+      <workItem from="1502070712112" duration="14065000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1501514668241</created>
@@ -1220,11 +1215,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502078218650</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="实现邮箱验证码验证">
+      <created>1502092961081</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1502092961081</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149140000" />
+    <option name="totallyTimeSpent" value="150470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1270,7 +1272,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="判断两次是否一致" />
     <MESSAGE value="增加对密码和手机号的验证" />
     <MESSAGE value="增加对密码和手机号的验证1.1" />
     <MESSAGE value="更新了手机号的验证" />
@@ -1295,7 +1296,8 @@
     <MESSAGE value="更新资讯" />
     <MESSAGE value="修复发送邮箱验证码bug" />
     <MESSAGE value="更换为新浪邮箱" />
-    <option name="LAST_COMMIT_MESSAGE" value="更换为新浪邮箱" />
+    <MESSAGE value="实现邮箱验证码验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现邮箱验证码验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1661,18 +1663,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/js/login.js">
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="155" column="45" lean-forward="true" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
+        <state relative-caret-position="419">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/static/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        <state relative-caret-position="491">
+          <caret line="161" column="43" lean-forward="true" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="43" />
           <folding />
         </state>
       </provider>

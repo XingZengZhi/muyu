@@ -156,7 +156,11 @@ $(function(){
 				url:hostHref + "/ChangePass",
 				data:"mailCode=" + mailCode,
 				success:function(result){
-					console.log(result);
+					if(result == 1){
+						window.location.href = hostHref + "/pages/register";
+					}else{
+						alert("验证错误，请重试。");
+					}
 				}
 			});
 		}else{
