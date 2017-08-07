@@ -16,17 +16,18 @@
         <div id="head_box">
             <jsp:include page="head.jsp" />
         </div>
-
         <div id="information">
             <blockquote>
                 <h1>资讯新闻</h1>
             </blockquote>
             <div id="news">
                 <div class="news-item">
-                    <img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
+                    <a href="">
+                        <img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
+                    </a>
                     <h3>文章标题文章标题标题</h3>
                     <span>2017-08-31</span>
-                    <a href="">
+                    <a href="#">
                         北京电通作品《Pocky 百奇-Pocky创享新乐趣》荣获最佳互动创意广告、
                         最佳空间运用、最高荣誉-创作（白金奖）3项大奖。北京电通广告有限公司上海分公司和CDC
                         China荣获Creative Agency of the Year年度创意机构的殊荣.
@@ -34,10 +35,12 @@
                 </div>
 
                 <div class="news-item">
-                    <img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
+                    <a href="">
+                        <img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
+                    </a>
                     <h3>文章标题文章标题标题</h3>
                     <span>2017-08-31</span>
-                    <a href="">
+                    <a href="#">
                         北京电通作品《Pocky 百奇-Pocky创享新乐趣》荣获最佳互动创意广告、
                         最佳空间运用、最高荣誉-创作（白金奖）3项大奖。北京电通广告有限公司上海分公司和CDC
                         China荣获Creative Agency of the Year年度创意机构的殊荣.
@@ -45,10 +48,12 @@
                 </div>
 
                 <div class="news-item">
-                    <img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
+                    <a href="">
+                        <img src="${pageContext.request.contextPath }/static/img/35435.jpg" />
+                    </a>
                     <h3>文章标题文章标题标题</h3>
                     <span>2017-08-31</span>
-                    <a href="">
+                    <a href="#">
                         北京电通作品《Pocky 百奇-Pocky创享新乐趣》荣获最佳互动创意广告、
                         最佳空间运用、最高荣誉-创作（白金奖）3项大奖。北京电通广告有限公司上海分公司和CDC
                         China荣获Creative Agency of the Year年度创意机构的殊荣.
@@ -57,7 +62,6 @@
 
             </div>
         </div>
-
         <jsp:include page="footer.jsp" />
     </div>
 </body>

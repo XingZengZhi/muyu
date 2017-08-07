@@ -105,12 +105,17 @@ $(function(){
 	//发送邮件信息
 	var codes = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","g","h","i","j","k","l"];
 	var length = 6; //验证码长度
-	var validate = "";
-	for(var i = 0;i < length;i++){
-		var index = Math.round(Math.random() * 10 + Math.random() * 10);
-		validate += codes[index];
-	}
+	var validate = "", time, second = 10;
+	var SendCode = $("#SendCode");
+
 	$("#SendCode").click(function(){
+		validate = "";
+        for(var i = 0;i < length;i++){
+            var index = Math.round(Math.random() * 10 + Math.random() * 10);
+            validate += codes[index];
+        }
+        $(this).html("重新发送"+ second-- + "s").prop("disabled", "disabled");
+        time = setTimeout(SendTel, 1000);
 		$.ajax({
 			type:"GET",
 			url:hostHref + "/findMail",
@@ -127,4 +132,14 @@ $(function(){
 			}
 		});
 	});
+    function SendTel(){
+        SendCode.html("重新发送"+ second-- + "s");
+        if(second == -1){
+            second = 10;//重置发送时间
+            SendCode.html("发送验证码").removeAttr("disabled");
+            clearTimeout(time);
+        }else{
+            time = setTimeout(SendTel, 1000);
+        }
+    }
 });

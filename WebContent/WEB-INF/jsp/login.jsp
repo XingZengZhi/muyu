@@ -17,7 +17,6 @@
         <div id="head_box" class="clearfix">
             <jsp:include page="head.jsp" />
         </div>
-        
         <div class="loginBox">
         	<img id="formImage" src="${pageContext.request.contextPath }/static/img/login.jpg" />
         	<form action="${pageContext.request.contextPath }/forms/loginForm" method="POST">
@@ -42,7 +41,6 @@
         		</ul>
         	</form>
         </div>
-        
         <jsp:include page="footer.jsp" />
     </div>
 

@@ -16,7 +16,6 @@
         <div id="head_box">
             <jsp:include page="head.jsp" />
         </div>
-
         <div id="information">
             <blockquote>
                 <h1>资讯新闻</h1>
@@ -63,7 +62,6 @@
 
             </div>
         </div>
-
         <jsp:include page="footer.jsp" />
     </div>
 </body>
