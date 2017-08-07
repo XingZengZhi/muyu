@@ -6,6 +6,7 @@
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+<script type="text/javascript" src="${pageContext.request.contextPath }/static/js/SelectTitle.js"></script>
 <img src="${pageContext.request.contextPath }/static/img/qc-index-logo.png" title="logo" />
 <ul>
     <li>
