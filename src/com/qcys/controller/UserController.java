@@ -14,6 +14,7 @@ import com.qcys.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 @Controller
 public class UserController {
@@ -45,8 +46,25 @@ public class UserController {
 		try {
 			SendMail sendMail = new SendMail(email, validate);
 			sendMail.StartSend();
-			response.getWriter().print("OK");
+			HttpSession mailCodeSession = request.getSession();
+			mailCodeSession.setAttribute("mailCode", validate);
+			mailCodeSession.setMaxInactiveInterval(600);
+			response.getWriter().print("send mail success.");
 		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	@RequestMapping("/ChangePass")
+	public void changePass(HttpServletRequest request, HttpServletResponse response){
+		String mailCode = request.getParameter("mailCode");
+		HttpSession mailCodeSession = request.getSession();
+		try {
+			if(mailCode.equals(mailCodeSession.getAttribute("mailCode"))){
+				response.getWriter().print("1");
+			}else{
+				response.getWriter().print("0");
+			}
+		}catch (Exception e){
 			e.printStackTrace();
 		}
 	}

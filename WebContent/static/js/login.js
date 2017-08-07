@@ -79,8 +79,10 @@ $(function(){
             success:function(result){
                 var userEmail;
             	if(result == ""){
+                    $("#SendCode").prop("disabled", "disabled");
                     userEmail = "你的邮箱不存在哦。";
 				}else{
+            		$("#SendCode").removeAttr("disabled");
                     var emailValue = result.substring(0, result.indexOf("@"));
                     var emailType = result.substr(result.indexOf("@"));
                     var numArr = emailValue.split("");
@@ -109,6 +111,7 @@ $(function(){
 	var SendCode = $("#SendCode");
 
 	$("#SendCode").click(function(){
+		$("#validateMail").fadeIn(0);
 		validate = "";
         for(var i = 0;i < length;i++){
             var index = Math.round(Math.random() * 10 + Math.random() * 10);
@@ -142,4 +145,22 @@ $(function(){
             time = setTimeout(SendTel, 1000);
         }
     }
+
+    //验证码邮箱验证码
+	var valMailBtn= $("#validateMail button");
+	valMailBtn.click(function(){
+		var mailCode = $("#mailValue").val() == "" ? "" : $("#mailValue").val();
+		if(mailCode != ""){
+			$.ajax({
+				type:"POST",
+				url:hostHref + "/ChangePass",
+				data:"mailCode=" + mailCode,
+				success:function(result){
+					console.log(result);
+				}
+			});
+		}else{
+			alert("验证码不能为空\n请重新验证！");
+		}
+	});
 });

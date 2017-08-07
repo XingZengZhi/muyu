@@ -128,7 +128,7 @@
 	line-height:50px;
 	padding-left:10px;
 }
-#searchMail, #showMail, #sendMail{
+#searchMail, #showMail, #sendMail,#validateMail{
 	margin:10px;
 	padding-left:90px;
 }
@@ -166,4 +166,17 @@
 	transform:rotate(-45deg);
 	-webkit-transform:rotate(-45deg);
 	-moz-transform:rotate(-45deg);
+}
+#validateMail{
+	display:none;
+}
+#validateMail button{
+	width:80px;
+	height:30px;
+	background-color:#3399CC;
+	color:white;
+	border:none;
+}
+#validateMail button:hover{
+	cursor: pointer;
 }

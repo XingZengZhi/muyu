@@ -60,6 +60,9 @@
 			<input type="text" id="mailValue" />
 			<button type="button" id="SendCode">发送验证码</button>
 		</p>
+		<p id="validateMail">
+			<button type="button">验证</button>
+		</p>
 	</div>
 </body>
 </html>
