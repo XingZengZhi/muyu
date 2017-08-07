@@ -7,13 +7,11 @@ import javax.mail.internet.MimeMessage;
 import java.util.Date;
 import java.util.Properties;
 
-/**
- * Created by 94404 on 2017/7/28.
- */
 public class SendMail {
-    private static String myEmailAccount = "944047118@qq.com";  //发件人邮箱
-    private static String myEmailPassword = "pinivgqtvkcrbegd"; //邮箱授权码
-    private static String myEmailSMTPHost = "smtp.qq.com";      //发件人的服务器地址
+    private static String myEmailAccount = "qingckjcom@sina.com";  //发件人邮箱
+    private static String myEmailPassword = "qingCKJ.com";
+//    private static String myEmailPassword = "pinivgqtvkcrbegd"; //邮箱授权码
+    private static String myEmailSMTPHost = "smtp.sina.com";      //发件人的服务器地址
 
     public static String receiveMailAccount; //收件人邮箱
     public static String CodeEmail;
