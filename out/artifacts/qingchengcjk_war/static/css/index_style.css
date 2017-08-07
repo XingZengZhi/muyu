@@ -223,7 +223,6 @@
 	background-color: rgba(204, 204, 204, 0.5);
 	z-index: 39;
 }
-
 #Message_box a {
 	display: block;
 	width: 100%;
@@ -683,7 +682,7 @@
 }
 @media screen and (min-width:1250px){
 	#news .show_img{
-		left:15%;
+		left:10%;
 	}
 }
 .show_img img{
