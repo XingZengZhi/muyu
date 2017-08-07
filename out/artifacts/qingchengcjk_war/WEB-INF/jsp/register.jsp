@@ -25,7 +25,7 @@
 						<a href="${pageContext.request.contextPath}/pages/index" target="_self">首页</a>
 					</li>
 					<li>
-						<a href="">登录</a>
+						<a href="${pageContext.request.contextPath}/pages/login">登录</a>
 					</li>
 				</ul>
 			</div>
