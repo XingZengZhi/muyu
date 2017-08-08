@@ -15,16 +15,20 @@
         <h2>登录</h2>
         <ul>
             <li>
-                <span></span>
                 <span>
-                <input type="text" name="" />
-            </span>
+                    <img src="${pageContext.request.contextPath}/static/ht_image/ht-login-user.png" />
+                </span>
+                <span>
+                    <input type="text" name="" />
+                </span>
             </li>
             <li>
-                <span></span>
                 <span>
-                <input type="password" name="" />
-            </span>
+                    <img style="margin-top:-9px;margin-left:-4px;width:60px;height:60px;" src="${pageContext.request.contextPath}/static/ht_image/ht-login-password.png" />
+                </span>
+                <span>
+                    <input type="password" name="" />
+                </span>
             </li>
             <li>
                 <p>

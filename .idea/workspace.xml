@@ -7,17 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/ht_css/ht_login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/ht_css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/ht_js/ht_login.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jsp_api.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/com/qingchengcjk/controller/testController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/img/barner_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/img/barner_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/img/barner_new_1.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/ht_image/ht-login-password.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/ht_image/ht-login-user.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qcys.iml" afterPath="$PROJECT_DIR$/qcys.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/controller/PageController.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/PageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_login.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/ht_css/ht_login.css" afterPath="$PROJECT_DIR$/WebContent/static/ht_css/ht_login.css" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,18 +26,8 @@
       <file leaf-file-name="ht_login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/PageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="264">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -52,18 +36,20 @@
       <file leaf-file-name="ht_login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="438">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#span#0;n#li#1;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp">
+      <file leaf-file-name="ht_login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="122" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="122" />
+            <state relative-caret-position="390">
+              <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -144,6 +130,7 @@
         <option value="$PROJECT_DIR$/WebContent/static/js/login.js" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/ht_jsp/ht_login.jsp" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/WebContent/static/ht_css/ht_login.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_login.jsp" />
       </list>
     </option>
@@ -168,7 +155,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1940" />
@@ -249,20 +236,13 @@
               <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ht_css" type="462c0819:PsiDirectoryNode" />
+              <item name="ht_image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
               <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,11 +276,11 @@
       <recent name="com.qcys.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myOpen\eclipseWorkSpace\qingchengcjk\WebContent\static\ht_image" />
       <recent name="F:\myOpen\eclipseWorkSpace\qingchengcjk\WebContent\WEB-INF\ht_jsp" />
       <recent name="F:\myOpen\eclipseWorkSpace\qingchengcjk\WebContent\static" />
       <recent name="E:\qingcheng\qingchengcjk\src\com\qcys\util" />
       <recent name="E:\qingcheng\qingchengcjk\WebContent\static\js" />
-      <recent name="F:\myOpen\eclipseWorkSpace\qingchengcjk\WebContent\static\img\aboutImg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -791,7 +771,7 @@
       <workItem from="1501858512354" duration="2958000" />
       <workItem from="1501907603081" duration="129000" />
       <workItem from="1502070712112" duration="14065000" />
-      <workItem from="1502179196442" duration="1442000" />
+      <workItem from="1502179196442" duration="3074000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1501514668241</created>
@@ -1059,14 +1039,28 @@
       <option name="project" value="LOCAL" />
       <updated>1502180550387</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="添加后台登录JS和">
+      <created>1502180705185</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1502180705185</updated>
+    </task>
+    <task id="LOCAL-00040" summary="添加后台登录Form表单">
+      <created>1502181109753</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1502181109753</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151912000" />
+    <option name="totallyTimeSpent" value="153544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1940" height="1042" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1090,7 +1084,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24787234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19722815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1109,8 +1103,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加对密码和手机号的验证1.1" />
-    <MESSAGE value="更新了手机号的验证" />
     <MESSAGE value="验证基本完成" />
     <MESSAGE value="验证基本完成2" />
     <MESSAGE value="后台注册功能" />
@@ -1134,7 +1126,9 @@
     <MESSAGE value="更换为新浪邮箱" />
     <MESSAGE value="实现邮箱验证码验证" />
     <MESSAGE value="添加后台登录页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加后台登录页面" />
+    <MESSAGE value="添加后台登录JS和" />
+    <MESSAGE value="添加后台登录Form表单" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加后台登录Form表单" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1145,27 +1139,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/aboutus.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="85" lean-forward="false" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/css/AboutUs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/css/index_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9312">
@@ -1335,13 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="75" column="29" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="75" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -1475,10 +1441,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_login.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="9" column="122" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1491,19 +1465,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="122" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="122" />
+        <state relative-caret-position="264">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_image/ht-login-user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_image/ht-login-password.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="438">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#span#0;n#li#1;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

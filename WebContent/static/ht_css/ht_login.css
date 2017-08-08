@@ -35,6 +35,13 @@ html,body{
     height:40px;
     width:50px;
 }
+.ht-login-box ul li span:first-child img{
+    display:block;
+    width:30px;
+    height:30px;
+    margin-left:10px;
+    margin-top:5px;
+}
 .ht-login-box ul li span:last-child{
     float:left;
     display: inline-block;
