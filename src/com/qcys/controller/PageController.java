@@ -38,4 +38,8 @@ public class PageController {
 	public String pageLogin(){
 		return "login";
 	}
+	@RequestMapping("/ht-login")
+	public String htLogin(){
+		return "ht_login";
+	}
 }

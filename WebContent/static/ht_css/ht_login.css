@@ -1,0 +1,89 @@
+html,body{
+    background-color: #dedede;
+}
+.ht-login-box{
+    position:relative;
+    width:600px;
+    height:400px;
+    border-radius:5px;
+    background-color:rgba(0,0,0,0.4);
+    margin:10% auto;
+}
+.ht-login-box h2{
+    text-align:center;
+    color:white;
+}
+.ht-login-box ul{
+    width:300px;
+    margin:0 auto;
+}
+.ht-login-box ul li{
+    margin-top:20px;
+}
+.ht-login-box ul li:after{
+    display:block;
+    content:" ";
+    clear: both;
+    width:0;
+    height:0;
+}
+.ht-login-box ul li span:first-child{
+    float:left;
+    display: inline-block;
+    background-color:#333333;
+    border-radius: 10px 0 0 10px;
+    height:40px;
+    width:50px;
+}
+.ht-login-box ul li span:last-child{
+    float:left;
+    display: inline-block;
+    background-color:#333333;
+    border-radius: 0 10px 10px 0;
+    height:40px;
+    width:240px;
+}
+.ht-login-box ul li span:last-child input{
+    height:30px;
+    margin-top:5px;
+    width:200px;
+    font-size:15px;
+    color:white;
+    background-color: #333333;
+    border:none;
+    outline:none;
+}
+.ht-login-box ul li p{
+    color:white;
+    font-size:12px;
+}
+#remeber{
+    width:40px;
+    height:20px;
+    border-radius: 10px;
+    background-color:white;
+    position:relative;
+}
+#remeber i{
+    position:absolute;
+    left:0%;
+    display:block;
+    width: 20px;
+    height:20px;
+    background-color:white;
+    border-radius:100%;
+    box-shadow: 0 0 5px black;
+}
+#submit{
+    width:290px;
+    height:30px;
+    background-color:#D34F00;
+    border:none;
+    color:white;
+    font-size:15px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+#submit:hover{
+    cursor:pointer;
+}
