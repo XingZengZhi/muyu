@@ -13,6 +13,10 @@
             <a href="" id="videoMan" class="active">视频管理</a>
             <img src="${pageContext.request.contextPath}/static/ht_image/user_header.png" alt="" />
         </div>
+
+        <div class="managers">
+
+        </div>
     </div>
 </body>
 </html>
