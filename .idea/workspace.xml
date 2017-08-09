@@ -21,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ht_index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ht_index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="480">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ht_index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ht_index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="462">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -129,8 +129,8 @@
         <option value="$PROJECT_DIR$/WebContent/static/ht_css/ht_login.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_login.jsp" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
       </list>
     </option>
   </component>
@@ -222,6 +222,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="qcys" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="qcys" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
@@ -786,7 +793,7 @@
       <workItem from="1501907603081" duration="129000" />
       <workItem from="1502070712112" duration="14065000" />
       <workItem from="1502179196442" duration="3734000" />
-      <workItem from="1502241753668" duration="7382000" />
+      <workItem from="1502241753668" duration="8874000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1501514668241</created>
@@ -1089,11 +1096,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502248255206</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="更新后台主页UI">
+      <created>1502249182712</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1502249182712</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161586000" />
+    <option name="totallyTimeSpent" value="163078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1139,7 +1153,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加Cookie向前台显示（有）" />
     <MESSAGE value="提示注册成功，并删除Cookie" />
     <MESSAGE value="更新登录页" />
     <MESSAGE value="添加找回密码UI" />
@@ -1164,7 +1177,8 @@
     <MESSAGE value="修改后台登录" />
     <MESSAGE value="增加后台主页" />
     <MESSAGE value="更新后台主页" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新后台主页" />
+    <MESSAGE value="更新后台主页UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新后台主页UI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1427,13 +1441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1507,18 +1514,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <marker date="1502179157292" expanded="true" signature="256:276" ph="select * fro... UserTb" />
+            <marker date="1502179157292" expanded="true" signature="380:449" ph="select * fro... UserTb" />
+            <marker date="1502179157292" expanded="true" signature="524:608" ph="INSERT INTO UserTb... " />
+            <marker date="1502179157292" expanded="true" signature="713:766" ph="select UserE... UserTb" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="480">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
           <folding />
         </state>
       </provider>

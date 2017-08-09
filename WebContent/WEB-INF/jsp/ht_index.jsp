@@ -18,6 +18,9 @@
             <div class="videoManager">
 
             </div>
+            <div class="clientManager">
+
+            </div>
         </div>
     </div>
 </body>
