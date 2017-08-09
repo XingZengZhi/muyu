@@ -134,7 +134,9 @@
                     <div class="tableItem">
                         <p>
                             <span>1</span>
-                            <span>贵州遵义新浦新区</span>
+                            <span>
+                                贵州遵义新浦新区贵州遵义新浦新区贵州遵义新浦新区贵州遵义新浦新区
+                            </span>
                             <span>
                                 <a href="">删除</a>
                                 <a href="">修改</a>

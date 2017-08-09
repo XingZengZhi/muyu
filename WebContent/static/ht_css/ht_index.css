@@ -224,3 +224,17 @@
     height:40px;
     line-height:40px;
 }
+.tableItem p span{
+    font-family: "Malgun Gothic";
+    font-size:14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tableItem p span a{
+    color: #a2a2a2;
+}
+.tableItem p span a:hover{
+    color: rgba(255, 0, 0, 0.64);
+    text-decoration:underline;
+}
