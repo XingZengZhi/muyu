@@ -15,7 +15,9 @@
         </div>
 
         <div class="managers">
+            <div class="videoManager">
 
+            </div>
         </div>
     </div>
 </body>
