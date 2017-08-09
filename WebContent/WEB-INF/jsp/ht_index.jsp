@@ -11,9 +11,9 @@
 <body>
     <div class="content">
         <div class="userInfo">
-            <a href="javascript:;" id="videoMan" class="active">视频管理</a>
-            <a href="javascript:;" id="adverMan" class="active">广告位管理</a>
-            <a href="javascript:;" id="userMan" class="active">用户管理</a>
+            <a href="javascript:;" id="videoMan">视频管理</a>
+            <a href="javascript:;" id="adverMan">广告位管理</a>
+            <a href="javascript:;" id="userMan">用户管理</a>
             <img src="${pageContext.request.contextPath}/static/ht_image/user_header.png" alt="" />
         </div>
 

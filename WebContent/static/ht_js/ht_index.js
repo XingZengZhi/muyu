@@ -8,6 +8,7 @@ $(function(){
     }
     $.each($as, function(i, n){
         $(n).click(function(){
+            $(this).addClass('active').siblings().removeClass('active');
             $.each($(".managers div"), function(j, m){
                 $(m).stop(true, true).animate({
                     left:(j - i) * 100 + '%'
