@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/ht_image/ht-video-img1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" afterPath="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js" afterPath="$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +43,8 @@
       <file leaf-file-name="ht_index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="414">
+              <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -813,7 +810,7 @@
       <workItem from="1501907603081" duration="129000" />
       <workItem from="1502070712112" duration="14065000" />
       <workItem from="1502179196442" duration="3734000" />
-      <workItem from="1502241753668" duration="20692000" />
+      <workItem from="1502241753668" duration="21034000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1501514668241</created>
@@ -1144,11 +1141,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502265717444</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="更新后台主页UI2.4(视频列表)">
+      <created>1502270480546</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1502270480546</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174896000" />
+    <option name="totallyTimeSpent" value="175238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1194,7 +1198,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新UI" />
     <MESSAGE value="调整找回密码UI" />
     <MESSAGE value="增加查找邮箱功能" />
     <MESSAGE value="显示用户的邮箱" />
@@ -1219,7 +1222,8 @@
     <MESSAGE value="更新后台主页UI2.1" />
     <MESSAGE value="更新后台主页UI2.2" />
     <MESSAGE value="更新后台主页UI2.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新后台主页UI2.3" />
+    <MESSAGE value="更新后台主页UI2.4(视频列表)" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新后台主页UI2.4(视频列表)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1561,14 +1565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1577,10 +1573,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="414">
+          <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
           <folding />
         </state>
       </provider>
