@@ -1,0 +1,47 @@
+.userInfo{
+    width:1200px;
+    height:50px;
+    background-color: #3d3d3d;
+    margin:0 auto;
+    position:relative;
+}
+.userInfo img{
+    display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    background-color:white;
+    margin:0 auto;
+}
+.userInfo a{
+    font-size:14px;
+    padding-left:4px;
+    padding-right:4px;
+}
+#videoMan{
+    float:left;
+    margin-left:10px;
+    color:white;
+    height:50px;
+    line-height:50px;
+}
+.active{
+    background-color:#02B2B5;
+    border-radius:5px 5px 0 0;
+}
+.active:after{
+    display:block;
+    content:"";
+    width:0;
+    height:0;
+    margin:0 auto;
+    border-top:10px solid #02B2B5;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+}

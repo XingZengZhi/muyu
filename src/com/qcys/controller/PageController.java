@@ -42,4 +42,8 @@ public class PageController {
 	public String htLogin(){
 		return "ht_login";
 	}
+	@RequestMapping("/ht-index")
+	public String htIndex(){
+		return "ht_index";
+	}
 }
