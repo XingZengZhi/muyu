@@ -129,6 +129,20 @@
 
             </div>
         </div>
+
+        <div class="videoplay">
+            <p>
+                <span id="closeplay">
+                    <i></i>
+                    <i></i>
+                </span>
+            </p>
+            <video src="" controls></video>
+            <p>
+                <button type="button">审核通过</button>
+                <button type="button">撤销退回</button>
+            </p>
+        </div>
     </div>
 </body>
 </html>

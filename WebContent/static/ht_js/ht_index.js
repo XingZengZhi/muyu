@@ -2,6 +2,8 @@ $(function(){
     var $as = $(".userInfo a");
     var aArray = new Array($as.length);
     var i = 0;
+    var $videoBox = $(".videoBox");
+    var $videoplay = $(".videoplay");
     while(aArray.length > i){
         aArray[i] = i + 1;
         i++;
@@ -15,5 +17,12 @@ $(function(){
                 });
             });
         });
+    });
+
+    $videoBox.click(function(){
+        $videoplay.fadeIn(0);
+    });
+    $("#closeplay").click(function(){
+        $videoplay.fadeOut(0);
     });
 });

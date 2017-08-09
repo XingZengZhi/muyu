@@ -103,3 +103,81 @@
     font-size:12px;
     padding-left:5px;
 }
+.videoplay{
+    display:none;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width:600px;
+    height:400px;
+    background-color:white;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+.videoplay p span{
+    position:absolute;
+    right:5px;
+    display:block;
+    width:40px;
+    height:40px;
+    background-color: rgba(255, 0, 0, 0.69);
+}
+.videoplay p span:hover{
+    cursor: pointer;
+}
+.videoplay p span i:first-child,.videoplay p span i:last-child{
+    display:block;
+    width:30px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.videoplay p span i:first-child{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.videoplay p span i:last-child{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.videoplay video{
+    display:block;
+    margin:0 auto;
+    width:500px;
+    height:300px;
+}
+.videoplay p:last-child{
+    margin-left:50px;
+    margin-top:40px;
+}
+.videoplay button{
+    display:inline-block;
+    height:40px;
+    width:80px;
+    border:none;
+    color:white;
+    border-radius:3px;
+}
+.videoplay button:hover{
+    cursor:pointer;
+}
+.videoplay button:first-child{
+    background-color: rgba(0, 128, 0, 0.62);
+}
+.videoplay button:last-child{
+    background-color: rgba(255, 0, 0, 0.73);
+}
