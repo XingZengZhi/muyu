@@ -123,7 +123,12 @@
 
             </div>
             <div class="adverManager">
+                <div id="adverTable">
 
+                </div>
+                <div id="adverAddFrom">
+
+                </div>
             </div>
             <div class="userManager">
 
