@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="新增视频审核对话框1.0">
+    <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" afterPath="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
@@ -35,16 +35,9 @@
       <file leaf-file-name="ht_index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="37" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="386">
+              <caret line="133" column="41" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,8 +45,8 @@
       <file leaf-file-name="ht_index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            <state relative-caret-position="506">
+              <caret line="220" column="38" lean-forward="true" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -1296,11 +1289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502288114861</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="丰富后台主页UI">
+      <created>1502292002672</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1502292002672</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162314000" />
+    <option name="totallyTimeSpent" value="165035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1370,7 +1370,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="验证基本完成2" />
     <MESSAGE value="后台注册功能" />
     <MESSAGE value="添加Cookie向前台显示（有）" />
     <MESSAGE value="提示注册成功，并删除Cookie" />
@@ -1395,7 +1394,8 @@
     <MESSAGE value="添加后台登录JS和" />
     <MESSAGE value="添加后台登录Form表单" />
     <MESSAGE value="新增视频审核对话框" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增视频审核对话框" />
+    <MESSAGE value="丰富后台主页UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="丰富后台主页UI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1756,23 +1756,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="37" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="386">
+          <caret line="133" column="41" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        <state relative-caret-position="506">
+          <caret line="220" column="38" lean-forward="true" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
           <folding />
         </state>
       </provider>
