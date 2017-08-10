@@ -70,7 +70,6 @@
 }
 .userManager{
     left:200%;
-    border:1px solid black;
 }
 .videoItem{
     position: relative;
@@ -203,26 +202,29 @@
     border:1px solid #ccc;
     box-shadow: 0 0 10px #ccc;
 }
-#tableHeader{
+.tableHeader{
     display:block;
     width:100%;
     margin-top:20px;
     border-bottom:2px solid #ccc;
 }
-#tableHeader p span:first-child,.tableItem p span:first-child{
+.tableHeader p span:first-child,.tableItem p span:first-child{
     display:inline-block;
     width:50px;
     height:40px;
     line-height:40px;
 }
-#tableHeader p span{
+.tableHeader p span{
     font-weight:bold;
 }
-#tableHeader p span,.tableItem p span{
+.tableHeader p span,.tableItem p span{
     display:inline-block;
     width:200px;
     height:40px;
     line-height:40px;
+}
+.tableItem{
+    border-bottom:1px solid #5b5b5b;
 }
 .tableItem p span{
     font-family: "Malgun Gothic";
@@ -237,4 +239,14 @@
 .tableItem p span a:hover{
     color: rgba(255, 0, 0, 0.64);
     text-decoration:underline;
+}
+.userTable{
+    margin:20px auto;
+    display:block;
+    width:90%;
+    height:700px;
+    background-color:white;
+    border:1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    padding:0 10px;
 }
