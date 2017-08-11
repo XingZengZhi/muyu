@@ -46,11 +46,10 @@
     border-right:10px solid transparent;
 }
 .managers{
-    /*border:1px solid red;*/
     width:1200px;
     margin:10px auto;
     position:relative;
-    height:500px;
+    height:800px;
     overflow: hidden;
 }
 .videoManager,.adverManager,.userManager{
@@ -61,17 +60,16 @@
     width:100%;
     height:100%;
     box-sizing:border-box;
+    background-color: #f9f9f9;
 }
 .videoManager{
-    border:1px solid blue;
+    left:0%;
 }
 .adverManager{
     left:100%;
-    border:1px solid yellow;
 }
 .userManager{
     left:200%;
-    border:1px solid black;
 }
 .videoItem{
     position: relative;
@@ -102,4 +100,153 @@
 .videoBox p{
     font-size:12px;
     padding-left:5px;
+}
+.videoplay{
+    display:none;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width:600px;
+    height:400px;
+    background-color:white;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+.videoplay p span{
+    position:absolute;
+    right:5px;
+    display:block;
+    width:40px;
+    height:40px;
+    background-color: rgba(255, 0, 0, 0.69);
+}
+.videoplay p span:hover{
+    cursor: pointer;
+}
+.videoplay p span i:first-child,.videoplay p span i:last-child{
+    display:block;
+    width:30px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.videoplay p span i:first-child{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.videoplay p span i:last-child{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.videoplay video{
+    display:block;
+    margin:0 auto;
+    width:500px;
+    height:300px;
+}
+.videoplay p:last-child{
+    margin-left:50px;
+    margin-top:40px;
+}
+.videoplay button{
+    display:inline-block;
+    height:40px;
+    width:80px;
+    border:none;
+    color:white;
+    border-radius:3px;
+}
+.videoplay button:hover{
+    cursor:pointer;
+}
+.videoplay button:first-child{
+    background-color: rgba(0, 128, 0, 0.62);
+}
+.videoplay button:last-child{
+    background-color: rgba(255, 0, 0, 0.73);
+}
+#adverTable{
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    display:inline-block;
+    width:700px;
+    height:700px;
+    background-color:white;
+    border:1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    padding:0 10px;
+}
+#adverAddFrom{
+    float:right;
+    margin-right:20px;
+    margin-top:20px;
+    display:inline-block;
+    width:400px;
+    height:500px;
+    background-color:white;
+    border:1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+.tableHeader{
+    display:block;
+    width:100%;
+    margin-top:20px;
+    border-bottom:2px solid #ccc;
+}
+.tableHeader p span:first-child,.tableItem p span:first-child{
+    display:inline-block;
+    width:50px;
+    height:40px;
+    line-height:40px;
+}
+.tableHeader p span{
+    font-weight:bold;
+}
+.tableHeader p span,.tableItem p span{
+    display:inline-block;
+    width:200px;
+    height:40px;
+    line-height:40px;
+}
+.tableItem{
+    border-bottom:1px solid #5b5b5b;
+}
+.tableItem p span{
+    font-family: "Malgun Gothic";
+    font-size:14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tableItem p span a{
+    color: #a2a2a2;
+}
+.tableItem p span a:hover{
+    color: rgba(255, 0, 0, 0.64);
+    text-decoration:underline;
+}
+.userTable{
+    margin:20px auto;
+    display:block;
+    width:90%;
+    height:700px;
+    background-color:white;
+    border:1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    padding:0 10px;
 }

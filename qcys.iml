@@ -299,5 +299,6 @@
     <orderEntry type="library" name="org.apache.tomcat:jsp-api:6.0.45" level="project" />
     <orderEntry type="library" name="org.apache.tomcat:servlet-api:6.0.45" level="project" />
     <orderEntry type="library" name="javax.mail:javax.mail-api:1.6.0" level="project" />
+    <orderEntry type="library" name="org.apache.tomcat:jsp-api:6.0.48" level="project" />
   </component>
 </module>

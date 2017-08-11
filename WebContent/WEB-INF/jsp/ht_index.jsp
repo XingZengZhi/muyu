@@ -123,11 +123,78 @@
 
             </div>
             <div class="adverManager">
+                <div id="adverTable">
+                    <div class="tableHeader">
+                        <p>
+                            <span>ID</span>
+                            <span>位置</span>
+                            <span>操作</span>
+                        </p>
+                    </div>
+                    <div class="tableItem">
+                        <p>
+                            <span>1</span>
+                            <span>
+                                贵州遵义新浦新区贵州遵义新浦新区贵州遵义新浦新区贵州遵义新浦新区
+                            </span>
+                            <span>
+                                <a href="">删除</a>
+                                <a href="">修改</a>
+                                <a href="">详细信息</a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div id="adverAddFrom">
 
+                </div>
             </div>
             <div class="userManager">
-
+                <div class="userTable">
+                    <div class="tableHeader">
+                        <p>
+                            <span>ID</span>
+                            <span>用户名称</span>
+                            <span>联系电话</span>
+                            <span>类型</span>
+                            <span>操作</span>
+                        </p>
+                    </div>
+                    <div class="tableItem">
+                        <p>
+                            <span>1</span>
+                            <span>
+                                邢增智
+                            </span>
+                            <span>
+                                18285017634
+                            </span>
+                            <span>
+                                管理员
+                            </span>
+                            <span>
+                                <a href="">删除</a>
+                                <a href="">修改</a>
+                                <a href="">详细信息</a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div class="videoplay">
+            <p>
+                <span id="closeplay">
+                    <i></i>
+                    <i></i>
+                </span>
+            </p>
+            <video src="" controls></video>
+            <p>
+                <button type="button">审核通过</button>
+                <button type="button">撤销退回</button>
+            </p>
         </div>
     </div>
 </body>
