@@ -16,19 +16,14 @@ public class VideoUpload {
 	@RequestMapping("/upload")
 	public String videoupload(HttpServletRequest request, 
 			MultipartFile videoFile){
-		//�ϴ���Ƶ��·��
 		String uploadPath = request.getRealPath(File.separatorChar + "static" + File.separatorChar + "video");
-		//ԭʼ�ļ���
 		String video_name = videoFile.getOriginalFilename();
-		//���ļ���
 		String video_newName = UUID.randomUUID().toString() + video_name.substring(video_name.lastIndexOf("."));
 		System.out.println();
-		//�ϴ���Ƶ
 		File uploadVideo = new File(uploadPath + File.separatorChar + video_newName);
 		if(!uploadVideo.exists()){
 			uploadVideo.mkdirs();
 		}
-		//�����д�ļ�
 		try {
 			videoFile.transferTo(uploadVideo);
 		} catch (IllegalStateException | IOException e) {

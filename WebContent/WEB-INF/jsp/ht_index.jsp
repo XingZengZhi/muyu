@@ -154,7 +154,32 @@
                     </div>
                 </div>
                 <div id="adverAddFrom">
-
+                    <h3>添加广告位</h3>
+                    <ul>
+                        <li>
+                            <p>地址</p>
+                            <input type="text" />
+                        </li>
+                        <li>
+                            <p>价格</p>
+                            <input type="text" />
+                        </li>
+                        <li>
+                            <p>使用次数</p>
+                            <input type="text" />
+                        </li>
+                        <li>
+                            <p>描述</p>
+                            <textarea name="" id="" cols="40" rows="10"></textarea>
+                        </li>
+                        <li>
+                            <p>搭建时间</p>
+                            <input type="date" />
+                        </li>
+                        <li>
+                            <input type="submit" value="添 加" />
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="userManager">

@@ -44,6 +44,7 @@ public class PageController {
 	}
 	@RequestMapping("/ht-index")
 	public String htIndex(){
+		System.out.println(System.getProperty("user.dir"));
 		return "ht_index";
 	}
 }

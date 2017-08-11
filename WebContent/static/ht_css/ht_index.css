@@ -197,7 +197,7 @@
     margin-top:20px;
     display:inline-block;
     width:400px;
-    height:500px;
+    min-height:500px;
     background-color:white;
     border:1px solid #ccc;
     box-shadow: 0 0 10px #ccc;
@@ -261,4 +261,38 @@
     border:1px solid #ccc;
     box-shadow: 0 0 10px #ccc;
     padding:0 10px;
+}
+#adverAddFrom h3{
+    width:90%;
+    height:40px;
+    line-height:40px;
+    display:block;
+    margin:0 auto;
+    border-bottom-color: rgba(0, 0, 255, 0.64);
+}
+#adverAddFrom ul{
+    margin:20px;
+}
+#adverAddFrom p{
+    font-size:14px;
+    font-family:"微软雅黑";
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#adverAddFrom input[type='text']{
+    display:block;
+    width:200px;
+    height:30px;
+}
+#adverAddFrom input[type='submit']{
+    display:block;
+    width:100px;
+    height:30px;
+    background-color: #4494ff;
+    color:white;
+    border:none;
+    margin-top:20px;
+}
+#adverAddFrom textarea{
+    resize: none;
 }
