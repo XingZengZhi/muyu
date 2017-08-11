@@ -223,6 +223,18 @@
     height:40px;
     line-height:40px;
 }
+.tableHeader p span:nth-child(2),.tableItem p span:nth-child(2){
+    width:280px;
+}
+.tableHeader p span:nth-child(3),.tableItem p span:nth-child(3){
+    width:100px;
+}
+.tableHeader p span:nth-child(4),.tableItem p span:nth-child(4){
+    width:100px;
+}
+.tableHeader p span:nth-child(5),.tableItem p span:nth-child(5){
+    width:130px;
+}
 .tableItem{
     border-bottom:1px solid #5b5b5b;
 }

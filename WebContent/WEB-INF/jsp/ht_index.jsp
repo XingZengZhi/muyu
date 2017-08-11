@@ -127,15 +127,23 @@
                     <div class="tableHeader">
                         <p>
                             <span>ID</span>
-                            <span>位置</span>
+                            <span>地址</span>
+                            <span>价格</span>
+                            <span>搭建时间</span>
                             <span>操作</span>
                         </p>
                     </div>
                     <div class="tableItem">
                         <p>
                             <span>1</span>
-                            <span>
+                            <span title="贵州遵义新浦新区贵州遵义新浦新区贵州遵义新浦新区贵州遵义新浦新区">
                                 贵州遵义新浦新区贵州遵义新浦新区贵州遵义新浦新区贵州遵义新浦新区
+                            </span>
+                            <span>
+                                50元/日
+                            </span>
+                            <span>
+                                2017-07-17
                             </span>
                             <span>
                                 <a href="">删除</a>
