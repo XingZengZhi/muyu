@@ -182,12 +182,24 @@
                             </li>
                             <li>
                                 <p class="adverImageTitle">添加位置图片</p>
-                                <div class="adverImageBox">
-                                    <input type="file" name="imageFiles" id="images1" style="display: none;" />
-                                    <label for="images1"><i></i><i></i></label>
-                                    <input type="file" name="imageFiles" id="images2" style="display: none;" />
-                                    <label for="images2"><i></i><i></i></label>
+                                <div class="adverImageBox" id="preview">
+                                    <%--<img src="" id="dd" class="uploadImage">--%>
+                                    <input type="file" name="imageFiles" id="images0" style="display: none;" />
+                                    <label class="laBtn" for="images0"><i></i><i></i></label>
                                 </div>
+                                <script type="text/javascript">
+                                    /*document.getElementById("images0").onchange=function(){
+                                        var read=new FileReader() // 创建FileReader对像;
+                                        read.readAsDataURL(this.files[0])  // 调用readAsDataURL方法读取文件;
+                                        read.onload=function(){
+                                            url=read.result  // 拿到读取结果;
+                                            var img=new Image();
+                                            img.src=url;
+                                            img.className = "uploadImage";
+                                            document.getElementById("preview").appendChild(img);
+                                        }
+                                    }*/
+                                </script>
                             </li>
                         </ul>
                     </form>

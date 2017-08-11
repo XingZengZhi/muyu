@@ -309,8 +309,16 @@
     float:left;
     width:115px;
     height:95px;
-    box-sizing:content-box;
+    box-sizing:border-box;
     border:2px dotted #ccc;
+    position:relative;
+}
+.uploadImage{
+    display:inline-block;
+    float:left;
+    width:115px;
+    height:95px;
+    box-sizing:content-box;
     position:relative;
 }
 .adverImageBox label:hover{

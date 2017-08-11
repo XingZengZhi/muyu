@@ -25,4 +25,32 @@ $(function(){
     $("#closeplay").click(function(){
         $videoplay.fadeOut(0);
     });
+
+    //动态添加上传图片
+    var m = 1;
+    $(".adverImageTitle").click(function(){
+        $(".adverImageBox").append("<input type='file' name='imageFiles' id='images"+ m +"' style='display: none;' />"+
+            "<label class='laBtn' for='images"+ m +"'><i></i><i></i></label>");
+        $(".laBtn").click(function(){
+            showImage($(this));
+        });
+        m++;
+    });
+    $(".laBtn").click(function(){
+        showImage($(this));
+    });
+    function showImage(e){
+        document.getElementById(e.attr('for')).onchange=function(){
+            var read=new FileReader() // 创建FileReader对像;
+            read.readAsDataURL(this.files[0])  // 调用readAsDataURL方法读取文件;
+            read.onload=function(){
+                url=read.result  // 拿到读取结果;
+                var img=new Image();
+                img.src=url;
+                img.className = "uploadImage";
+                document.getElementById("preview").appendChild(img);
+            }
+        }
+        e.css("display", "none");
+    }
 });

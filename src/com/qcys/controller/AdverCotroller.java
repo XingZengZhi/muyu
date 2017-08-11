@@ -24,8 +24,10 @@ public class AdverCotroller {
         String newFileName = "";
         File ImageFile = null;
         adverService.addAdver(adver);
+        System.out.println(imageFiles.length);
         for(int i = 0;i<imageFiles.length;i++){
             imageName = imageFiles[i].getOriginalFilename();
+            System.out.println(imageName);
             newFileName = UUID.randomUUID().toString() + imageName.substring(imageName.lastIndexOf("."));
             ImageFile = new File(imageUploadPath + File.separatorChar + newFileName);
             if(!ImageFile.exists()){
@@ -36,8 +38,6 @@ public class AdverCotroller {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            System.out.println(imageUploadPath);
-            System.out.println(imageFiles[i].getOriginalFilename());
         }
     }
 }
