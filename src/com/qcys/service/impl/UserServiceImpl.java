@@ -1,4 +1,4 @@
-package com.qcys.serviceimpl;
+package com.qcys.service.impl;
 
 import java.util.List;
 
