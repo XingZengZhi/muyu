@@ -7,24 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qcys/service/AdverService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qcys/service/impl/AdverServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/applicationContext-service.xml" afterPath="$PROJECT_DIR$/build/classes/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/applicationContext-transaction.xml" afterPath="$PROJECT_DIR$/build/classes/applicationContext-transaction.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/sqlMapConfig.xml" afterPath="$PROJECT_DIR$/build/classes/sqlMapConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/applicationContext-service.xml" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/applicationContext-transaction.xml" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/applicationContext-transaction.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/sqlMapConfig.xml" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/sqlMapConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext-service.xml" afterPath="$PROJECT_DIR$/src/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext-transaction.xml" afterPath="$PROJECT_DIR$/src/applicationContext-transaction.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/pojo/Adver.java" afterPath="$PROJECT_DIR$/src/com/qcys/pojo/Adver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sqlMapConfig.xml" afterPath="$PROJECT_DIR$/src/sqlMapConfig.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/qcys/serviceimpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/qcys/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" afterPath="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,9 +25,17 @@
       <file leaf-file-name="ht_index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="167" column="32" lean-forward="true" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="514">
+              <caret line="198" column="27" lean-forward="true" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#li#6;n#ul#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#0;n#li#6;n#ul#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,12 +43,10 @@
       <file leaf-file-name="AdverCotroller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="366">
+              <caret line="28" column="77" lean-forward="false" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +65,8 @@
       <file leaf-file-name="ht_index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="287" column="18" lean-forward="true" selection-start-line="287" selection-start-column="18" selection-end-line="287" selection-end-column="18" />
+            <state relative-caret-position="582">
+              <caret line="330" column="20" lean-forward="false" selection-start-line="330" selection-start-column="20" selection-end-line="330" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -178,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/test.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
         <option value="$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/pojo/Adver.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.xml" />
@@ -187,8 +178,9 @@
         <option value="$PROJECT_DIR$/src/applicationContext-transaction.xml" />
         <option value="$PROJECT_DIR$/src/com/qcys/service/AdverService.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/service/impl/AdverServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java" />
+        <option value="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java" />
       </list>
     </option>
   </component>
@@ -316,27 +308,6 @@
               <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ht_css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ht_image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qingchengcjk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ht_js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qingchengcjk" type="b2602c69:ProjectViewProjectNode" />
@@ -935,14 +906,7 @@
       <workItem from="1502070712112" duration="14065000" />
       <workItem from="1502179196442" duration="3734000" />
       <workItem from="1502241753668" duration="21034000" />
-      <workItem from="1502418215038" duration="10973000" />
-    </task>
-    <task id="LOCAL-00003" summary="去掉没必要的配置文件">
-      <created>1501559311473</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1501559311473</updated>
+      <workItem from="1502418215038" duration="17559000" />
     </task>
     <task id="LOCAL-00004" summary="去掉没必要的配置文件">
       <created>1501559410060</created>
@@ -1280,7 +1244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502431516602</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="广告位增加Function2017/8/11">
+      <created>1502436320651</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1502436320651</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1295,7 +1266,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186211000" />
+    <option name="totallyTimeSpent" value="192797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1341,7 +1312,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="生成邮箱随机验证码" />
     <MESSAGE value="实现发送邮箱验证码" />
     <MESSAGE value="优化登录" />
     <MESSAGE value="修复了当邮箱不存在的情况" />
@@ -1366,7 +1336,8 @@
     <MESSAGE value="更新后台主页2017/8/11" />
     <MESSAGE value="更新后台主页UI2017/8/11" />
     <MESSAGE value="更新后台主页广告位管理UI2017/8/11" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新后台主页广告位管理UI2017/8/11" />
+    <MESSAGE value="广告位增加Function2017/8/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="广告位增加Function2017/8/11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1523,6 +1494,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1566,14 +1538,6 @@
             <element signature="e#1588#1589#0" expanded="true" />
             <element signature="e#1611#1612#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1721,22 +1685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="287" column="18" lean-forward="true" selection-start-line="287" selection-start-column="18" selection-end-line="287" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -1748,6 +1696,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="330" column="20" lean-forward="false" selection-start-line="330" selection-start-column="20" selection-end-line="330" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1756,23 +1712,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="366">
+          <caret line="28" column="77" lean-forward="false" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="167" column="32" lean-forward="true" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="514">
+          <caret line="198" column="27" lean-forward="true" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#li#6;n#ul#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#li#6;n#ul#0;n#form#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

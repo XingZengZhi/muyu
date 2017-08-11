@@ -18,7 +18,7 @@
         </div>
 
         <div class="managers">
-            <div class="videoManager">
+            <div class="videoManager clearfix">
                 <div class="videoItem">
                     <div class="videoBox">
                         <img src="${pageContext.request.contextPath}/static/ht_image/ht-video-img1.jpg" alt="">
@@ -155,7 +155,7 @@
                 </div>
                 <div id="adverAddFrom">
                     <h3>添加广告位</h3>
-                    <form action="${pageContext.request.contextPath}/addAdver" method="post">
+                    <form action="${pageContext.request.contextPath}/addAdver" method="post" enctype="multipart/form-data">
                         <ul>
                             <li>
                                 <p>地址</p>
@@ -179,6 +179,15 @@
                             </li>
                             <li>
                                 <input type="submit" value="添 加" />
+                            </li>
+                            <li>
+                                <p class="adverImageTitle">添加位置图片</p>
+                                <div class="adverImageBox">
+                                    <input type="file" name="imageFiles" id="images1" style="display: none;" />
+                                    <label for="images1"><i></i><i></i></label>
+                                    <input type="file" name="imageFiles" id="images2" style="display: none;" />
+                                    <label for="images2"><i></i><i></i></label>
+                                </div>
                             </li>
                         </ul>
                     </form>
