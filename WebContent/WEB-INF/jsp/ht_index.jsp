@@ -179,7 +179,7 @@
                             </li>
                             <li>
                                 <p class="adverImageTitle">添加位置图片</p>
-                                <div class="adverImageBox" id="preview">
+                                <div class="adverImageBox clearfix" id="preview">
                                     <%--<img src="" id="dd" class="uploadImage">--%>
                                     <input type="file" name="imageFiles" id="images0" style="display: none;" />
                                     <label class="laBtn" for="images0"><i></i><i></i></label>

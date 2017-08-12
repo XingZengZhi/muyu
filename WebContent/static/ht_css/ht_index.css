@@ -306,7 +306,8 @@
 }
 .adverImageBox{
     display:block;
-    height:200px;
+    /*height:200px;*/
+    text-align:justify;
     border:1px solid #ccc;
 }
 .adverImageBox label{
@@ -314,6 +315,7 @@
     float:left;
     width:115px;
     height:95px;
+    margin:2px;
     box-sizing:border-box;
     border:2px dotted #ccc;
     position:relative;
@@ -323,6 +325,7 @@
     float:left;
     width:115px;
     height:95px;
+    margin:2px;
     box-sizing:content-box;
     position:relative;
 }
