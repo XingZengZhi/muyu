@@ -58,6 +58,8 @@ $(function(){
                 divs.style.position = "relative";
                 divs.style.width = "115px";
                 divs.style.height = "95px";
+                divs.style.display = "inline-block";
+                divs.id = e.attr("for");
                 spans.appendChild(spanTxt);
                 spans.className = "uploadImageDel";
                 divs.appendChild(img);
@@ -78,4 +80,20 @@ $(function(){
         }
         return true;
     });
+
+    $(document).on("mouseenter", ".adverImageBox div", function(e){
+        $(e.target).siblings("span").fadeIn(0);
+    })
+
+    $(document).on("mouseleave", ".adverImageBox div", function(){
+        $(".uploadImageDel").fadeOut(0);
+    })
+
+    $(document).on("click", ".uploadImageDel", function(e){
+        var idv = $(e.target).parent().attr("id");
+        $(e.target).parent().siblings("input[id='"+ idv +"']").remove();
+        $(e.target).parent().siblings("label[for='"+ idv +"']").remove();
+        $(e.target).parent().remove();
+        m--;
+    })
 });

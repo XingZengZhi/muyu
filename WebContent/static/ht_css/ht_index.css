@@ -327,15 +327,26 @@
     position:relative;
 }
 .uploadImageDel{
+    display:none;
     position:absolute;
     text-align:center;
-    /*line-height:100%;*/
+    width:112px;
+    height:91px;
+    line-height:91px;
     left:0;
     right:0;
     top:0;
     bottom:0;
     margin:auto;
+    color:white;
+    font-weight:bold;
     font-size:14px;
+    background-color: rgba(112, 112, 112, 0.62);
+    transition:all 0.4s;
+}
+.uploadImageDel:hover{
+    cursor:pointer;
+    /*color: rgba(255, 0, 0, 0.64);*/
 }
 .adverImageBox label:hover{
     cursor: pointer;
