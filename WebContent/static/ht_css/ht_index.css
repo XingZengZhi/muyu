@@ -306,28 +306,36 @@
 }
 .adverImageBox{
     display:block;
-    /*height:200px;*/
     text-align:justify;
     border:1px solid #ccc;
+    padding:2px;
 }
 .adverImageBox label{
     display:inline-block;
     float:left;
     width:115px;
     height:95px;
-    margin:2px;
     box-sizing:border-box;
     border:2px dotted #ccc;
     position:relative;
 }
 .uploadImage{
     display:inline-block;
-    float:left;
     width:115px;
     height:95px;
-    margin:2px;
     box-sizing:content-box;
     position:relative;
+}
+.uploadImageDel{
+    position:absolute;
+    text-align:center;
+    /*line-height:100%;*/
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    font-size:14px;
 }
 .adverImageBox label:hover{
     cursor: pointer;

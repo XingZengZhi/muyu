@@ -52,7 +52,17 @@ $(function(){
                 var img=new Image();
                 img.src=url;
                 img.className = "uploadImage";
-                document.getElementById("preview").appendChild(img);
+                var divs = document.createElement("div");
+                var spans = document.createElement("span");
+                var spanTxt = document.createTextNode("删除");
+                divs.style.position = "relative";
+                divs.style.width = "115px";
+                divs.style.height = "95px";
+                spans.appendChild(spanTxt);
+                spans.className = "uploadImageDel";
+                divs.appendChild(img);
+                divs.appendChild(spans);
+                document.getElementById("preview").appendChild(divs);
             }
         }
         e.css("display", "none");

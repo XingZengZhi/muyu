@@ -26,10 +26,10 @@
       <file leaf-file-name="ht_index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="524">
+              <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
               <folding>
-                <marker date="1502528021829" expanded="true" signature="1007:1021" ph="..." />
+                <marker date="1502531928182" expanded="true" signature="1007:1021" ph="..." />
               </folding>
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="ht_index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="181" column="48" lean-forward="true" selection-start-line="181" selection-start-column="48" selection-end-line="181" selection-end-column="48" />
+            <state relative-caret-position="231">
+              <caret line="184" column="38" lean-forward="true" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -83,8 +83,8 @@
       <file leaf-file-name="ht_index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="331" column="27" lean-forward="true" selection-start-line="331" selection-start-column="27" selection-end-line="331" selection-end-column="27" />
+            <state relative-caret-position="275">
+              <caret line="332" column="11" lean-forward="true" selection-start-line="332" selection-start-column="11" selection-end-line="332" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -170,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/com/qcys/pojo/Adver.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java" />
-        <option value="$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js" />
         <option value="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
       </list>
     </option>
@@ -1071,7 +1071,7 @@
       <workItem from="1502070712112" duration="14065000" />
       <workItem from="1502179196442" duration="3074000" />
       <workItem from="1502347442971" duration="964000" />
-      <workItem from="1502512462132" duration="8555000" />
+      <workItem from="1502512462132" duration="11332000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1501514668241</created>
@@ -1409,7 +1409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502519241668</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="更新广告位置图片上传">
+      <created>1502528694034</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1502528694034</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1424,7 +1431,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188833000" />
+    <option name="totallyTimeSpent" value="191610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1512,7 +1519,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="调整找回密码UI" />
     <MESSAGE value="增加查找邮箱功能" />
     <MESSAGE value="显示用户的邮箱" />
     <MESSAGE value="生成邮箱随机验证码" />
@@ -1537,7 +1543,8 @@
     <MESSAGE value="更新图片预览" />
     <MESSAGE value="图片存储" />
     <MESSAGE value="完善添加广告位逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善添加广告位逻辑" />
+    <MESSAGE value="更新广告位置图片上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新广告位置图片上传" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1863,16 +1870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <marker date="1502528021829" expanded="true" signature="1007:1021" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1881,18 +1878,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <marker date="1502531928182" expanded="true" signature="1007:1021" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="181" column="48" lean-forward="true" selection-start-line="181" selection-start-column="48" selection-end-line="181" selection-end-column="48" />
+        <state relative-caret-position="231">
+          <caret line="184" column="38" lean-forward="true" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="331" column="27" lean-forward="true" selection-start-line="331" selection-start-column="27" selection-end-line="331" selection-end-column="27" />
+        <state relative-caret-position="275">
+          <caret line="332" column="11" lean-forward="true" selection-start-line="332" selection-start-column="11" selection-end-line="332" selection-end-column="11" />
           <folding />
         </state>
       </provider>
