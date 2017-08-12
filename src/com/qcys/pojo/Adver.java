@@ -8,9 +8,18 @@ public class Adver {
     private Long AdverId;
     private String AdverAddress;
     private String AdverMarketPrice;
+    private String AdverImage;
     private Integer AdverNumber;
     private String AdverDescribe;
     private String AdverSetUp;
+
+    public String getAdverImage() {
+        return AdverImage;
+    }
+
+    public void setAdverImage(String adverImage) {
+        AdverImage = adverImage;
+    }
 
     public Long getAdverId() {
         return AdverId;

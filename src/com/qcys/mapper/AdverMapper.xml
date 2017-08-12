@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.qcys.mapper.AdverMapper">
     <select id="addAdver" parameterType="com.qcys.pojo.Adver">
-        INSERT INTO AdverTb (adverAddress, adverMarketPrice, adverNumber, adverDescribe, adverSetUp)
-        VALUES (#{adverAddress}, #{adverMarketPrice}, #{adverNumber}, #{adverDescribe}, #{adverSetUp})
+        INSERT INTO AdverTb (adverAddress, adverMarketPrice, adverImage, adverNumber, adverDescribe, adverSetUp)
+        VALUES (#{adverAddress}, #{adverMarketPrice}, #{AdverImage}, #{adverNumber}, #{adverDescribe}, #{adverSetUp})
     </select>
 </mapper>

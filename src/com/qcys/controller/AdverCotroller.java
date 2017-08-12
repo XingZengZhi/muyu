@@ -11,6 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.UUID;
 
 @Controller
@@ -23,12 +24,16 @@ public class AdverCotroller {
         String imageName = "";
         String newFileName = "";
         File ImageFile = null;
-        adverService.addAdver(adver);
+        StringBuffer stringBuffer = new StringBuffer(imageFiles.length);
         System.out.println(imageFiles.length);
         for(int i = 0;i<imageFiles.length;i++){
             imageName = imageFiles[i].getOriginalFilename();
-            System.out.println(imageName);
             newFileName = UUID.randomUUID().toString() + imageName.substring(imageName.lastIndexOf("."));
+            if(i < imageFiles.length - 1){
+                stringBuffer.append(newFileName + ",");
+            }else{
+                stringBuffer.append(newFileName);
+            }
             ImageFile = new File(imageUploadPath + File.separatorChar + newFileName);
             if(!ImageFile.exists()){
                 ImageFile.mkdirs();
@@ -39,5 +44,8 @@ public class AdverCotroller {
                 e.printStackTrace();
             }
         }
+        adver.setAdverImage(stringBuffer.toString());
+        adverService.addAdver(adver);
+        System.out.println(stringBuffer.toString());
     }
 }
