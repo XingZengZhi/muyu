@@ -297,7 +297,12 @@
     resize: none;
 }
 .adverImageTitle{
+    width:100px;
     color: rgba(255, 0, 0, 0.62);
+}
+.adverImageTitle:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .adverImageBox{
     display:block;
