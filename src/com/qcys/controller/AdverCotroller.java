@@ -25,7 +25,6 @@ public class AdverCotroller {
         String newFileName = "";
         File ImageFile = null;
         StringBuffer stringBuffer = new StringBuffer(imageFiles.length);
-        System.out.println(imageFiles.length);
         for(int i = 0;i<imageFiles.length;i++){
             imageName = imageFiles[i].getOriginalFilename();
             newFileName = UUID.randomUUID().toString() + imageName.substring(imageName.lastIndexOf("."));

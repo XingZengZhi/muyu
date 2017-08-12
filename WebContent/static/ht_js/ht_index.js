@@ -29,6 +29,10 @@ $(function(){
     //动态添加上传图片
     var m = 1;
     $(".adverImageTitle").click(function(){
+        if(m >= 3){
+            alert("仅支持最多三张图片的上传。");
+            return false;
+        }
         $(".adverImageBox").append("<input type='file' name='imageFiles' id='images"+ m +"' style='display: none;' />"+
             "<label class='laBtn' for='images"+ m +"'><i></i><i></i></label>");
         $(".laBtn").click(function(){
@@ -53,4 +57,15 @@ $(function(){
         }
         e.css("display", "none");
     }
+
+    $("#adverAddFrom form").submit(function(){
+        var arrray = new Array($("#adverAddFrom form input[type='text']").length);
+        $.each($("#adverAddFrom form input[type='text']"), function(i, n){
+            arrray[i] = $(n).val();
+        })
+        for(var j = 0;j < arrray.length;j++){
+            if(arrray[j] == "")return false;
+        }
+        return true;
+    });
 });
