@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qcys/util/PageBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" afterPath="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js" afterPath="$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +24,37 @@
       <file leaf-file-name="ht_index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+            <state relative-caret-position="491">
+              <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
               <folding>
-                <marker date="1502531928182" expanded="true" signature="1007:1021" ph="..." />
+                <marker date="1502541100211" expanded="true" signature="1007:1021" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/qcys/util/PageBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,8 +63,8 @@
       <file leaf-file-name="ht_index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="184" column="38" lean-forward="true" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
+            <state relative-caret-position="5973">
+              <caret line="181" column="57" lean-forward="false" selection-start-line="181" selection-start-column="44" selection-end-line="181" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -48,8 +73,8 @@
       <file leaf-file-name="AdverCotroller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="693">
+              <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -59,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
                 <marker date="1502515891379" expanded="true" signature="283:505" ph="INSERT INTO AdverTb... " />
               </folding>
@@ -70,7 +95,7 @@
       <file leaf-file-name="Adver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/qcys/pojo/Adver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="330">
               <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#402#403#0" expanded="true" />
@@ -80,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ht_index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ht_index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="332" column="11" lean-forward="true" selection-start-line="332" selection-start-column="11" selection-end-line="332" selection-end-column="11" />
+            <state relative-caret-position="11517">
+              <caret line="349" column="1" lean-forward="false" selection-start-line="349" selection-start-column="1" selection-end-line="349" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -122,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/static/js/toufang.js" />
         <option value="$PROJECT_DIR$/WebContent/static/css/toufang.css" />
         <option value="$PROJECT_DIR$/WebContent/static/css/works.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/works.jsp" />
@@ -171,8 +195,9 @@
         <option value="$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js" />
         <option value="$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css" />
+        <option value="$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js" />
+        <option value="$PROJECT_DIR$/src/com/qcys/util/PageBean.java" />
       </list>
     </option>
   </component>
@@ -236,8 +261,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,26 +444,8 @@
               <option name="myItemId" value="qcys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="qingchengcjk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qingchengcjk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qcys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pojo" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,32 +464,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="qcys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qingchengcjk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qingchengcjk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qcys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1071,21 +1052,8 @@
       <workItem from="1502070712112" duration="14065000" />
       <workItem from="1502179196442" duration="3074000" />
       <workItem from="1502347442971" duration="964000" />
-      <workItem from="1502512462132" duration="11332000" />
-    </task>
-    <task id="LOCAL-00001" summary="优化">
-      <created>1501514668241</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1501514668241</updated>
-    </task>
-    <task id="LOCAL-00002" summary="再优化...">
-      <created>1501514813740</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1501514813740</updated>
+      <workItem from="1502512462132" duration="18048000" />
+      <workItem from="1502628552417" duration="2920000" />
     </task>
     <task id="LOCAL-00003" summary="去掉没必要的配置文件">
       <created>1501559311473</created>
@@ -1416,7 +1384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1502528694034</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="更新广告管理UI">
+      <created>1502532155188</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1502532155189</updated>
+    </task>
+    <task id="LOCAL-00051" summary="更新图片预览和上传function">
+      <created>1502541260762</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1502541260762</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1431,7 +1413,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191610000" />
+    <option name="totallyTimeSpent" value="201246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1458,7 +1440,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20356372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20680346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1519,8 +1501,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加查找邮箱功能" />
-    <MESSAGE value="显示用户的邮箱" />
     <MESSAGE value="生成邮箱随机验证码" />
     <MESSAGE value="实现发送邮箱验证码" />
     <MESSAGE value="优化登录" />
@@ -1544,7 +1524,9 @@
     <MESSAGE value="图片存储" />
     <MESSAGE value="完善添加广告位逻辑" />
     <MESSAGE value="更新广告位置图片上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新广告位置图片上传" />
+    <MESSAGE value="更新广告管理UI" />
+    <MESSAGE value="更新图片预览和上传function" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新图片预览和上传function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1555,7 +1537,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/test.jsp" />
     <entry file="file://$PROJECT_DIR$/WebContent/static/img/35435.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1845,25 +1826,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/pojo/Adver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/AdverMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <marker date="1502515891379" expanded="true" signature="283:505" ph="INSERT INTO AdverTb... " />
           </folding>
@@ -1872,35 +1841,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding>
-            <marker date="1502531928182" expanded="true" signature="1007:1021" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="184" column="38" lean-forward="true" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
+        <state relative-caret-position="693">
+          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/ht_css/ht_index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="332" column="11" lean-forward="true" selection-start-line="332" selection-start-column="11" selection-end-line="332" selection-end-column="11" />
+        <state relative-caret-position="11517">
+          <caret line="349" column="1" lean-forward="false" selection-start-line="349" selection-start-column="1" selection-end-line="349" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/pojo/Adver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/ht_index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5973">
+          <caret line="181" column="57" lean-forward="false" selection-start-line="181" selection-start-column="44" selection-end-line="181" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/ht_js/ht_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+          <folding>
+            <marker date="1502541100211" expanded="true" signature="1007:1021" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/util/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
