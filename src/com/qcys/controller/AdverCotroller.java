@@ -47,4 +47,9 @@ public class AdverCotroller {
         adverService.addAdver(adver);
         System.out.println(stringBuffer.toString());
     }
+    @RequestMapping("/adverCount")
+    public void adverCount(){
+        Long count = adverService.adverCount();
+        System.out.println(count.longValue());
+    }
 }

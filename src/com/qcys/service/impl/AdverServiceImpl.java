@@ -15,4 +15,10 @@ public class AdverServiceImpl implements AdverService {
     public void addAdver(Adver adver) {
         adverMapper.addAdver(adver);
     }
+
+    @Override
+    public Long adverCount() {
+        return adverMapper.adverCount();
+    }
+
 }

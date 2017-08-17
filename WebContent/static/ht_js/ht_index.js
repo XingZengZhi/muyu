@@ -8,6 +8,13 @@ $(function(){
         aArray[i] = i + 1;
         i++;
     }
+    var host = window.location.href;
+    var pathname = window.location.pathname;
+    var localhost = host.substring(0, host.indexOf(pathname));
+    while(pathname.lastIndexOf("/")){
+        pathname = pathname.substring(0, pathname.lastIndexOf("/"));
+    }
+    var hostHref = localhost + pathname; //服务根路径
     $.each($as, function(i, n){
         $(n).click(function(){
             $(this).addClass('active').siblings().removeClass('active');
@@ -95,5 +102,13 @@ $(function(){
         $(e.target).parent().siblings("label[for='"+ idv +"']").remove();
         $(e.target).parent().remove();
         m--;
-    })
+    });
+    console.log(hostHref);
+    $.ajax({
+        type:"POST",
+        url:hostHref + "/adverCount",
+        success:function(result){
+
+        }
+    });
 });

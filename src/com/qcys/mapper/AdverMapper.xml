@@ -7,4 +7,7 @@
         INSERT INTO AdverTb (adverAddress, adverMarketPrice, adverImage, adverNumber, adverDescribe, adverSetUp)
         VALUES (#{adverAddress}, #{adverMarketPrice}, #{AdverImage}, #{adverNumber}, #{adverDescribe}, #{adverSetUp})
     </select>
+    <select id="adverCount" resultType="java.lang.Long">
+        SELECT  count(*) from AdverTb
+    </select>
 </mapper>
