@@ -19,12 +19,14 @@ public class VideoUpload {
 		String uploadPath = request.getRealPath(File.separatorChar + "static" + File.separatorChar + "video");
 		String video_name = videoFile.getOriginalFilename();
 		String video_newName = UUID.randomUUID().toString() + video_name.substring(video_name.lastIndexOf("."));
-		System.out.println();
+		System.out.println(uploadPath);
 		File uploadVideo = new File(uploadPath + File.separatorChar + video_newName);
 		if(!uploadVideo.exists()){
 			uploadVideo.mkdirs();
 		}
 		try {
+			System.out.println(videoFile.getBytes());
+			System.out.println(videoFile.getSize());
 			videoFile.transferTo(uploadVideo);
 		} catch (IllegalStateException | IOException e) {
 			e.printStackTrace();

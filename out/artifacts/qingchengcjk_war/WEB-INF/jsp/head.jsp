@@ -16,10 +16,10 @@
         <a href="${pageContext.request.contextPath}/pages/login">登录</a>
     </li>
     <li>
-        <a href="${pageContext.request.contextPath}/pages/toufang">广告投放</a>
+        <a href="${pageContext.request.contextPath}/pages/aboutus" target="_self">关于我们</a>
     </li>
     <li>
-        <a href="${pageContext.request.contextPath}/pages/aboutus" target="_self">关于我们</a>
+        <a href="${pageContext.request.contextPath}/pages/toufang">广告投放</a>
     </li>
     <li>
         <a href="${pageContext.request.contextPath}/pages/information" target="_self">资讯</a>

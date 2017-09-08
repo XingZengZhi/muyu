@@ -1,4 +1,16 @@
 @CHARSET "UTF-8";
+.personalMsg{
+	/*border:1px solid red;*/
+	width:1200px;
+	height:1200px;
+	margin:0 auto;
+	padding-top:80px;
+	padding-bottom:20px;
+}
+.personalMsg ul{
+	width:800px;
+	margin:0 auto;
+}
 .uploadBox{
 	border:1px solid #ccc;
 	width:1200px;
@@ -32,4 +44,113 @@
 }
 .startUpload:hover{
 	cursor:pointer;
+}
+.onprogress{
+	display:block;
+	width:200px;
+	height:10px;
+	border:1px solid red;
+}
+.onprogress-item{
+	display: block;
+	width:0px;
+	height:10px;
+	background-color:red;
+}
+.personalMsg li{
+	position:relative;
+	border-bottom:1px solid #ccc;
+}
+.personalMsg-title{
+	display:inline-block;
+	width:100px;
+	height:50px;
+	line-height:50px;
+	text-align:left;
+	font-size:16px;
+	font-weight:bold;
+}
+.personalMsg-address{
+	display:inline-block;
+	width:400px;
+	height:50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height:50px;
+	text-align:right;
+	color:#ccc;
+	padding-right:10px;
+	box-sizing:border-box;
+	float:right;
+}
+.personalMsg-address:hover{
+	cursor:pointer;
+}
+.addressItem{
+	display:none;
+	height:300px;
+	right:0;
+	border:1px solid #ccc;
+	position:absolute;
+	background-color:white;
+	z-index:99;
+}
+.chooseAddress{
+	position:absolute;
+	display:block;
+	width:100px;
+	height:30px;
+	color:white;
+	background-color:#02B2B5;
+	border:none;
+	bottom:-31px;
+	transition:all 0.3s;
+}
+.chooseAddress:hover{
+	cursor:pointer;
+	background-color: #02a9ac;
+}
+.address-item-city, .address-item-province, .address-item-area{
+	display:inline-block;
+	min-width:144px;
+	max-height:300px;
+	overflow-y: scroll;
+	border-right:1px solid #ccc;
+	box-sizing:border-box;
+	float:right;
+}
+.address-item-province p:hover, .address-item-city p:hover, .address-item-area p:hover{
+	cursor:pointer;
+}
+.cityOrAreaActive{
+	background-color: #2c87ff;
+	color:white;
+}
+.advCat{
+	position:absolute;
+	right:10px;
+	top:15px;
+	height:30px;
+	overflow:hidden;
+	border:1px solid transparent;
+	transition:all 0.3s;
+}
+.advCat:hover{
+	border:1px solid #ccc;
+	box-shadow: 0 0 10px #ccc;
+	background-color:white;
+}
+.advCat p{
+	font-size:15px;
+	display:block;
+	height:30px;
+	padding:0 3px;
+	line-height:30px;
+	transition:all 0.3s;
+}
+.advCat p:hover{
+	cursor:pointer;
+	background-color: #2c87ff;
+	color:white;
 }

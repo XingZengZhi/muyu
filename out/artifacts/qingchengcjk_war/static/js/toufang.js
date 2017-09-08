@@ -1,6 +1,5 @@
 $(function(){
   var href = window.location.href;
-  console.log(href.substring(0, href.lastIndexOf('/') + 1));
   //广告类型选择
   var catContent = $(".cat-content");
   var catContentP = $(".cat-content p");

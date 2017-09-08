@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="广告投放">
+    <meta name="description" content="贵州倾城影视广告,广告投放">
     <title>广告投放</title>
     <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/toufang.js"></script>
@@ -31,6 +31,10 @@
             <p>视频广告</p>
             <p>平面广告</p>
           </div>
+        </div>
+        <%--快速投放--%>
+        <div class="fast-toufan">
+          <a href="${pageContext.request.contextPath}/pages/uploadvideo">快速投放</a>
         </div>
       </section>
       <!-- 地区选择 -->

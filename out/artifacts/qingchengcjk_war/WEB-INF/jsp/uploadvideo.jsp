@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/static/css/reset.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/static/css/uploadvideo.css">
+	<link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath }/static/img/qc-icon.ico" />
 <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/uploadvideo.js"></script>
 <title>视频上传</title>
@@ -15,52 +16,55 @@
         <div id="head_box" class="clearfix">
             <jsp:include page="head.jsp" />
         </div>
-        
-        <div class="uploadBox">
-	        <div class="uploadBtns">
-	        	<label for="InputFile">上传文件</label>
-	        	<span class="startUpload">开始上传</span>
-	        	<span class="">预览</span>
-	        </div>
-        	
-        	<form action="${pageContext.request.contextPath }/upload" method="POST" 
-						enctype="multipart/form-data">
-				<input id="InputFile" type="file" name="videoFile" accept="video/*" onchange="fileChange(this)" />
-				<input type="submit" value="上传" />
+
+		<div>
+			<%--相关信息--%>
+			<form action="" class="personalMsg">
+				<ul>
+					<li>
+						<span class="personalMsg-title">投放地址</span>
+						<span class="personalMsg-address">请选择地址</span>
+						<div class="addressItem">
+							<div class="address-item-area" id="area">
+							</div>
+							<div class="address-item-city" id="city">
+							</div>
+							<div class="address-item-province" id="province">
+							</div>
+							<button type="button" class="chooseAddress">确定选择</button>
+						</div>
+					</li>
+					<li>
+						<span class="personalMsg-title">投放小区</span>
+					</li>
+					<li>
+						<span class="personalMsg-title">广告类型</span>
+						<div class="advCat">
+						</div>
+					</li>
+				</ul>
 			</form>
-        </div>
-		
+			<%--视频上传--%>
+			<div class="uploadBox">
+				<div class="uploadBtns">
+					<label for="InputFile">上传文件</label>
+					<span class="startUpload">开始上传</span>
+					<p class="onprogress">
+						<span class="onprogress-item"></span>
+					</p>
+				</div>
+				<form class="videoUpload" method="POST" enctype="multipart/form-data">
+					<input id="InputFile" type="file" name="videoFile" />
+					<input type="submit" value="上传" />
+				</form>
+			</div>
+		</div>
+        
+		<jsp:include page="footer.jsp" />
 		<!-- QQ咨询 -->
 		<!-- <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2148688736&site=qq&menu=yes">
 			<img src="http://wpa.qq.com/pa?p=2:2148688736:41" />
 		</a> -->
     </div>
-	<script type="text/javascript">
-		function fileChange(obj){
-			photoExt=obj.value.substr(obj.value.lastIndexOf(".")).toLowerCase();//获得文件后缀名
-			console.log(photoExt);
-		    if(photoExt !='.mp4'){
-		        alert("请上传后缀名为mp4的照片!");
-		        obj.value = "";
-		        return false;
-		    }
-		    var fileSize = 0;
-		    var isIE = /msie/i.test(navigator.userAgent) && !window.opera;            
-		    if (isIE && !obj.files) {          
-		         var filePath = obj.value;            
-		         var fileSystem = new ActiveXObject("Scripting.FileSystemObject");   
-		         var file = fileSystem.GetFile (filePath);               
-		         fileSize = file.Size;         
-		    }else {  
-		         fileSize = obj.files[0].size;     
-		    }
-		    fileSize=Math.ceil(fileSize/1024*100)/102400; //单位为M
-		    console.log(fileSize);
-		    if(fileSize>=200){
-		        alert("视频不能超过200M");
-		        return false;
-		    }
-		}
-	</script>
 </body>
 </html>

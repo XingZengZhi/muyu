@@ -28,6 +28,9 @@ ul{
 #head_box{
   height:60px;
 }
+section{
+  position:relative;
+}
 .cat-box{
   background-color:white;
   position:relative;
@@ -96,6 +99,26 @@ ul{
 }
 .cat-choose p:last-child{
   border:none;
+}
+.fast-toufan{
+  display:block;
+  width:100px;
+  height:40px;
+  line-height:40px;
+  text-align:center;
+  background-color:#02B2B5;
+  border-radius:5px;
+  top:0;
+  right:0;
+  position:absolute;
+  transition:all 0.3s;
+}
+.fast-toufan:hover{
+  cursor:pointer;
+  background-color: #02a5a8;
+}
+.fast-toufan a{
+  color:white;
 }
 /*地址栏*/
 .address-box{
