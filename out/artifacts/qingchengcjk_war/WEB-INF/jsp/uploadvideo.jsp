@@ -36,27 +36,49 @@
 					</li>
 					<li>
 						<span class="personalMsg-title">投放小区</span>
+						<span class="district"><input type="text" placeholder="输入详细地址" /></span>
 					</li>
 					<li>
 						<span class="personalMsg-title">广告类型</span>
 						<div class="advCat">
 						</div>
 					</li>
+					<li>
+						<span class="personalMsg-title">屏幕个数</span>
+						<span class="unit"><input type="text" id="screenCount" placeholder="输入数量" />块</span>
+					</li>
+					<li>
+						<span class="personalMsg-title">投放时长</span>
+						<span class="coutTime"><input type="text" id="timeCount" placeholder="输入数量" /></span>
+						<div class="advTime">
+						</div>
+					</li>
+					<li>
+						<span class="personalMsg-title">单价</span>
+						<span class="price">￥<span>25</span> 元/天/屏</span>
+					</li>
+					<li>
+						<span class="personalMsg-title">总价</span>
+						<span class="allprice"></span>
+					</li>
 				</ul>
 			</form>
 			<%--视频上传--%>
 			<div class="uploadBox">
+				<form class="videoUpload" method="POST" enctype="multipart/form-data">
+					<input id="InputFile" type="file" name="videoFile" />
+					<input type="submit" value="上传" />
+				</form>
 				<div class="uploadBtns">
-					<label for="InputFile">上传文件</label>
+					<label for="InputFile">上传视频</label>
 					<span class="startUpload">开始上传</span>
 					<p class="onprogress">
 						<span class="onprogress-item"></span>
 					</p>
 				</div>
-				<form class="videoUpload" method="POST" enctype="multipart/form-data">
-					<input id="InputFile" type="file" name="videoFile" />
-					<input type="submit" value="上传" />
-				</form>
+				<div class="videoBox" id="videoBox">
+
+				</div>
 			</div>
 		</div>
         

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +15,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 public class VideoUpload {
 	@RequestMapping("/upload")
-	public String videoupload(HttpServletRequest request, 
+	public void videoupload(HttpServletRequest request, HttpServletResponse response,
 			MultipartFile videoFile){
 		String uploadPath = request.getRealPath(File.separatorChar + "static" + File.separatorChar + "video");
 		String video_name = videoFile.getOriginalFilename();
@@ -25,13 +26,16 @@ public class VideoUpload {
 			uploadVideo.mkdirs();
 		}
 		try {
-			System.out.println(videoFile.getBytes());
-			System.out.println(videoFile.getSize());
 			videoFile.transferTo(uploadVideo);
 		} catch (IllegalStateException | IOException e) {
 			e.printStackTrace();
 		}
-		return "uploadvideo";
+		String staticPath = uploadPath.substring(uploadPath.indexOf("static"));
+		try {
+			response.getWriter().print(staticPath + '/' + video_newName);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 }

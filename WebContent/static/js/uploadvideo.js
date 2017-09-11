@@ -1,10 +1,12 @@
 $(function(){
 	var inpFile =  $(".uploadBox form input[type='file']");
 	var startUpload = $(".startUpload");
+	var countTime = [];
 	inpFile.change(function(){
 		fileChange($(this));
 	});
 	startUpload.on("click", function(){
+	    $(".onprogress").fadeIn(0);
 		var fm = new FormData();
 		var total = $(".onprogress").width();
 		fm.append("videoFile", $("#InputFile")[0].files[0]);
@@ -21,8 +23,16 @@ $(function(){
                     width: nowTotal + 'px'
                 });
             }),
-			success:function(){
-				console.log("成功上传");
+			success:function(data){
+			    var newSrc = window.location.host + '/qingchengcjk/' + data.replace('\\', '/');
+			    console.log(newSrc);
+				var video = document.createElement("video");
+				video.src = "http://" + newSrc;
+				video.controls = "controls";
+				video.className = "videoPlay";
+				video.preload = "true";
+				var videoBox = document.getElementById("videoBox");
+				videoBox.appendChild(video);
 			}
 		});
 	});
@@ -190,7 +200,26 @@ $(function(){
             }
         });
     })
-    $(".advCat").stop(true,true).mouseenter(function(){
+
+    $.getJSON("/qingchengcjk/static/JsonData/release-time.json", function(data){
+        for(var i = 0;i < data.length;i++){
+            $(".advTime").append("<p>"+ data[i].time +"</p>");
+            if(i == 0){
+                $(".advTime p").addClass("firstTime");
+            }
+            countTime.push(data[i].cishu);
+        }
+        $(".advTime p").on('click', function(e){
+            if(!e.target.className){
+                var oldName = $(".firstTime").html();
+                var newName = $(this).html();
+                $(".firstTime").html(newName);
+                $(this).html(oldName);
+            }
+        });
+    })
+
+    $(".advCat,.advTime").stop(true,true).mouseenter(function(){
         var height = $(this).children("p:first").height();
         var pcount = $(this).children().length;
         $(this).css("height", height * pcount + 'px');
@@ -204,6 +233,36 @@ $(function(){
     $(document).click(function(e){
         if(e.target.className != 'personalMsg-address'){
             $(".addressItem").fadeOut(0);
+        }
+    });
+    console.log(countTime.length);
+    //监听价格变化
+    var count1, count2, totalPrice, days, dayName;
+    $("#screenCount,#timeCount").on('input propertychange', function(e){
+        if(e.target.id == 'screenCount'){//屏幕个数
+            count1 = e.target.value;
+            if(count1 == 0){
+                return;
+            }
+            if(count2 != null){
+                totalPrice = count1 * count2 * parseInt($(".price span").html());
+                $(".allprice").html(totalPrice);
+            }
+        }else if(e.target.id == 'timeCount'){//时长
+            count2 = e.target.value;
+            if(count2 == 0){
+                return;
+            }
+            if(count1 != null){
+                dayName = $(".firstTime").html();
+                console.log(dayName);
+                if(dayName == '天')days = 1;
+                if(dayName == '周')days = 7;
+                if(dayName == '季度')days = 90;
+                if(dayName == '年')days = 365;
+                totalPrice = count1 * count2 * parseInt($(".price span").html()) * days;
+                $(".allprice").html(totalPrice);
+            }
         }
     });
 });

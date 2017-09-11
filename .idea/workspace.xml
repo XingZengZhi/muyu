@@ -7,22 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/JsonData/city.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/JsonData/release-time.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/JsonData/release-type.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/toufang.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/toufang.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/uploadvideo.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/uploadvideo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/toufang.css" afterPath="$PROJECT_DIR$/WebContent/static/css/toufang.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/JsonData/release-time.json" afterPath="$PROJECT_DIR$/WebContent/static/JsonData/release-time.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/uploadvideo.css" afterPath="$PROJECT_DIR$/WebContent/static/css/uploadvideo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/uploadvideo.js" afterPath="$PROJECT_DIR$/WebContent/static/js/uploadvideo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/head.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/toufang.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/toufang.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/uploadvideo.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/uploadvideo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/toufang.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/toufang.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/uploadvideo.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/uploadvideo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/toufang.js" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/toufang.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/uploadvideo.js" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/uploadvideo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" />
     </list>
@@ -40,42 +31,38 @@
       <file leaf-file-name="uploadvideo.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/uploadvideo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="396">
+              <caret line="52" column="43" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadvideo.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="uploadvideo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/js/uploadvideo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="188" column="38" lean-forward="true" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
+            <state relative-caret-position="264">
+              <caret line="251" column="36" lean-forward="true" selection-start-line="251" selection-start-column="36" selection-end-line="251" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/static/JsonData/city.json">
+      <file leaf-file-name="release-time.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/static/JsonData/release-time.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
-              <folding>
-                <element signature="e#152#1556#0" expanded="false" />
-                <element signature="e#1649#3136#0" expanded="false" />
-                <element signature="e#3299#5310#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadvideo.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uploadvideo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/css/uploadvideo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="163" column="22" lean-forward="true" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -84,8 +71,8 @@
       <file leaf-file-name="VideoUpload.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+            <state relative-caret-position="792">
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
@@ -169,13 +156,13 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" />
         <option value="$PROJECT_DIR$/WebContent/static/css/toufang.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/toufang.jsp" />
-        <option value="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" />
-        <option value="$PROJECT_DIR$/WebContent/static/JsonData/release-time.json" />
         <option value="$PROJECT_DIR$/WebContent/static/JsonData/release-type.json" />
         <option value="$PROJECT_DIR$/WebContent/static/JsonData/city.json" />
+        <option value="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/uploadvideo.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/static/js/uploadvideo.js" />
         <option value="$PROJECT_DIR$/WebContent/static/css/uploadvideo.css" />
+        <option value="$PROJECT_DIR$/WebContent/static/JsonData/release-time.json" />
+        <option value="$PROJECT_DIR$/WebContent/static/js/uploadvideo.js" />
       </list>
     </option>
   </component>
@@ -239,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -380,8 +366,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -969,14 +956,11 @@
       <workItem from="1502981945793" duration="2066000" />
       <workItem from="1504854219601" duration="5963000" />
       <workItem from="1504861588631" duration="7582000" />
-      <workItem from="1504873742021" duration="19266000" />
-    </task>
-    <task id="LOCAL-00005" summary="更新FormCotroller,添加注册功能">
-      <created>1501560690479</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1501560690479</updated>
+      <workItem from="1504873742021" duration="19577000" />
+      <workItem from="1504940963074" duration="2653000" />
+      <workItem from="1504950568615" duration="5689000" />
+      <workItem from="1505123619716" duration="5005000" />
+      <workItem from="1505132093440" duration="3113000" />
     </task>
     <task id="LOCAL-00006" summary="修改注册页面">
       <created>1501563054540</created>
@@ -1314,7 +1298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502983972360</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="我...我在...我在干什么...">
+      <created>1504896870200</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1504896870201</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1329,7 +1320,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236199000" />
+    <option name="totallyTimeSpent" value="252970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1356,7 +1347,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21058315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22354212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1417,7 +1408,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化登录" />
     <MESSAGE value="修复了当邮箱不存在的情况" />
     <MESSAGE value="更新整体UI和部分交互" />
     <MESSAGE value="更新主页部分" />
@@ -1442,7 +1432,8 @@
     <MESSAGE value="更新图片预览和上传function" />
     <MESSAGE value="添加PageBean" />
     <MESSAGE value="添加总数" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加总数" />
+    <MESSAGE value="我...我在...我在干什么..." />
+    <option name="LAST_COMMIT_MESSAGE" value="我...我在...我在干什么..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1774,23 +1765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/JsonData/release-time.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1799,46 +1773,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/JsonData/city.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#152#1556#0" expanded="false" />
-            <element signature="e#1649#3136#0" expanded="false" />
-            <element signature="e#3299#5310#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/JsonData/release-type.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/JsonData/city.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/css/uploadvideo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="163" column="22" lean-forward="true" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/uploadvideo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="396">
+          <caret line="52" column="43" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/JsonData/release-time.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/js/uploadvideo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="188" column="38" lean-forward="true" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/css/uploadvideo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="251" column="36" lean-forward="true" selection-start-line="251" selection-start-column="36" selection-end-line="251" selection-end-column="36" />
           <folding />
         </state>
       </provider>
