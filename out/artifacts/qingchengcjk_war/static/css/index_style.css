@@ -22,13 +22,6 @@
 .barner_3{
 	left:200%;
 }
-.barner_ {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
-	z-index: 2;
-}
 .left,
 .right {
 	position: absolute;
@@ -67,6 +60,8 @@
 	border-top: 3px solid #fff;
 }
 .top_ {
+	position:absolute;
+	left:27px;
 	margin:20px auto;
 	border-left: 3px solid #fff;
 	border-top: 3px solid #fff;
@@ -86,6 +81,7 @@
 	cursor: pointer;
 	background-color: #1CD1AE;
 }
+/*end*/
 #mid_box {
 	min-height: 30px;
 	position: relative;
@@ -158,7 +154,7 @@
 #Message_box {
 	position: fixed;
 	right: 0%;
-	top: 70%;
+	top: 50%;
 	width: 70px;
 	background-color: rgba(204, 204, 204, 0.5);
 	z-index: 39;
@@ -166,33 +162,32 @@
 #Message_box a {
 	display: block;
 	width: 100%;
+	height:50px;
 	border-bottom: 1px solid #FFFFFF;
 	text-decoration: none;
 	color: white;
 	font-size: 13px;
 	text-align:center;
-}
-
-#Message_box a:last-child {
-	height:50px;
-	border: none;
-}
-
-#Message_box a:last-child span {
-	width: 30px;
-	margin: 5px auto;
-	display: none;
+	position:relative;
 }
 .return_top{
 	position: absolute;
 	left:20px;
+	width: 30px;
+	margin: 5px auto;
+	display: none;
+}
+.qqImage{
+	display:block;
+	width:70px;
+	height:100px;
 }
 #Message_box a:nth-child(1):hover {
 	background-color: #83D944;
 }
 
-#Message_box a:nth-child(2):hover {
-	background-color: rgb(255, 129, 27);
+#Message_box a:nth-child(2){
+	height:100px;
 }
 #case_box{
 	width:100%;
@@ -307,7 +302,7 @@
 	top:-3px;
 }
 #ad_int ul{
-	margin:0 auto;
+	margin:100px auto;
 	padding-left:3%;
 	position: relative;
 	height:300px;
