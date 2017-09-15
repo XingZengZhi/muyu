@@ -8,10 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/index_style.css" afterPath="$PROJECT_DIR$/WebContent/static/css/index_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/index.js" afterPath="$PROJECT_DIR$/WebContent/static/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/index_style.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/index_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/index.js" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/css/index_style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
@@ -86,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1584">
-              <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+            <state relative-caret-position="743">
+              <caret line="151" column="50" lean-forward="true" selection-start-line="151" selection-start-column="50" selection-end-line="151" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -177,9 +176,9 @@
         <option value="$PROJECT_DIR$/src/com/qcys/controller/UserController.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" />
         <option value="$PROJECT_DIR$/WebContent/static/css/reset.css" />
-        <option value="$PROJECT_DIR$/WebContent/static/js/index.js" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/WebContent/static/css/index_style.css" />
+        <option value="$PROJECT_DIR$/WebContent/static/js/index.js" />
       </list>
     </option>
   </component>
@@ -1003,14 +1002,7 @@
       <workItem from="1505123619716" duration="5005000" />
       <workItem from="1505132093440" duration="3763000" />
       <workItem from="1505439549357" duration="22036000" />
-      <workItem from="1505472696021" duration="2965000" />
-    </task>
-    <task id="LOCAL-00011" summary="判断两次是否一致">
-      <created>1501644623077</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1501644623077</updated>
+      <workItem from="1505472696021" duration="4500000" />
     </task>
     <task id="LOCAL-00012" summary="增加对密码和手机号的验证">
       <created>1501651209767</created>
@@ -1348,7 +1340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505466989488</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="修复了一些问题5...">
+      <created>1505478019355</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1505478019355</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1363,7 +1362,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278621000" />
+    <option name="totallyTimeSpent" value="280156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1418,7 +1417,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修复发送邮箱验证码bug" />
     <MESSAGE value="更换为新浪邮箱" />
     <MESSAGE value="实现邮箱验证码验证" />
     <MESSAGE value="添加后台登录页面" />
@@ -1443,7 +1441,8 @@
     <MESSAGE value="修复了一些问题2..." />
     <MESSAGE value="修复了一些问题3..." />
     <MESSAGE value="修复了一些问题4..." />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了一些问题4..." />
+    <MESSAGE value="修复了一些问题5..." />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了一些问题5..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1809,10 +1808,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/js/index.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/static/css/index_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1584">
-          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+        <state relative-caret-position="454">
+          <caret line="190" column="1" lean-forward="true" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1825,10 +1824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/css/index_style.css">
+    <entry file="file://$PROJECT_DIR$/WebContent/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="190" column="1" lean-forward="true" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
+        <state relative-caret-position="743">
+          <caret line="151" column="50" lean-forward="true" selection-start-line="151" selection-start-column="50" selection-end-line="151" selection-end-column="50" />
           <folding />
         </state>
       </provider>

@@ -30,7 +30,7 @@
 				<img src="${pageContext.request.contextPath }/static/img/wx.png" />
 			</a>
 			<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2148688736&site=qq&menu=yes">
-				<img src="http://wpa.qq.com/pa?p=2:2148688736:48" />
+				<img src="http://wpa.qq.com/pa?p=2:2148688736:53" class="qqImage" />
 			</a>
 			<a href="javascript:;" id="backTop">
 				<i class="top_"></i>

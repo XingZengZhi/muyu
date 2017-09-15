@@ -73,7 +73,7 @@ $(function() {
         time = setInterval(SlidePic_time, 3000);//重新设置定时
 	});
 
-	//设置团队介绍鼠标划过事件,有子元素继承事件的bug
+	//设置团队介绍鼠标划过事件
 	$(".coms div[class*='com']").mouseenter(function(e) {
 		$(this).children().eq(1).stop(true).animate({
 			top: 20 + '%'
@@ -134,7 +134,7 @@ $(function() {
 	var caseItemLeft = new Array(30, 0, 15);
     var caseItemZindex = new Array(79, 79, 81);
 	var timeout;
-	timeout = setInterval(test, 5000);
+	timeout = setTimeout(test, 3000);
 	function test(){
 		$.each(caseItemBox, function(i, n){
             $(n).animate({
@@ -154,6 +154,7 @@ $(function() {
             caseItemZindex[i-1] = caseItemZindex[i];
         }
         caseItemZindex[caseItemZindex.length - 1] = firstBoxZindexArr;
-        
+		clearTimeout(timeout);
+        timeout = setTimeout(test, 3000);
 	}
 });
