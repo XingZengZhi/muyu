@@ -44,28 +44,19 @@
 			<div id="head_box">
 				<jsp:include page="head.jsp" />
 				<!--轮播开始-->
-				<div id="barner_box" class="clearfix">
-					<!-- <div class="barner_">
-						<div class="barner_title">
-							<b>
-								开启广告之旅！
-							</b>
-							<a href="" class="show_map">显示地图</a>
-							<a href="" class="show_details">详情</a>
-						</div>
-					</div> -->
-					<p class="left">
-						<i class="left_"></i>
-					</p>
-					<!--轮播图片-->
-					<a href="" class="barner_1"><img src="${pageContext.request.contextPath }/static/img/barner/barner1.jpg" /></a>
-					<a href="" class="barner_2"><img src="${pageContext.request.contextPath }/static/img/barner/barner2.jpg" /></a>
-					<a href="" class="barner_3"><img src="${pageContext.request.contextPath }/static/img/barner/barner3.jpg" /></a>
-					<!--结束-->
-					<p class="right">
-						<i class="right_"></i>
-					</p>
-				</div>
+			</div>
+			<div id="barner_box" class="clearfix">
+				<p class="left">
+					<i class="left_"></i>
+				</p>
+				<!--轮播图片-->
+				<a href="" class="barner_1"><img src="${pageContext.request.contextPath }/static/img/barner/barner1.jpg" /></a>
+				<a href="" class="barner_2"><img src="${pageContext.request.contextPath }/static/img/barner/barner2.jpg" /></a>
+				<a href="" class="barner_3"><img src="${pageContext.request.contextPath }/static/img/barner/barner3.jpg" /></a>
+				<!--结束-->
+				<p class="right">
+					<i class="right_"></i>
+				</p>
 			</div>
 			<!--广告分类-->
 			<div id="mid_box">

@@ -1,6 +1,8 @@
 *.mp4
 .classpath
 .project
+.png
+.jpg
 .tern-project
 qingchengcjk.iml
 .idea

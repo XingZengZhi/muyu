@@ -68,4 +68,10 @@ public class UserController {
 			e.printStackTrace();
 		}
 	}
+	@RequestMapping("/UserExit")
+	public String UserExit(HttpServletRequest request){
+		HttpSession session = request.getSession();
+		session.setAttribute("LoginUser", null);
+		return "redirect:/pages/index";
+	}
 }

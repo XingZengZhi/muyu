@@ -6,7 +6,27 @@
 <ul>
     <c:if test="${not empty LoginUser}">
         <li>
-            <a href="#" target="_self">${LoginUser.userName}</a>
+            <div class="UserSetting">
+                <div class="UserHeader">
+                    <img src="${pageContext.request.contextPath}/static/img/UserHeaderImage/header.png" alt="">
+                </div>
+            </div>
+
+            <div class="UserInfoBox">
+                <p>
+                    <img src="${pageContext.request.contextPath}/static/img/IconImage/xfjl.png" />
+                    <a href="#">消费记录</a>
+                </p>
+                <p>
+                    <img src="${pageContext.request.contextPath}/static/img/IconImage/cpxf.png" />
+                    <a href="#">产品续费</a>
+                </p>
+                <p>
+                    <img src="${pageContext.request.contextPath}/static/img/IconImage/wzfdd.png" />
+                    <a href="#">未支付订单</a>
+                </p>
+                <a href="${pageContext.request.contextPath}/UserExit" class="exit">退出</a>
+            </div>
         </li>
     </c:if>
     <c:if test="${empty LoginUser}">

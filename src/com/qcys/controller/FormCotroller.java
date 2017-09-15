@@ -49,6 +49,7 @@ public class FormCotroller {
 		String password = request.getParameter("password");
 		String phone = request.getParameter("telNum");
 		User user = new User();
+		user.setUserSex('1');
 		user.setUserPassword(MD5Utils.md5(password));
 		user.setUserPhone(phone);
 		try{

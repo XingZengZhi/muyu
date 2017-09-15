@@ -110,16 +110,14 @@ $(function() {
 	//当下拉滚动条大于菜单栏高度时，让菜单栏使用绝对定位。
 	$(window).scroll(function() {
 		if($(document).scrollTop() > 500) {
-			$("#head_box ul").css({
+			$("#head_box").css({
 				position:'fixed',
 				zIndex:100,
-				width:100 + '%',
 				opacity:1
 			});
 		}else{
-			$("#head_box ul").css({
+			$("#head_box").css({
 				position:'relative',
-				width:750 + 'px',
 				opacity:1
 			});
 		}
