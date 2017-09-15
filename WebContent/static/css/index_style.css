@@ -22,13 +22,6 @@
 .barner_3{
 	left:200%;
 }
-.barner_ {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
-	z-index: 2;
-}
 .left,
 .right {
 	position: absolute;
