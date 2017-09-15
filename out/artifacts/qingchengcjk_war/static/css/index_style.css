@@ -1,19 +1,20 @@
 #barner_box {
 	position: relative;
-	width:100%;
-	height:550px;
+	width:1226px;
+	height:460px;
+	margin:0px auto;
 	overflow: hidden;
 }
 .barner_1,.barner_2,.barner_3{
 	position: absolute;
 	display: block;
 	width:100%;
-	height: 600px;
+	height: 460px;
 }
 #barner_box img {
 	display: block;
 	width: 100%;
-	height: 550px;
+	height: 460px;
 }
 .barner_2{
 	left:100%;
@@ -27,60 +28,6 @@
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.3);
 	z-index: 2;
-}
-.barner_title {
-	width: 50%;
-	height: 20%;
-	margin: 15% auto;
-	position: relative;
-}
-.barner_title b,
-.barner_title p {
-	letter-spacing:2px;
-	display: block;
-	width: 100%;
-	text-align: center;
-	color: #FFFFFF;
-}
-.barner_title b {
-	font-size: 35px;
-}
-.barner_title a {
-	position: absolute;
-	display: inline-block;
-	text-decoration: none;
-	text-align: center;
-	height: 30px;
-	line-height: 30px;
-	width: 20%;
-	color: #FFFFFF;
-	top: 80%;
-}
-.show_map {
-	letter-spacing: 3px;
-	border: 1px solid #1ED3AE;
-	left: 26%;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-}
-.show_details {
-	letter-spacing: 3px;
-	border: 1px solid #FFFFFF;
-	right: 29%;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-}
-.show_map:hover {
-	background-color: #1ED3AE;
-}
-.show_details:hover {
-	box-shadow: 0 0 10px #fff;
 }
 .left,
 .right {
@@ -127,11 +74,11 @@
 }
 .left {
 	top: 50%;
-	left: 0%;
+	left: 1%;
 }
 .right {
 	top: 50%;
-	right: 0%;
+	right: 1%;
 }
 .left:hover,
 .right:hover {
@@ -207,13 +154,6 @@
 
 .ad_class a:hover span {
 	background-color: #1ED3AE;
-}
-
-@media screen and (max-width:1250px){
-	#max_box,#com_team,#news,#foot_{
-		display: block;
-		width:1250px;
-	}
 }
 #Message_box {
 	position: fixed;
@@ -370,7 +310,6 @@
 	margin:0 auto;
 	padding-left:3%;
 	position: relative;
-	margin-top:100px;
 	height:300px;
 	list-style: none;
 }
@@ -407,62 +346,6 @@
 	-ms-moz-animation:moveimg 1s linear alternate;
 	-o-moz-animation:moveimg 1s linear alternate;
 	animation:moveimg 1s linear alternate;
-}
-@-ms-keyframes moveimg{
-	0%{
-		transform: rotateY(0deg);
-	}
-	20%{
-		transform: rotateY(60deg);
-	}
-	50%{
-		transform: rotateY(-60deg);
-	}
-	100%{
-		transform: rotateY(0deg);
-	}
-}
-@-webkit-keyframes moveimg{
-	0%{
-		transform: rotateY(0deg);
-	}
-	20%{
-		transform: rotateY(60deg);
-	}
-	50%{
-		transform: rotateY(-60deg);
-	}
-	100%{
-		transform: rotateY(0deg);
-	}
-}
-@-moz-keyframes moveimg{
-	0%{
-		transform: rotateY(0deg);
-	}
-	20%{
-		transform: rotateY(60deg);
-	}
-	50%{
-		transform: rotateY(-60deg);
-	}
-	100%{
-		transform: rotateY(0deg);
-	}
-}
-@keyframes moveimg{
-	0%{
-		transform: rotateY(0deg);
-	}
-	20%{
-		transform: rotateY(60deg);
-	}
-	50%{
-		transform: rotateY(-60deg);
-	}
-	100%{
-		transform: rotateY(0deg);
-	}
 }
 #ad_int ul li h3{
 	text-align: center;
@@ -680,11 +563,6 @@
 	top:30%;
 	left:8%;
 }
-@media screen and (min-width:1250px){
-	#news .show_img{
-		left:10%;
-	}
-}
 .show_img img{
 	display: block;
 	width:100%;
@@ -758,5 +636,72 @@
 }
 .news_list ul li span:nth-child(2){
 	float: right;
+}
+@media screen and (min-width:1250px){
+	#news .show_img{
+		left:10%;
+	}
+}
+@media screen and (max-width:1250px){
+	#max_box,#com_team,#news,#foot_{
+		display: block;
+		width:1250px;
+	}
+}
+@-ms-keyframes moveimg{
+	0%{
+		transform: rotateY(0deg);
+	}
+	20%{
+		transform: rotateY(60deg);
+	}
+	50%{
+		transform: rotateY(-60deg);
+	}
+	100%{
+		transform: rotateY(0deg);
+	}
+}
+@-webkit-keyframes moveimg{
+	0%{
+		transform: rotateY(0deg);
+	}
+	20%{
+		transform: rotateY(60deg);
+	}
+	50%{
+		transform: rotateY(-60deg);
+	}
+	100%{
+		transform: rotateY(0deg);
+	}
+}
+@-moz-keyframes moveimg{
+	0%{
+		transform: rotateY(0deg);
+	}
+	20%{
+		transform: rotateY(60deg);
+	}
+	50%{
+		transform: rotateY(-60deg);
+	}
+	100%{
+		transform: rotateY(0deg);
+	}
+}
+@keyframes moveimg{
+	0%{
+		transform: rotateY(0deg);
+	}
+	20%{
+		transform: rotateY(60deg);
+	}
+	50%{
+		transform: rotateY(-60deg);
+	}
+	100%{
+		transform: rotateY(0deg);
+	}
 }
 

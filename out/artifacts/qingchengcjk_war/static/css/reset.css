@@ -30,6 +30,7 @@ ul{
 	height:60px;
 	width: 100%;
 	position: relative;
+	margin-bottom:20px;
 	background-color:#24282C;
 }
 #head_box > img{

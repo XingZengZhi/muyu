@@ -7,23 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/img/IconImage/cpxf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/img/IconImage/wzfdd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/img/IconImage/xfjl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/static/img/UserHeaderImage/header.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/index_style.css" afterPath="$PROJECT_DIR$/WebContent/static/css/index_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/reset.css" afterPath="$PROJECT_DIR$/WebContent/static/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/SelectTitle.js" afterPath="$PROJECT_DIR$/WebContent/static/js/SelectTitle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/index.js" afterPath="$PROJECT_DIR$/WebContent/static/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/head.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/index_style.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/index_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/reset.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/toufang.css" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/css/toufang.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/controller/UserController.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/index.js" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/static/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +48,8 @@
       <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="396">
+              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -76,20 +65,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+            <state relative-caret-position="363">
+              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/static/css/index_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="182">
               <caret line="113" column="33" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
               <folding />
             </state>
@@ -139,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/com/qcys/serviceimpl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/qcys/test/SendMail.java" />
-        <option value="$PROJECT_DIR$/WebContent/static/css/index_style.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/WebContent/static/css/information.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/information.jsp" />
@@ -177,8 +175,9 @@
         <option value="$PROJECT_DIR$/src/com/qcys/controller/UserController.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/static/css/reset.css" />
         <option value="$PROJECT_DIR$/WebContent/static/js/index.js" />
+        <option value="$PROJECT_DIR$/WebContent/static/css/index_style.css" />
+        <option value="$PROJECT_DIR$/WebContent/static/css/reset.css" />
       </list>
     </option>
   </component>
@@ -1001,14 +1000,7 @@
       <workItem from="1504950568615" duration="5689000" />
       <workItem from="1505123619716" duration="5005000" />
       <workItem from="1505132093440" duration="3763000" />
-      <workItem from="1505439549357" duration="19463000" />
-    </task>
-    <task id="LOCAL-00008" summary="添加短信验证（未完成）">
-      <created>1501578633895</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1501578633895</updated>
+      <workItem from="1505439549357" duration="21262000" />
     </task>
     <task id="LOCAL-00009" summary="实现短信验证（前台）">
       <created>1501642517501</created>
@@ -1346,7 +1338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505445133932</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="修复了一些问题2...">
+      <created>1505465012460</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1505465012460</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1361,7 +1360,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273083000" />
+    <option name="totallyTimeSpent" value="274882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1416,7 +1415,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新主页部分" />
     <MESSAGE value="更新注册页链接" />
     <MESSAGE value="更新资讯" />
     <MESSAGE value="修复发送邮箱验证码bug" />
@@ -1441,7 +1439,8 @@
     <MESSAGE value="我...我在...我在干什么..." />
     <MESSAGE value="我...我是谁...我在干什么..." />
     <MESSAGE value="修复了一些问题..." />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了一些问题..." />
+    <MESSAGE value="修复了一些问题2..." />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了一些问题2..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1749,14 +1748,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/css/index_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24298">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/img/IconImage/xfjl.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1780,14 +1771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/FormCotroller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -1798,18 +1781,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/js/SelectTitle.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="182">
+          <caret line="113" column="33" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="396">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/js/SelectTitle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1822,18 +1821,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/WebContent/static/css/index_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="462">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/js/index.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="113" column="33" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+        <state relative-caret-position="363">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
           <folding />
         </state>
       </provider>
