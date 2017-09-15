@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var $as = $("#head_box a");
+    var $as = $("#head_box ul li > a");
     $.each($as, function(i, n){
         if(window.location.pathname == $(n).attr("href")){
             $(n).css({

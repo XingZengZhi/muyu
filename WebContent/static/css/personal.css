@@ -1,0 +1,52 @@
+body,html{
+    background-color:#F6F6F6;
+}
+#personalMessage{
+    display:block;
+    margin:20px auto;
+    width:1226px;
+    border-top:2px solid #02a9ac;
+    background-color:white;
+}
+#headerSetting{
+    display:block;
+    width:1000px;
+    height:130px;
+    margin:20px auto;
+}
+#headerImage{
+    display:inline-block;
+}
+#uploadBtn{
+    display:inline-block;
+    margin-left:20px;
+}
+#settingHead{
+    display:block;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:16px;
+    margin-bottom:10px;
+    border:2px solid #02a9ac;
+    color:#02a9ac;
+    background-color:white;
+    border-radius:3px;
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+}
+#settingHead:hover{
+    cursor:pointer;
+    background-color:#02a9ac;
+    color:white;
+}
+#headerTip{
+    font-size:14px;
+    color:#ccc;
+}
+#headerFile{
+    display:none;
+}

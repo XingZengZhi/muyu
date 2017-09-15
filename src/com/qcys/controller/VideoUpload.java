@@ -37,5 +37,15 @@ public class VideoUpload {
 			e.printStackTrace();
 		}
 	}
+	@RequestMapping("/uploadHeader")
+	public void headerUpload(HttpServletRequest request, HttpServletResponse response,
+							 MultipartFile headerFile){
+		String headerName = headerFile.getOriginalFilename();
+		try {
+			response.getWriter().print(headerName);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 	
 }

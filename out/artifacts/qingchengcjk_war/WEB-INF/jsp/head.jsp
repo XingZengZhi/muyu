@@ -25,6 +25,10 @@
                     <img src="${pageContext.request.contextPath}/static/img/IconImage/wzfdd.png" />
                     <a href="#">未支付订单</a>
                 </p>
+                <p>
+                    <img src="${pageContext.request.contextPath}/static/img/IconImage/sz.png" />
+                    <a href="${pageContext.request.contextPath}/pages/personal">资料设置</a>
+                </p>
                 <a href="${pageContext.request.contextPath}/UserExit" class="exit">退出</a>
             </div>
         </li>
