@@ -45,7 +45,7 @@
 					</li>
 					<li>
 						<span class="personalMsg-title">屏幕个数</span>
-						<span class="unit"><input type="text" id="screenCount" placeholder="输入数量" />块</span>
+						<span class="unit"><input type="text" id="screenCount" placeholder="输入数量" />屏</span>
 					</li>
 					<li>
 						<span class="personalMsg-title">投放时长</span>
@@ -60,6 +60,9 @@
 					<li>
 						<span class="personalMsg-title">总价</span>
 						<span class="allprice"></span>
+					</li>
+					<li>
+						<span class="daysTip">*注：1个月按30天算，季度按3个月算</span>
 					</li>
 				</ul>
 			</form>

@@ -30,7 +30,7 @@
         				<p></p>
         			</li>
         			<li>
-        				<input type="text" id="jcaptcha" />
+        				<input type="text" id="jcaptcha" maxlength="5" />
         				<img id="CodeImage" title="点击刷新" alt="" src="${pageContext.request.contextPath }/code.jpg" />
         				<p>${fail}</p>
 					</li>

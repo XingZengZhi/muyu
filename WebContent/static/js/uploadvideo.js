@@ -1,7 +1,7 @@
 $(function(){
 	var inpFile =  $(".uploadBox form input[type='file']");
 	var startUpload = $(".startUpload");
-	var countTime = [];
+
 	inpFile.change(function(){
 		fileChange($(this));
 	});
@@ -199,15 +199,15 @@ $(function(){
                 $(this).html(oldName);
             }
         });
-    })
+    });
 
     $.getJSON("/qingchengcjk/static/JsonData/release-time.json", function(data){
+        times = new Array(data.length);
         for(var i = 0;i < data.length;i++){
             $(".advTime").append("<p>"+ data[i].time +"</p>");
             if(i == 0){
                 $(".advTime p").addClass("firstTime");
             }
-            countTime.push(data[i].cishu);
         }
         $(".advTime p").on('click', function(e){
             if(!e.target.className){
@@ -215,6 +215,7 @@ $(function(){
                 var newName = $(this).html();
                 $(".firstTime").html(newName);
                 $(this).html(oldName);
+                Judgment(newName);
             }
         });
     })
@@ -235,7 +236,6 @@ $(function(){
             $(".addressItem").fadeOut(0);
         }
     });
-    console.log(countTime.length);
     //监听价格变化
     var count1, count2, totalPrice, days, dayName;
     $("#screenCount,#timeCount").on('input propertychange', function(e){
@@ -256,13 +256,22 @@ $(function(){
             if(count1 != null){
                 dayName = $(".firstTime").html();
                 console.log(dayName);
-                if(dayName == '天')days = 1;
-                if(dayName == '周')days = 7;
-                if(dayName == '季度')days = 90;
-                if(dayName == '年')days = 365;
-                totalPrice = count1 * count2 * parseInt($(".price span").html()) * days;
-                $(".allprice").html(totalPrice);
+                Judgment(dayName);
             }
         }
     });
+    function Judgment(dayName){
+        var totalPriceDay;
+        var count1 = $("#screenCount").val();
+        var count2 = $("#timeCount").val();
+        if(count1 == null || count2 == null)return;
+        if(dayName == '天')days = 1;
+        if(dayName == '周')days = 7;
+        if(dayName == '月')days = 30;
+        if(dayName == '季度')days = 90;
+        if(dayName == '年')days = 365;
+        totalPriceDay = count1 * count2 * parseInt($(".price span").html()) * days;
+        $(".allprice").html(totalPriceDay);
+        return totalPriceDay;
+    }
 });

@@ -23,15 +23,16 @@ public class FormCotroller {
 	private UserService userService;
 	@RequestMapping("/loginForm")
 	public String UserLogin(HttpServletRequest request) throws IOException{
+		request.setCharacterEncoding("UTF-8");
 		String k = (String) request.getSession().getAttribute(Constants.KAPTCHA_SESSION_KEY);
 		String r = request.getParameter("r");
+		String account = request.getParameter("account");
+		String password = request.getParameter("password");
 		if(k.equals(r)){
-			String account = request.getParameter("account");
-			String password = request.getParameter("password");
-			User user = userService.UserLogin(account, password);
+			User user = userService.UserLogin(account, MD5Utils.md5(password));
 			if(user != null){
 				HttpSession session = request.getSession();
-				session.setAttribute("luser", user);
+				session.setAttribute("LoginUser", user);
 				System.out.print(user.getUserAccount());
 			}else{
 				request.setAttribute("fail", "用户名或密码错误");

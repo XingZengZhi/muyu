@@ -1,11 +1,12 @@
 @CHARSET "UTF-8";
 .personalMsg{
-	/*border:1px solid red;*/
-	width:1200px;
+	width:1100px;
 	min-height:300px;
 	margin:0 auto;
 	padding-top:80px;
 	padding-bottom:20px;
+	/*border:1px solid #ccc;*/
+	/*border-radius:3px;*/
 }
 .personalMsg ul{
 	width:800px;
@@ -60,6 +61,9 @@
 .personalMsg li{
 	position:relative;
 	border-bottom:1px solid #ccc;
+}
+.personalMsg li:last-child{
+	border:none;
 }
 .personalMsg-title{
 	display:inline-block;
@@ -207,4 +211,10 @@
 	display:block;
 	width:400px;
 	height:300px;
+}
+.daysTip{
+	display:block;
+	font-size:14px;
+	margin-top:20px;
+	color: #b4b4b4;
 }
