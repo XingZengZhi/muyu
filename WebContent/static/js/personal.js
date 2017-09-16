@@ -51,6 +51,11 @@ $(document).ready(function(){
                 processData:false,  //避开JQuery自动对formData的处理
                 success: function (data) {
                     alert(data);
+                    var headerSrc = $(".UserHeader img").attr("src");
+                    var newSrc = headerSrc.substring(0, headerSrc.lastIndexOf("/") + 1) + data;
+                    console.log(newSrc);
+                    $(".UserHeader img").attr("src", newSrc);
+                    $("#headerImage img").attr("src", newSrc);
                 },
             });
 

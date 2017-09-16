@@ -8,15 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/personal.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/personal.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/css/personal.css" afterPath="$PROJECT_DIR$/WebContent/static/css/personal.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/static/js/personal.js" afterPath="$PROJECT_DIR$/WebContent/static/js/personal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/head.jsp" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/jsp/head.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" afterPath="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/pojo/User.java" afterPath="$PROJECT_DIR$/src/com/qcys/pojo/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/service/UserService.java" afterPath="$PROJECT_DIR$/src/com/qcys/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qcys/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/qcys/service/impl/UserServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="head.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="10" column="114" lean-forward="false" selection-start-line="10" selection-start-column="114" selection-end-line="10" selection-end-column="114" />
               <folding />
             </state>
           </provider>
@@ -42,35 +39,9 @@
       <file leaf-file-name="personal.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/personal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="209">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/static/css/personal.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="116" column="1" lean-forward="true" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-              <folding>
-                <marker date="1505588702276" expanded="true" signature="256:276" ph="select * fro... UserTb" />
-                <marker date="1505588702276" expanded="true" signature="380:449" ph="select * fro... UserTb" />
-                <marker date="1505588702276" expanded="true" signature="524:608" ph="INSERT INTO UserTb... " />
-                <marker date="1505588702276" expanded="true" signature="713:766" ph="select UserE... UserTb" />
-                <marker date="1505588702276" expanded="true" signature="842:897" ph="UPDATE UserT... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -80,19 +51,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
               <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
-              <folding>
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.java">
+      <file leaf-file-name="personal.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/static/css/personal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="322">
+              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -101,8 +69,8 @@
       <file leaf-file-name="personal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/static/js/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="677">
+              <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -110,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoUpload.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VideoUpload.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="23">
+              <caret line="50" column="68" lean-forward="false" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -194,17 +162,17 @@
         <option value="$PROJECT_DIR$/WebContent/static/css/index_style.css" />
         <option value="$PROJECT_DIR$/WebContent/static/js/index.js" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" />
         <option value="$PROJECT_DIR$/WebContent/static/js/SelectTitle.js" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/personal.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/static/css/personal.css" />
         <option value="$PROJECT_DIR$/src/com/qcys/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/qcys/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/WebContent/static/js/personal.js" />
         <option value="$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java" />
+        <option value="$PROJECT_DIR$/WebContent/static/js/personal.js" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/personal.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/static/css/personal.css" />
       </list>
     </option>
   </component>
@@ -357,7 +325,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1122,14 +1090,7 @@
       <workItem from="1505132093440" duration="3763000" />
       <workItem from="1505439549357" duration="22036000" />
       <workItem from="1505472696021" duration="13044000" />
-      <workItem from="1505578502667" duration="8563000" />
-    </task>
-    <task id="LOCAL-00014" summary="更新了手机号的验证">
-      <created>1501658112764</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1501658112764</updated>
+      <workItem from="1505578502667" duration="9754000" />
     </task>
     <task id="LOCAL-00015" summary="验证基本完成">
       <created>1501660987081</created>
@@ -1467,7 +1428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505491262313</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="丰富...">
+      <created>1505589484838</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1505589484839</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1482,7 +1450,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297263000" />
+    <option name="totallyTimeSpent" value="298454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1537,7 +1505,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加后台登录页面" />
     <MESSAGE value="添加后台登录JS和" />
     <MESSAGE value="添加后台登录Form表单" />
     <MESSAGE value="新增视频审核对话框" />
@@ -1562,7 +1529,8 @@
     <MESSAGE value="修复了一些问题5..." />
     <MESSAGE value="前端问题总是很多..." />
     <MESSAGE value="用户头像上传..." />
-    <option name="LAST_COMMIT_MESSAGE" value="用户头像上传..." />
+    <MESSAGE value="丰富..." />
+    <option name="LAST_COMMIT_MESSAGE" value="丰富..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1867,47 +1835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding>
-            <marker date="1505588702276" expanded="true" signature="256:276" ph="select * fro... UserTb" />
-            <marker date="1505588702276" expanded="true" signature="380:449" ph="select * fro... UserTb" />
-            <marker date="1505588702276" expanded="true" signature="524:608" ph="INSERT INTO UserTb... " />
-            <marker date="1505588702276" expanded="true" signature="713:766" ph="select UserE... UserTb" />
-            <marker date="1505588702276" expanded="true" signature="842:897" ph="UPDATE UserT... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/css/personal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="116" column="1" lean-forward="true" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/AdverCotroller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1940,8 +1867,8 @@
         <state relative-caret-position="440">
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1035#1036#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1954,28 +1881,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/personal.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/js/personal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state relative-caret-position="627">
+          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <marker date="1505588702276" expanded="true" signature="256:276" ph="select * fro... UserTb" />
+            <marker date="1505588702276" expanded="true" signature="380:449" ph="select * fro... UserTb" />
+            <marker date="1505588702276" expanded="true" signature="524:608" ph="INSERT INTO UserTb... " />
+            <marker date="1505588702276" expanded="true" signature="713:766" ph="select UserE... UserTb" />
+            <marker date="1505588702276" expanded="true" signature="842:897" ph="UPDATE UserT... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qcys/controller/VideoUpload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="23">
+          <caret line="50" column="68" lean-forward="false" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/js/personal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="114" lean-forward="false" selection-start-line="10" selection-start-column="114" selection-end-line="10" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qcys/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/personal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/static/css/personal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding />
         </state>
       </provider>

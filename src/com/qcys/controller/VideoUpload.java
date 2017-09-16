@@ -45,9 +45,22 @@ public class VideoUpload {
 	public void headerUpload(HttpServletRequest request, HttpServletResponse response,
 							 MultipartFile headerFile){
 		String userid = request.getParameter("userid");
-		String headerSrc = headerFile.getOriginalFilename();
-		System.out.println(userid + " " + headerSrc);
-		userService.SettingHeader(headerSrc, userid);
+		String headerName = headerFile.getOriginalFilename();
+		String uploadPath = request.getRealPath(File.separatorChar + "static" +
+													File.separatorChar + "img" +
+														File.separatorChar + "UserHeaderImage");
+		File headerFileUpload = new File(uploadPath + File.separatorChar + headerName);
+		if(!headerFileUpload.exists()){
+			headerFileUpload.mkdirs();
+		}
+		try {
+			headerFile.transferTo(headerFileUpload); //刷新到磁盘
+			response.getWriter().print(headerName);
+		} catch (IllegalStateException | IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println(userid + " " + headerName);
+		userService.SettingHeader(headerName, userid);
 	}
 	
 }

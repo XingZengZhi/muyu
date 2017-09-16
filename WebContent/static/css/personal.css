@@ -17,6 +17,10 @@ body,html{
 #headerImage{
     display:inline-block;
 }
+#headerImage img{
+    width:120px;
+    height:120px;
+}
 #uploadBtn{
     display:inline-block;
     margin-left:20px;

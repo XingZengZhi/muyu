@@ -20,7 +20,7 @@
         <div id="personalMessage">
             <div id="headerSetting">
                 <div id="headerImage">
-                    <img src="${pageContext.request.contextPath}/static/img/UserHeaderImage/header.png" alt="">
+                    <img src="${pageContext.request.contextPath}/static/img/UserHeaderImage/${LoginUser.userHeader}" alt="">
                 </div>
                 <div id="uploadBtn">
                     <form id="headerForm" enctype="multipart/form-data">

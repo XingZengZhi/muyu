@@ -8,7 +8,7 @@
         <li>
             <div class="UserSetting">
                 <div class="UserHeader">
-                    <img src="${pageContext.request.contextPath}/static/img/UserHeaderImage/header.png" alt="">
+                    <img src="${pageContext.request.contextPath}/static/img/UserHeaderImage/${LoginUser.userHeader}" alt="">
                 </div>
             </div>
 
