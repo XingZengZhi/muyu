@@ -9,4 +9,5 @@ public interface UserService {
 	User UserLogin(String userAccount, String passWord);
 	void UserInsert(User user);
 	String FindUserMail(String userName);
+	void SettingHeader(String headerSrc, String userid);
 }

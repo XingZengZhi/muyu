@@ -29,6 +29,27 @@
                     <label for="headerFile" type="button" id="settingHead">设置头像</label>
                     <p id="headerTip">JPG或PNG格式，最大3MB，不支持GIF。120*120像素最佳</p>
                 </div>
+                <div id="UserMessage">
+                    <p id="UserId">${LoginUser.userID}</p>
+                    <p>昵称：<span>${LoginUser.userAccount}</span></p>
+                    <p>联系电话：<span>${LoginUser.userPhone}</span></p>
+                    <p>邮箱：<span>${LoginUser.userEmail}</span></p>
+                </div>
+                <%--最近浏览--%>
+                <div id="RecentBrowse">
+                    <p>
+                        <span class="item-grow1">编号</span>
+                        <span class="item-grow2">地址</span>
+                        <span class="item-grow3">价格</span>
+                        <span class="item-grow4">浏览时间</span>
+                    </p>
+                </div>
+                <div id="SettingMessage">
+                    <button type="button" class="message-base base-item1">昵称设置</button>
+                    <button type="button" class="message-base base-item2">联系修改</button>
+                    <button type="button" class="message-base base-item3">邮箱设置</button>
+                    <button type="button" class="message-base base-item4">密码修改</button>
+                </div>
             </div>
         </div>
 

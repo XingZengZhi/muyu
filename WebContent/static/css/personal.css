@@ -11,7 +11,7 @@ body,html{
 #headerSetting{
     display:block;
     width:1000px;
-    height:130px;
+    height:655px;
     margin:20px auto;
 }
 #headerImage{
@@ -49,4 +49,101 @@ body,html{
 }
 #headerFile{
     display:none;
+}
+#UserMessage{
+    displya:block;
+    width:1000px;
+    height:100px;
+    margin:10px auto;
+    /*border:1px solid blue;*/
+}
+#UserMessage p{
+    height:30px;
+    line-height:30px;
+    color: #a2a2a2;
+    font-size:15px;
+}
+#UserId{
+    display:none;
+}
+#SettingMessage{
+    display:-webkit-flex;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around; /*水平居中*/
+    align-items: center; /*垂直居中*/
+    width:1000px;
+    height:100px;
+    margin:10px auto;
+    /*border:1px solid red;*/
+}
+.message-base{
+    display:inline-block;
+    width:120px;
+    height:45px;
+    letter-spacing:2px;
+    border-radius:5px;
+    border:none;
+    color:white;
+    font-size:16px;
+}
+.base-item1{
+    background-color: #02a5a8;
+}
+.base-item1:hover{
+    cursor: pointer;
+    background-color: #029699;
+}
+.base-item2{
+    background-color: #ff0000;
+}
+.base-item2:hover{
+    cursor: pointer;
+    background-color: #e30000;
+}
+.base-item3{
+    background-color: #5CB85C;
+}
+.base-item3:hover{
+    cursor: pointer;
+    background-color: #52a452;
+}
+.base-item4{
+    background-color: #F0AD4E;
+}
+.base-item4:hover{
+    cursor: pointer;
+    background-color: #d9a044;
+}
+#RecentBrowse{
+    display:block;
+    width:1000px;
+    margin:10px auto;
+    /*border:1px solid red;*/
+}
+#RecentBrowse p{
+    display:flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+    height:35px;
+}
+#RecentBrowse p span{
+    display:inline-block;
+    height:35px;
+    line-height:35px;
+    background-color: #eaeaea;
+    box-sizing:border-box;
+    padding-left:5px;
+}
+.item-grow1{
+    flex-grow:1;
+}
+.item-grow2{
+    flex-grow:1;
+}
+.item-grow3{
+    flex-grow:1;
+}
+.item-grow4{
+    flex-grow:1;
 }

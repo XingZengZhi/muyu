@@ -7,6 +7,8 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.qcys.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
@@ -14,6 +16,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 @Controller
 public class VideoUpload {
+	@Autowired
+	private UserService userService;
 	@RequestMapping("/upload")
 	public void videoupload(HttpServletRequest request, HttpServletResponse response,
 			MultipartFile videoFile){
@@ -40,12 +44,10 @@ public class VideoUpload {
 	@RequestMapping("/uploadHeader")
 	public void headerUpload(HttpServletRequest request, HttpServletResponse response,
 							 MultipartFile headerFile){
-		String headerName = headerFile.getOriginalFilename();
-		try {
-			response.getWriter().print(headerName);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		String userid = request.getParameter("userid");
+		String headerSrc = headerFile.getOriginalFilename();
+		System.out.println(userid + " " + headerSrc);
+		userService.SettingHeader(headerSrc, userid);
 	}
 	
 }

@@ -35,4 +35,9 @@ public class UserServiceImpl implements UserService {
 		return userMapper.FindUserMail(userName);
 	}
 
+	@Override
+	public void SettingHeader(String headerSrc, String userid) {
+		userMapper.SettingHeader(headerSrc, userid);
+	}
+
 }

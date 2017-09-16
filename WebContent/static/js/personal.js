@@ -42,6 +42,7 @@ $(document).ready(function(){
             // var headerFile = document.getElementById("headerFile");
             var formData = new FormData($("#headerForm")[0]);
             formData.append("headerFile", t);
+            formData.append("userid", $("#UserId").html());
             $.ajax({
                 url:'../uploadHeader',
                 type:'POST',

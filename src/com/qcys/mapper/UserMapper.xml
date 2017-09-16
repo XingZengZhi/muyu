@@ -16,4 +16,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="FindUserMail" parameterType="java.lang.String" resultType="java.lang.String">
 		select UserEmail from UserTb where UserAccount = #{0}
 	</select>
+	<select id="SettingHeader" parameterType="java.lang.String">
+		UPDATE UserTb SET UserHeader = #{0} WHERE UserID = #{1}
+	</select>
 </mapper>
