@@ -9,7 +9,7 @@ a{
 ul{
     list-style: none;
 }
-input{
+input,button{
 	outline:none;
 }
 .clearfix{

@@ -53,16 +53,53 @@
             </div>
 
             <div id="MaskBox">
-                <div id="SettingNickName">
-                    <blockquote>
+                <%--昵称设置--%>
+                <div class="SettingNickName">
+                    <blockquote class="quoteItem1">
                         <span class="nickName">昵称设置</span>
                         <span class="cha">×</span>
                     </blockquote>
-                    <div id="ChangeNickName">
-                        <input type="text" maxlength="16" id="NewUserNickName" />
-                        <button type="button" id="ConfirmNickName">确认修改</button>
+                    <div class="ChangeNickName">
+                        <input type="text" maxlength="16" class="NewUserNickName" />
+                        <button type="button" id="ConfirmNickName" class="quoteItem1">确认修改</button>
                     </div>
                 </div>
+                    <%--联系修改--%>
+                <div class="SettingPhone">
+                    <blockquote class="quoteItem2">
+                        <span class="nickName">联系修改</span>
+                        <span class="cha">×</span>
+                    </blockquote>
+                    <div class="ChangeNickName">
+                        <input type="text" maxlength="16" class="NewPhone" />
+                        <button type="button" id="ConfirmPhone" class="quoteItem2">确认修改</button>
+                    </div>
+                </div>
+
+                <%--邮箱设置--%>
+                <div class="SettingEmail">
+                    <blockquote class="quoteItem3">
+                        <span class="nickName">邮箱修改</span>
+                        <span class="cha">×</span>
+                    </blockquote>
+                    <div class="ChangeNickName">
+                        <input type="text" maxlength="16" class="NewEmail" />
+                        <button type="button" id="ConfirmEmail" class="quoteItem3">确认修改</button>
+                    </div>
+                </div>
+
+                <%--密码修改--%>
+                <div class="SettingPass">
+                    <blockquote class="quoteItem4">
+                        <span class="nickName">邮箱修改</span>
+                        <span class="cha">×</span>
+                    </blockquote>
+                    <div class="ChangeNickName">
+                        <input type="text" maxlength="16" class="NewPass" />
+                        <button type="button" id="ConfirmPass" class="quoteItem4">确认修改</button>
+                    </div>
+                </div>
+
             </div>
 
         </div>

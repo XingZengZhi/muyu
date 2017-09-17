@@ -64,17 +64,31 @@ $(document).ready(function(){
     var $baseItem1 = $(".base-item1");
     var $baseItem2 = $(".base-item2");
     var $baseItem3 = $(".base-item3");
+    var $baseItem4 = $(".base-item4");
     var $ConfirmNickName = $("#ConfirmNickName");
     var $Mask = $("#MaskBox");
     var $cha =$(".cha");
     var NewNickName = "";
 
     $baseItem1.click(ShowMask);
+    $baseItem2.click(ShowMask);
+    $baseItem3.click(ShowMask);
+    $baseItem4.click(ShowMask);
     $cha.click(HideCha);
     $ConfirmNickName.click(SubmitNewNickName);
 
-    function ShowMask(){
+    function ShowMask(e){
         $Mask.fadeIn(400);
+        var itemName = e.target.className.split(" ")[1];
+        if(itemName == "base-item1"){
+            $(".SettingNickName").fadeIn(400).siblings().fadeOut(0);
+        }else if(itemName == "base-item2"){
+            $(".SettingPhone").fadeIn(400).siblings().fadeOut(0);
+        }else if(itemName == "base-item3"){
+            $(".SettingEmail").fadeIn(400).siblings().fadeOut(0);
+        }else{
+            $(".SettingPass").fadeIn(400).siblings().fadeOut(0);
+        }
     }
 
     function HideCha(){
@@ -82,7 +96,7 @@ $(document).ready(function(){
     }
     //修改昵称
     function SubmitNewNickName(){
-        NewNickName = $("#NewUserNickName").val();
+        NewNickName = $(".NewUserNickName").val();
         $.ajax({
             type:"GET",
             data:"NickName=" + NewNickName + "&userid=" + $("#UserId").html(),
