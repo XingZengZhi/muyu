@@ -6,7 +6,9 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
+import com.qcys.pojo.User;
 import com.qcys.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -46,21 +48,27 @@ public class VideoUpload {
 							 MultipartFile headerFile){
 		String userid = request.getParameter("userid");
 		String headerName = headerFile.getOriginalFilename();
+		String newHeaderName = UUID.randomUUID().toString() + headerName.substring(headerName.lastIndexOf("."));
 		String uploadPath = request.getRealPath(File.separatorChar + "static" +
 													File.separatorChar + "img" +
 														File.separatorChar + "UserHeaderImage");
-		File headerFileUpload = new File(uploadPath + File.separatorChar + headerName);
+		File headerFileUpload = new File(uploadPath + File.separatorChar + newHeaderName);
 		if(!headerFileUpload.exists()){
 			headerFileUpload.mkdirs();
 		}
 		try {
 			headerFile.transferTo(headerFileUpload); //刷新到磁盘
-			response.getWriter().print(headerName);
+			response.getWriter().print(newHeaderName);
 		} catch (IllegalStateException | IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println(userid + " " + headerName);
-		userService.SettingHeader(headerName, userid);
+		userService.SettingHeader(newHeaderName, userid);
+		HttpSession session = request.getSession();
+		if(session.getAttribute("LoginUser") != null){
+			User user = (User) session.getAttribute("LoginUser");
+			user.setUserHeader(newHeaderName);
+			session.setAttribute("LoginUser", user);
+		}
 	}
 	
 }
