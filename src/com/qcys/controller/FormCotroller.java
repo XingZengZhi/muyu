@@ -26,10 +26,10 @@ public class FormCotroller {
 		request.setCharacterEncoding("UTF-8");
 		String k = (String) request.getSession().getAttribute(Constants.KAPTCHA_SESSION_KEY);
 		String r = request.getParameter("r");
-		String account = request.getParameter("account");
+		String phoneNumber = request.getParameter("account");
 		String password = request.getParameter("password");
 		if(k.equals(r)){
-			User user = userService.UserLogin(account, MD5Utils.md5(password));
+			User user = userService.UserLogin(phoneNumber, MD5Utils.md5(password));
 			if(user != null){
 				HttpSession session = request.getSession();
 				session.setAttribute("LoginUser", user);

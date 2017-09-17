@@ -7,7 +7,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		select * from UserTb
 	</select>
 	<select id="UserLogin" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
-		select * from UserTb where UserAccount = #{0} and UserPassword = #{1}
+		select * from UserTb where UserPhone = #{0} and UserPassword = #{1}
 	</select>
 	<select id="UserInsert" parameterType="com.qcys.pojo.User">
 		INSERT INTO UserTb (userPassword, userPhone)
@@ -18,5 +18,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</select>
 	<select id="SettingHeader" parameterType="java.lang.String">
 		UPDATE UserTb SET UserHeader = #{0} WHERE UserID = #{1}
+	</select>
+	<select id="SettingNickName" parameterType="java.lang.String">
+		UPDATE UserTb SET UserAccount = #{0} WHERE UserID = #{1}
+	</select>
+	<select id="FindUserById" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
+		SELECT * FROM UserTb
+		WHERE UserID = #{0}
 	</select>
 </mapper>

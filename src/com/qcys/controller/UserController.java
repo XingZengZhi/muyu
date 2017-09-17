@@ -74,4 +74,18 @@ public class UserController {
 		session.setAttribute("LoginUser", null);
 		return "redirect:/pages/index";
 	}
+	@RequestMapping("/NewNickName")
+	public void NewNickName(HttpServletRequest request, HttpServletResponse response){
+		String nickName = request.getParameter("NickName");
+		String userid = request.getParameter("userid");
+		System.out.println(nickName + " " + userid);
+		try {
+			userService.SettingNickName(nickName, userid);
+			response.getWriter().print("1");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		User user = userService.FindUserById(userid);
+		request.getSession().setAttribute("LoginUser", user);
+	}
 }

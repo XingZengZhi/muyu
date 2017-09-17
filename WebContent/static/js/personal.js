@@ -53,12 +53,46 @@ $(document).ready(function(){
                     alert(data);
                     var headerSrc = $(".UserHeader img").attr("src");
                     var newSrc = headerSrc.substring(0, headerSrc.lastIndexOf("/") + 1) + data;
-                    console.log(newSrc);
                     $(".UserHeader img").attr("src", newSrc);
                     $("#headerImage img").attr("src", newSrc);
                 },
             });
 
         }
+    }
+
+    var $baseItem1 = $(".base-item1");
+    var $baseItem2 = $(".base-item2");
+    var $baseItem3 = $(".base-item3");
+    var $ConfirmNickName = $("#ConfirmNickName");
+    var $Mask = $("#MaskBox");
+    var $cha =$(".cha");
+    var NewNickName = "";
+
+    $baseItem1.click(ShowMask);
+    $cha.click(HideCha);
+    $ConfirmNickName.click(SubmitNewNickName);
+
+    function ShowMask(){
+        $Mask.fadeIn(400);
+    }
+
+    function HideCha(){
+        $Mask.fadeOut(400);
+    }
+    //修改昵称
+    function SubmitNewNickName(){
+        NewNickName = $("#NewUserNickName").val();
+        $.ajax({
+            type:"GET",
+            data:"NickName=" + NewNickName + "&userid=" + $("#UserId").html(),
+            url:"../NewNickName",
+            success:function(result){
+                if(result == 1){
+                    $("#UserAccount").html(NewNickName);
+                    $("#MaskBox").fadeOut(400);
+                }
+            }
+        });
     }
 });

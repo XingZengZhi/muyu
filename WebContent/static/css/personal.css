@@ -3,6 +3,7 @@ body,html{
 }
 #personalMessage{
     display:block;
+    position:relative;
     margin:20px auto;
     width:1226px;
     border-top:2px solid #02a9ac;
@@ -150,4 +151,76 @@ body,html{
 }
 .item-grow4{
     flex-grow:1;
+}
+#MaskBox{
+    display:none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:rgba(255, 255, 255, 0.5);
+
+}
+#SettingNickName{
+    display:block;
+    width:300px;
+    height:200px;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    background-color:white;
+    box-shadow:0 0 10px #ccc;
+}
+#SettingNickName blockquote{
+    display:block;
+    width:100%;
+    height:35px;
+    background-color:#02a5a8;
+    border-radius:5px 5px 0 0;
+}
+#SettingNickName blockquote span{
+    display:inline-block;
+    height:35px;
+    line-height:35px;
+    color:white;
+}
+.nickName{
+    float:left;
+    font-size:17px;
+    letter-spacing:2px;
+    margin-left:10px;
+}
+.cha{
+    float:right;
+    font-size:20px;
+    margin-right:10px;
+}
+.cha:hover{
+    cursor:pointer;
+}
+#ChangeNickName{
+    display:block;
+    width:80%;
+    height:100px;
+    margin:20px auto;
+}
+#NewUserNickName{
+    display:block;
+    width:100%;
+    height:35px;
+}
+#ChangeNickName button{
+    display:block;
+    width:100px;
+    height:35px;
+    background-color:#02a5a8;
+    border:none;
+    color:white;
+    letter-spacing:2px;
+    border-radius:3px;
+    margin-top:10px;
 }

@@ -31,7 +31,7 @@
                 </div>
                 <div id="UserMessage">
                     <p id="UserId">${LoginUser.userID}</p>
-                    <p>昵称：<span>${LoginUser.userAccount}</span></p>
+                    <p>昵称：<span id="UserAccount">${LoginUser.userAccount}</span></p>
                     <p>联系电话：<span>${LoginUser.userPhone}</span></p>
                     <p>邮箱：<span>${LoginUser.userEmail}</span></p>
                 </div>
@@ -51,6 +51,20 @@
                     <button type="button" class="message-base base-item4">密码修改</button>
                 </div>
             </div>
+
+            <div id="MaskBox">
+                <div id="SettingNickName">
+                    <blockquote>
+                        <span class="nickName">昵称设置</span>
+                        <span class="cha">×</span>
+                    </blockquote>
+                    <div id="ChangeNickName">
+                        <input type="text" maxlength="16" id="NewUserNickName" />
+                        <button type="button" id="ConfirmNickName">确认修改</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <jsp:include page="footer.jsp" />

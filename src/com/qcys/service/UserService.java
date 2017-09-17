@@ -6,8 +6,10 @@ import com.qcys.pojo.User;
 
 public interface UserService {
 	List<User> getUserList();
-	User UserLogin(String userAccount, String passWord);
-	void UserInsert(User user);
+	User UserLogin(String userPhone, String passWord);
+	User FindUserById(String userid);
 	String FindUserMail(String userName);
+	void UserInsert(User user);
 	void SettingHeader(String headerSrc, String userid);
+	void SettingNickName(String nickName, String userid);
 }

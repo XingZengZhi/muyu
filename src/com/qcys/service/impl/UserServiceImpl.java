@@ -21,8 +21,13 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User UserLogin(String userAccount, String passWord) {
-		return userMapper.UserLogin(userAccount, passWord);
+	public User UserLogin(String userPhone, String passWord) {
+		return userMapper.UserLogin(userPhone, passWord);
+	}
+
+	@Override
+	public User FindUserById(String userid) {
+		return userMapper.FindUserById(userid);
 	}
 
 	@Override
@@ -38,6 +43,11 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public void SettingHeader(String headerSrc, String userid) {
 		userMapper.SettingHeader(headerSrc, userid);
+	}
+
+	@Override
+	public void SettingNickName(String nickName, String userid) {
+		userMapper.SettingNickName(nickName, userid);
 	}
 
 }
