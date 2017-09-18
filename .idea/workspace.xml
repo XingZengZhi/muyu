@@ -6,18 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="add restful2...">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/applicationContext-dao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/applicationContext-service.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/applicationContext-transaction.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/springmvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/sqlMapConfig.xml" afterPath="" />
+    <list default="true" id="79b735cb-dac8-494c-ab1f-9a796873caa5" name="Default" comment="muyu">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/springmvc.xml" afterPath="$PROJECT_DIR$/out/artifacts/qingchengcjk_war/WEB-INF/classes/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qcys.iml" afterPath="$PROJECT_DIR$/qcys.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/springmvc.xml" afterPath="$PROJECT_DIR$/src/springmvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +54,8 @@
       <file leaf-file-name="personal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/static/js/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="128" column="47" lean-forward="true" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+            <state relative-caret-position="413">
+              <caret line="127" column="47" lean-forward="true" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -888,14 +879,7 @@
       <workItem from="1505701500396" duration="17548000" />
       <workItem from="1505736079971" duration="58000" />
       <workItem from="1505736183911" duration="145000" />
-      <workItem from="1505736902194" duration="4186000" />
-    </task>
-    <task id="LOCAL-00022" summary="更新UI">
-      <created>1501751161522</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1501751161522</updated>
+      <workItem from="1505736902194" duration="4881000" />
     </task>
     <task id="LOCAL-00023" summary="调整找回密码UI">
       <created>1501824476055</created>
@@ -1233,7 +1217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505737037705</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="muyu">
+      <created>1505742517268</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1505742517268</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1248,7 +1239,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334718000" />
+    <option name="totallyTimeSpent" value="335413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1303,7 +1294,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="上传图片预览" />
     <MESSAGE value="更新图片预览" />
     <MESSAGE value="图片存储" />
     <MESSAGE value="完善添加广告位逻辑" />
@@ -1328,7 +1318,8 @@
     <MESSAGE value="丰富5..." />
     <MESSAGE value="add restful..." />
     <MESSAGE value="add restful2..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add restful2..." />
+    <MESSAGE value="muyu" />
+    <option name="LAST_COMMIT_MESSAGE" value="muyu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1714,8 +1705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/static/js/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="128" column="47" lean-forward="true" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+        <state relative-caret-position="413">
+          <caret line="127" column="47" lean-forward="true" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
           <folding />
         </state>
       </provider>

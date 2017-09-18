@@ -4,8 +4,9 @@
 .png
 .jpg
 .tern-project
-qingchengcjk.iml
+qcys.iml
 .idea
 .settings
-/build
-/out
+build/
+out/
+.gitignore
