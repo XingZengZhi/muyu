@@ -97,7 +97,7 @@
                     <div class="ChangeNickName">
                         <input type="text" maxlength="16" class="NewPass" />
                         <button type="button" id="ConfirmPass" class="quoteItem4">确认修改</button>
-                        <p id="resultTip">修改成功</p>
+                        <p id="resultTip">修改成功，下次登录生效。</p>
                     </div>
                 </div>
 

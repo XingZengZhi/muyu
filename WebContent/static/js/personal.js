@@ -100,9 +100,9 @@ $(document).ready(function(){
     function SubmitNewNickName(){
         NewNickName = $(".NewUserNickName").val();
         $.ajax({
-            type:"GET",
+            type:"POST",
             data:"NickName=" + NewNickName + "&userid=" + $("#UserId").html(),
-            url:"../NewNickName",
+            url:"../../NewNickName",
             success:function(result){
                 if(result == 1){
                     $("#UserAccount").html(NewNickName);
@@ -117,7 +117,7 @@ $(document).ready(function(){
         $.ajax({
             type:"POST",
             data:"NewPass=" + NewPass + "&userphone=" + $("#UserPhone").html(),
-            url:"../NewPass",
+            url:"../../NewPass",
             success:function(result){
                 if(result == 1){
                     $("#resultTip").fadeIn(0);

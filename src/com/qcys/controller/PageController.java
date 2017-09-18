@@ -46,6 +46,6 @@ public class PageController {
 	public String htIndex(){
 		return "ht_index";
 	}
-	@RequestMapping("/personal")
+	@RequestMapping("/preLogin/personal")
 	public String pagePersonal(){return "personal";}
 }

@@ -27,7 +27,7 @@
                 </p>
                 <p>
                     <img src="${pageContext.request.contextPath}/static/img/IconImage/sz.png" />
-                    <a href="${pageContext.request.contextPath}/pages/personal">资料设置</a>
+                    <a href="${pageContext.request.contextPath}/pages/preLogin/personal">资料设置</a>
                 </p>
                 <a href="${pageContext.request.contextPath}/UserExit" class="exit">退出</a>
             </div>

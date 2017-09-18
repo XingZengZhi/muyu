@@ -14,6 +14,13 @@
 	<!-- 默认创建处理器映射器和处理器适配器并使controller中的相关注解生效 -->
 	<mvc:annotation-driven />
 
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/pages/preLogin/**"/>
+			<bean class="com.qcys.handler.CheckLoginHandler" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+
 	<!-- 配置视图解析器 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<!-- <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" /> -->
