@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qcys.mapper.UserMapper">
+	<select id="getUserList" resultType="com.qcys.pojo.User">
+		select * from UserTb
+	</select>
+	<select id="UserLogin" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
+		select * from UserTb where UserPhone = #{0} and UserPassword = #{1}
+	</select>
+	<select id="UserInsert" parameterType="com.qcys.pojo.User">
+		INSERT INTO UserTb (userPassword, userPhone)
+		values(#{userPassword}, #{userPhone})
+	</select>
+	<select id="FindUserMail" parameterType="java.lang.String" resultType="java.lang.String">
+		select UserEmail from UserTb where UserAccount = #{0}
+	</select>
+	<select id="SettingHeader" parameterType="java.lang.String">
+		UPDATE UserTb SET UserHeader = #{0} WHERE UserID = #{1}
+	</select>
+	<select id="SettingNickName" parameterType="java.lang.String">
+		UPDATE UserTb SET UserAccount = #{0} WHERE UserID = #{1}
+	</select>
+	<select id="FindUserById" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
+		SELECT * FROM UserTb
+		<where>
+			<include refid="query_user_id" />
+		</where>
+	</select>
+	<select id="FindUserByPhone" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
+		SELECT * FROM UserTb
+		<where>
+			<include refid="query_user_phone" />
+		</where>
+	</select>
+	<sql id="query_user_id">
+		UserID = #{0}
+	</sql>
+	<sql id="query_user_phone">
+		UserPhone = #{0}
+	</sql>
+	<select id="SettingPassword" parameterType="java.lang.String">
+		UPDATE UserTb SET UserPassword = #{0} WHERE UserPhone = #{1}
+	</select>
+</mapper>

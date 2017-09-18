@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+	<!-- 配置Controller扫描 -->
+	<context:component-scan base-package="com.qcys.controller" />
+
+	<!-- 配置注解驱动 -->
+	<!-- 默认创建处理器映射器和处理器适配器并使controller中的相关注解生效 -->
+	<mvc:annotation-driven />
+
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/pages/preLogin/**"/>
+			<bean class="com.qcys.handler.CheckLoginHandler" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+	<!-- 配置视图解析器 -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" /> -->
+		<!-- 前缀 -->
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<!-- 后缀 -->
+		<property name="suffix" value=".jsp" />
+	</bean>
+	
+	<!-- 配置静态资源的访问 -->
+	<mvc:resources location="/static/" mapping="/static/**"/>
+
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="524288000" />
+		<property name="defaultEncoding" value="UTF-8"></property>
+	</bean>
+</beans>

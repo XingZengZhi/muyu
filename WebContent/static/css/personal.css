@@ -1,0 +1,254 @@
+body,html{
+    background-color:#F6F6F6;
+}
+#personalMessage{
+    display:block;
+    position:relative;
+    margin:20px auto;
+    width:1226px;
+    border-top:2px solid #02a9ac;
+    background-color:white;
+}
+#headerSetting{
+    display:block;
+    width:1000px;
+    height:655px;
+    margin:20px auto;
+}
+#headerImage{
+    display:inline-block;
+}
+#headerImage img{
+    width:120px;
+    height:120px;
+}
+#uploadBtn{
+    display:inline-block;
+    margin-left:20px;
+}
+#settingHead{
+    display:block;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:16px;
+    margin-bottom:10px;
+    border:2px solid #02a9ac;
+    color:#02a9ac;
+    background-color:white;
+    border-radius:3px;
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+}
+#settingHead:hover{
+    cursor:pointer;
+    background-color:#02a9ac;
+    color:white;
+}
+#headerTip{
+    font-size:14px;
+    color:#ccc;
+}
+#headerFile{
+    display:none;
+}
+#UserMessage{
+    displya:block;
+    width:1000px;
+    height:100px;
+    margin:10px auto;
+    /*border:1px solid blue;*/
+}
+#UserMessage p{
+    height:30px;
+    line-height:30px;
+    color: #a2a2a2;
+    font-size:15px;
+}
+#UserId{
+    display:none;
+}
+#SettingMessage{
+    display:-webkit-flex;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around; /*水平居中*/
+    align-items: center; /*垂直居中*/
+    width:1000px;
+    height:100px;
+    margin:10px auto;
+    /*border:1px solid red;*/
+}
+.message-base{
+    display:inline-block;
+    width:120px;
+    height:45px;
+    letter-spacing:2px;
+    border-radius:5px;
+    border:none;
+    color:white;
+    font-size:16px;
+}
+.base-item1{
+    background-color: #02a5a8;
+}
+.base-item1:hover{
+    cursor: pointer;
+    background-color: #029699;
+}
+.base-item2{
+    background-color: #ff0000;
+}
+.base-item2:hover{
+    cursor: pointer;
+    background-color: #e30000;
+}
+.base-item3{
+    background-color: #5CB85C;
+}
+.base-item3:hover{
+    cursor: pointer;
+    background-color: #52a452;
+}
+.base-item4{
+    background-color: #F0AD4E;
+}
+.base-item4:hover{
+    cursor: pointer;
+    background-color: #d9a044;
+}
+#RecentBrowse{
+    display:block;
+    width:1000px;
+    margin:10px auto;
+    /*border:1px solid red;*/
+}
+#RecentBrowse p{
+    display:flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+    height:35px;
+}
+#RecentBrowse p span{
+    display:inline-block;
+    height:35px;
+    line-height:35px;
+    background-color: #eaeaea;
+    box-sizing:border-box;
+    padding-left:5px;
+}
+.item-grow1{
+    flex-grow:1;
+}
+.item-grow2{
+    flex-grow:1;
+}
+.item-grow3{
+    flex-grow:1;
+}
+.item-grow4{
+    flex-grow:1;
+}
+#MaskBox{
+    display:none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:rgba(255, 255, 255, 0.5);
+
+}
+.SettingNickName,
+.SettingPhone,
+.SettingEmail,
+.SettingPass{
+    display:none;
+    width:300px;
+    height:200px;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    background-color:white;
+    box-shadow:0 0 10px #ccc;
+}
+.SettingNickName blockquote,
+.SettingPhone blockquote,
+.SettingEmail blockquote,
+.SettingPass blockquote{
+    display:block;
+    width:100%;
+    height:35px;
+
+    border-radius:5px 5px 0 0;
+}
+.quoteItem1{
+    background-color:#02a5a8;
+}
+.quoteItem2{
+    background-color:#ff0000;
+}
+.quoteItem3{
+    background-color:#5CB85C;
+}
+.quoteItem4{
+    background-color:#F0AD4E;
+}
+.SettingNickName blockquote span,
+.SettingPhone blockquote span,
+.SettingEmail blockquote span,
+.SettingPass blockquote span{
+    display:inline-block;
+    height:35px;
+    line-height:35px;
+    color:white;
+}
+.nickName{
+    float:left;
+    font-size:17px;
+    letter-spacing:2px;
+    margin-left:10px;
+}
+.cha{
+    float:right;
+    font-size:20px;
+    margin-right:10px;
+}
+.cha:hover{
+    cursor:pointer;
+}
+.ChangeNickName{
+    display:block;
+    width:80%;
+    height:100px;
+    margin:20px auto;
+}
+#resultTip{
+    display:none;
+    color: #ff0000;
+    font-size:15px;
+}
+.NewUserNickName,
+.NewPhone,
+.NewEmail,
+.NewPass{
+    display:block;
+    width:100%;
+    height:35px;
+}
+.ChangeNickName button{
+    display:block;
+    width:100px;
+    height:35px;
+    border:none;
+    color:white;
+    letter-spacing:2px;
+    border-radius:3px;
+    margin-top:10px;
+}
