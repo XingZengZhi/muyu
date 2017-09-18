@@ -24,6 +24,23 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</select>
 	<select id="FindUserById" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
 		SELECT * FROM UserTb
-		WHERE UserID = #{0}
+		<where>
+			<include refid="query_user_id" />
+		</where>
+	</select>
+	<select id="FindUserByPhone" parameterType="java.lang.String" resultType="com.qcys.pojo.User">
+		SELECT * FROM UserTb
+		<where>
+			<include refid="query_user_phone" />
+		</where>
+	</select>
+	<sql id="query_user_id">
+		UserID = #{0}
+	</sql>
+	<sql id="query_user_phone">
+		UserPhone = #{0}
+	</sql>
+	<select id="SettingPassword" parameterType="java.lang.String">
+		UPDATE UserTb SET UserPassword = #{0} WHERE UserPhone = #{1}
 	</select>
 </mapper>

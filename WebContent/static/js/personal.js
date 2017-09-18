@@ -66,9 +66,10 @@ $(document).ready(function(){
     var $baseItem3 = $(".base-item3");
     var $baseItem4 = $(".base-item4");
     var $ConfirmNickName = $("#ConfirmNickName");
+    var $ConfirmPass = $("#ConfirmPass");
     var $Mask = $("#MaskBox");
     var $cha =$(".cha");
-    var NewNickName = "";
+    var NewNickName = "", NewPass = "";
 
     $baseItem1.click(ShowMask);
     $baseItem2.click(ShowMask);
@@ -76,6 +77,7 @@ $(document).ready(function(){
     $baseItem4.click(ShowMask);
     $cha.click(HideCha);
     $ConfirmNickName.click(SubmitNewNickName);
+    $ConfirmPass.click(SubmitNewPass);
 
     function ShowMask(e){
         $Mask.fadeIn(400);
@@ -106,6 +108,26 @@ $(document).ready(function(){
                     $("#UserAccount").html(NewNickName);
                     $("#MaskBox").fadeOut(400);
                 }
+            }
+        });
+    }
+    //修改密码
+    function SubmitNewPass(){
+        NewPass = $(".NewPass").val();
+        $.ajax({
+            type:"POST",
+            data:"NewPass=" + NewPass + "&userphone=" + $("#UserPhone").html(),
+            url:"../NewPass",
+            success:function(result){
+                if(result == 1){
+                    $("#resultTip").fadeIn(0);
+                }else{
+                    $("#resultTip").html("修改失败，请重试。").fadeIn(0);
+                }
+                setTimeout(function(){
+                    $("#resultTip").fadeOut(0);
+                    $("#MaskBox").fadeOut(400);
+                },1000);
             }
         });
     }

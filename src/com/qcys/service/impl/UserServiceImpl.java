@@ -31,6 +31,11 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
+	public User FindUserByPhone(String userphone) {
+		return userMapper.FindUserByPhone(userphone);
+	}
+
+	@Override
 	public void UserInsert(User user) {
 		userMapper.UserInsert(user);
 	}
@@ -48,6 +53,11 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public void SettingNickName(String nickName, String userid) {
 		userMapper.SettingNickName(nickName, userid);
+	}
+
+	@Override
+	public void SettingPassword(String password, String userphone) {
+		userMapper.SettingPassword(password, userphone);
 	}
 
 }

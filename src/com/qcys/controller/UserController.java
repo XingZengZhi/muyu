@@ -3,6 +3,7 @@ package com.qcys.controller;
 import java.io.IOException;
 import java.util.List;
 
+import com.qcys.util.MD5Utils;
 import com.qcys.util.SendMail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -78,7 +79,6 @@ public class UserController {
 	public void NewNickName(HttpServletRequest request, HttpServletResponse response){
 		String nickName = request.getParameter("NickName");
 		String userid = request.getParameter("userid");
-		System.out.println(nickName + " " + userid);
 		try {
 			userService.SettingNickName(nickName, userid);
 			response.getWriter().print("1");
@@ -87,5 +87,16 @@ public class UserController {
 		}
 		User user = userService.FindUserById(userid);
 		request.getSession().setAttribute("LoginUser", user);
+	}
+	@RequestMapping("/NewPass")
+	public void NewPass(HttpServletRequest request, HttpServletResponse response){
+		String pass = request.getParameter("NewPass");
+		String phone = request.getParameter("userphone");
+		try {
+			userService.SettingPassword(MD5Utils.md5(pass), phone);
+			response.getWriter().print(1);
+		}catch (Exception e){
+			e.printStackTrace();
+		}
 	}
 }

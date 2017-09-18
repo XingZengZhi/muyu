@@ -32,7 +32,7 @@
                 <div id="UserMessage">
                     <p id="UserId">${LoginUser.userID}</p>
                     <p>昵称：<span id="UserAccount">${LoginUser.userAccount}</span></p>
-                    <p>联系电话：<span>${LoginUser.userPhone}</span></p>
+                    <p>联系电话：<span id="UserPhone">${LoginUser.userPhone}</span></p>
                     <p>邮箱：<span>${LoginUser.userEmail}</span></p>
                 </div>
                 <%--最近浏览--%>
@@ -97,6 +97,7 @@
                     <div class="ChangeNickName">
                         <input type="text" maxlength="16" class="NewPass" />
                         <button type="button" id="ConfirmPass" class="quoteItem4">确认修改</button>
+                        <p id="resultTip">修改成功</p>
                     </div>
                 </div>
 
