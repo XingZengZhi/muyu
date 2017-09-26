@@ -46,8 +46,8 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public void SettingHeader(String headerSrc, String userid) {
-		userMapper.SettingHeader(headerSrc, userid);
+	public void SettingHeader(String headerSrc, String userphone) {
+		userMapper.SettingHeader(headerSrc, userphone);
 	}
 
 	@Override
@@ -58,6 +58,16 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public void SettingPassword(String password, String userphone) {
 		userMapper.SettingPassword(password, userphone);
+	}
+
+	@Override
+	public void SettingEmail(String email, String userphone) {
+		userMapper.SettingEmail(email, userphone);
+	}
+
+	@Override
+	public void SettingPhone(String newphone, String userphone) {
+		userMapper.SettingPhone(newphone, userphone);
 	}
 
 }

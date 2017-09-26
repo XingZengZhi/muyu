@@ -15,7 +15,7 @@
     margin-top:20px;
     margin-left:20px;
     border-radius: 3px;
-    border:1px solid #ccc;
+    /*border:1px solid #ccc;*/
 }
 #Classify li{
     overflow: hidden;
@@ -27,7 +27,6 @@
     line-height:50px;
     padding-left:30px;
     background-color:white;
-    border-bottom:1px solid #ccc;
     transition:all 0.3s;
     -webkit-transition:all 0.3s;
     -moz-transition:all 0.3s;
@@ -35,10 +34,6 @@
 #Classify li a:hover{
     color:white;
     background-color:#008DE8;
-    border-bottom:1px solid white;
-}
-#Classify li:last-child a{
-    border:none;
 }
 
 #WorkContent{
@@ -56,18 +51,90 @@
     margin:10px 0;
 }
 #Public h2,#Multi h2,#Video h2,#Flat h2{
+    position:relative;
     display:inline-block;
-    margin:20px 20px;
-    border-bottom:3px solid #008DE8;
+    margin-top:20px;
+    margin-left:30px;
+    font-weight:500;
+    width:89.5%;
+}
+#Public h2 a,#Multi h2 a,#Video h2 a,#Flat h2 a{
+    position:absolute;
+    font-size:15px;
+    font-weight:300;
+    right:0;
+    bottom:0;
 }
 
 #videocontent,#flatcontent,#multicontent,#publiccontent{
     margin-left:20px;
 }
 
-#videocontent video,#flatcontent video,#publiccontent video,#multicontent video{
+.vs{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:91%;
+    margin-left:10px;
+    margin-top:10px;
+}
+.vLink{
     display:inline-block;
-    width:427px;
-    height:240px;
-    margin:10px;
+    position:relative;
+    width:250px;
+    height:230px;
+}
+.playBtn{
+    display: none;
+    width:50px;
+    height:50px;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:65px;
+    margin:auto;
+}
+.playBtn:hover{
+    cursor:pointer;
+}
+.vLink a{
+    display: block;
+    width:250px;
+    height:150px;
+    overflow: hidden;
+
+}
+.vLink a img{
+    display: block;
+    width:250px;
+    height:150px;
+    transition:all 0.3s;
+}
+
+.video-info{
+    height:80px;
+}
+
+.video-title{
+    height:40px;
+}
+
+.video-title a{
+    display: block;
+    height:40px;
+    width:240px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:16px;
+    line-height:40px;
+}
+
+.video-title a:hover{
+    color: #e10000;
+}
+
+.video-plays{
+    font-size:13px;
 }

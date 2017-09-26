@@ -17,7 +17,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		select UserEmail from UserTb where UserAccount = #{0}
 	</select>
 	<select id="SettingHeader" parameterType="java.lang.String">
-		UPDATE UserTb SET UserHeader = #{0} WHERE UserID = #{1}
+		UPDATE UserTb SET UserHeader = #{0} WHERE UserPhone = #{1}
 	</select>
 	<select id="SettingNickName" parameterType="java.lang.String">
 		UPDATE UserTb SET UserAccount = #{0} WHERE UserID = #{1}
@@ -42,5 +42,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</sql>
 	<select id="SettingPassword" parameterType="java.lang.String">
 		UPDATE UserTb SET UserPassword = #{0} WHERE UserPhone = #{1}
+	</select>
+	<select id="SettingEmail" parameterType="java.lang.String">
+		UPDATE UserTb SET UserEmail = #{0} WHERE UserPhone = #{1}
+	</select>
+	<select id="SettingPhone" parameterType="java.lang.String">
+		UPDATE UserTb SET UserPhone = #{0} WHERE UserPhone = #{1}
 	</select>
 </mapper>

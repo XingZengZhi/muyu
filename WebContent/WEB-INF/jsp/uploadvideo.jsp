@@ -20,6 +20,7 @@
 		<div>
 			<%--相关信息--%>
 			<form action="" class="personalMsg">
+				<input type="hidden" id="UserID" value="${LoginUser.userID}" />
 				<ul>
 					<li>
 						<span class="personalMsg-title">投放地址</span>

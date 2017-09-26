@@ -49,14 +49,14 @@
 				<p class="left">
 					<i class="left_"></i>
 				</p>
+				<p class="right">
+					<i class="right_"></i>
+				</p>
 				<!--轮播图片-->
 				<a href="" class="barner_1"><img src="${pageContext.request.contextPath }/static/img/barner/barner1.jpg" /></a>
 				<a href="" class="barner_2"><img src="${pageContext.request.contextPath }/static/img/barner/barner2.jpg" /></a>
 				<a href="" class="barner_3"><img src="${pageContext.request.contextPath }/static/img/barner/barner3.jpg" /></a>
 				<!--结束-->
-				<p class="right">
-					<i class="right_"></i>
-				</p>
 			</div>
 			<!--广告分类-->
 			<div id="mid_box">

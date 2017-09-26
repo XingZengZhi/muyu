@@ -1,6 +1,3 @@
-/**
- * Created by 94404 on 2017/5/10.
- */
 $(function(){
     var regForm = $("#register_content form");
     var pass = $("input[name='password']");

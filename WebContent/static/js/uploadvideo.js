@@ -21,7 +21,12 @@ $(function(){
                 var nowTotal = Math.floor(total * percent);
                 $(".onprogress-item").animate({
                     width: nowTotal + 'px'
+                },function(){
+                    if(nowTotal == total){
+                        $(".onprogress").fadeOut(0);
+                    }
                 });
+
             }),
 			success:function(data){
 			    var newSrc = window.location.host + '/qingchengcjk/' + data.replace('\\', '/');

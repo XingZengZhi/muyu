@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/index_style.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath }/static/css/works.css">
     <script type="text/javascript" src="${pageContext.request.contextPath }/static/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript">
-    </script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/works.js"></script>
 </head>
 <body>
     <div id="max_box">
@@ -40,43 +39,128 @@
 
             <div id="WorkContent">
                 <div id="Public">
-                    <h2 name="Public">宣传广告</h2>
+                    <h2 name="Public">
+                        宣传广告
+                        <a href="#">更多></a>
+                    </h2>
                     <div id="publiccontent">
-                        <video poster="${pageContext.request.contextPath }/static/video-img/video-png.png" controls="controls" preload="auto">
-                            <source src="${pageContext.request.contextPath }/static/video/test.mp4" type="video/mp4">
-                        </video>
+                        <div class="vs">
+                            <div class="vLink">
+                                <a href="#">
+                                    <img class="vImg" src="${pageContext.request.contextPath}/static/videoImg/v1.jpg" />
+                                </a>
+                                <img src="${pageContext.request.contextPath}/static/videoImg/play-hover.png" class="playBtn" />
+                                <div class="video-info">
+                                    <div class="video-title">
+                                        <a href="#">淮南大数据应用服务中心宣传片</a>
+                                    </div>
+                                    <div class="video-plays">
+                                        519 次观看
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vLink">
+                                <a href="#">
+                                    <img class="vImg" src="${pageContext.request.contextPath}/static/videoImg/v2.jpg" />
+                                </a>
+                                <img src="${pageContext.request.contextPath}/static/videoImg/play-hover.png" class="playBtn" />
+                                <div class="video-info">
+                                    <div class="video-title">
+                                        <a href="#">QQ - 上QQ玩AR 用新的方式 迎接世界</a>
+                                    </div>
+                                    <div class="video-plays">
+                                        519 次观看
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vLink">
+                                <a href="#">
+                                    <img class="vImg" src="${pageContext.request.contextPath}/static/videoImg/v3.jpg" />
+                                </a>
+                                <img src="${pageContext.request.contextPath}/static/videoImg/play-hover.png" class="playBtn" />
+                                <div class="video-info">
+                                    <div class="video-title">
+                                        <a href="#">小米 MI -  Mi 5X 除了吴亦凡还有变焦双摄</a>
+                                    </div>
+                                    <div class="video-plays">
+                                        519 次观看
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                        <video poster="${pageContext.request.contextPath }/static/video-img/video-png.png" controls="controls" preload="auto">
-                            <source src="${pageContext.request.contextPath }/static/video/test.mp4" type="video/mp4">
-                        </video>
-
-                        <video poster="${pageContext.request.contextPath }/static/video-img/video-png.png" controls="controls" preload="auto">
-                            <source src="${pageContext.request.contextPath }/static/video/test.mp4" type="video/mp4">
-                        </video>
                     </div>
                 </div>
                 <div id="Multi">
-                    <h2>多媒体广告</h2>
+                    <h2>
+                        多媒体广告
+                        <a href="#">更多></a>
+                    </h2>
                     <div id="multicontent">
-                        <video poster="${pageContext.request.contextPath }/static/video-img/video-png.png" controls="controls" preload="auto">
-                            <source src="${pageContext.request.contextPath }/static/video/test.mp4" type="video/mp4">
-                        </video>
+                        <div class="vs">
+                            <div class="vLink">
+                                <a href="#">
+                                    <img class="vImg" src="${pageContext.request.contextPath}/static/videoImg/v3.jpg" />
+                                </a>
+                                <img src="${pageContext.request.contextPath}/static/videoImg/play-hover.png" class="playBtn" />
+                                <div class="video-info">
+                                    <div class="video-title">
+                                        <a href="#">小米 MI -  Mi 5X 除了吴亦凡还有变焦双摄</a>
+                                    </div>
+                                    <div class="video-plays">
+                                        519 次观看
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id="Video">
-                    <h2>视频广告</h2>
+                    <h2>
+                        视频广告
+                        <a href="#">更多></a>
+                    </h2>
                     <div id="videocontent">
-                        <video poster="${pageContext.request.contextPath }/static/video-img/video-png.png" controls="controls" preload="auto">
-                            <source src="${pageContext.request.contextPath }/static/video/test.mp4" type="video/mp4">
-                        </video>
+                        <div class="vs">
+                            <div class="vLink">
+                                <a href="#">
+                                    <img class="vImg" src="${pageContext.request.contextPath}/static/videoImg/v3.jpg" />
+                                </a>
+                                <img src="${pageContext.request.contextPath}/static/videoImg/play-hover.png" class="playBtn" />
+                                <div class="video-info">
+                                    <div class="video-title">
+                                        <a href="#">小米 MI -  Mi 5X 除了吴亦凡还有变焦双摄</a>
+                                    </div>
+                                    <div class="video-plays">
+                                        519 次观看
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id="Flat">
-                    <h2>平面广告</h2>
+                    <h2>
+                        平面广告
+                        <a href="#">更多></a>
+                    </h2>
                     <div id="flatcontent">
-                        <video poster="${pageContext.request.contextPath }/static/video-img/video-png.png" controls="controls" preload="auto">
-                            <source src="${pageContext.request.contextPath }/static/video/test.mp4" type="video/mp4">
-                        </video>
+                        <div class="vs">
+                            <div class="vLink">
+                                <a href="#">
+                                    <img class="vImg" src="${pageContext.request.contextPath}/static/videoImg/v4.jpg" />
+                                </a>
+                                <img src="${pageContext.request.contextPath}/static/videoImg/play-hover.png" class="playBtn" />
+                                <div class="video-info">
+                                    <div class="video-title">
+                                        <a href="#">小米 MI -  Mi 5X 除了吴亦凡还有变焦双摄</a>
+                                    </div>
+                                    <div class="video-plays">
+                                        519 次观看
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

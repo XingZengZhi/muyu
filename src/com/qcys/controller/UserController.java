@@ -2,6 +2,7 @@ package com.qcys.controller;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.UUID;
 
 import com.qcys.util.MD5Utils;
 import com.qcys.util.SendMail;
@@ -98,5 +99,36 @@ public class UserController {
 		}catch (Exception e){
 			e.printStackTrace();
 		}
+	}
+	@RequestMapping("/NewEmail")
+	public void NewEmail(HttpServletRequest request, HttpServletResponse response){
+		String email = request.getParameter("email");
+		String validate = UUID.randomUUID().toString().substring(0, 6);
+		System.out.println(validate + " " + email);
+		SendMail sendMail = new SendMail(email, validate);
+		try {
+			sendMail.StartSend();
+			response.getWriter().print(validate);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	@RequestMapping("/SettingNewEmail")
+	public void SettingNewEmail(HttpServletRequest request,
+								HttpServletResponse response) throws IOException {
+		String NewEmail = request.getParameter("NewEmail");
+		String phone = request.getParameter("phone");
+		System.out.println(NewEmail + " " + phone);
+		userService.SettingEmail(NewEmail, phone);
+		response.getWriter().print(1);
+	}
+	@RequestMapping("/SettingNewPhone")
+	public void SettingNewPhone(HttpServletRequest request,
+								HttpServletResponse response) throws IOException {
+		String NewPhone = request.getParameter("NewPhone");
+		String phone = request.getParameter("phone");
+		System.out.println(NewPhone + " " + phone);
+		userService.SettingPhone(NewPhone, phone);
+		response.getWriter().print(1);
 	}
 }

@@ -72,7 +72,10 @@
                     </blockquote>
                     <div class="ChangeNickName">
                         <input type="text" maxlength="16" class="NewPhone" />
+                        <input type="text" maxlength="6" class="sendPhone" />
+                        <a class="sendPhoneBtn">发送验证码</a>
                         <button type="button" id="ConfirmPhone" class="quoteItem2">确认修改</button>
+                        <p class="codeTip"></p>
                     </div>
                 </div>
 
@@ -83,8 +86,12 @@
                         <span class="cha">×</span>
                     </blockquote>
                     <div class="ChangeNickName">
-                        <input type="text" maxlength="16" class="NewEmail" />
+                        <input type="text" class="NewEmail" placeholder="输入新邮箱" />
+                        <input type="text" maxlength="6" class="sendMail" />
+                        <a class="sendMailBtn">发送验证码</a>
                         <button type="button" id="ConfirmEmail" class="quoteItem3">确认修改</button>
+                        <p class="code"></p>
+                        <p class="codeTip"></p>
                     </div>
                 </div>
 

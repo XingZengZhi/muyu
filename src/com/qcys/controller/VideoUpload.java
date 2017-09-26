@@ -46,7 +46,7 @@ public class VideoUpload {
 	@RequestMapping("/uploadHeader")
 	public void headerUpload(HttpServletRequest request, HttpServletResponse response,
 							 MultipartFile headerFile){
-		String userid = request.getParameter("userid");
+		String userphone = request.getParameter("userphone");
 		String headerName = headerFile.getOriginalFilename();
 		String newHeaderName = UUID.randomUUID().toString() + headerName.substring(headerName.lastIndexOf("."));
 		String uploadPath = request.getRealPath(File.separatorChar + "static" +
@@ -62,7 +62,7 @@ public class VideoUpload {
 		} catch (IllegalStateException | IOException e) {
 			e.printStackTrace();
 		}
-		userService.SettingHeader(newHeaderName, userid);
+		userService.SettingHeader(newHeaderName, userphone);
 		HttpSession session = request.getSession();
 		if(session.getAttribute("LoginUser") != null){
 			User user = (User) session.getAttribute("LoginUser");

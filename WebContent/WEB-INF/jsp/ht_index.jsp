@@ -32,96 +32,10 @@
                             状态：未审核
                         </p>
                     </div>
-                    <div class="videoBox">
-                        <img src="${pageContext.request.contextPath}/static/ht_image/ht-video-img1.jpg" alt="">
-                        <p>
-                            上传用户：test
-                        </p>
-                        <p>
-                            上传时间：2017-8-15
-                        </p>
-                        <p>
-                            状态：未审核
-                        </p>
-                    </div>
-                    <div class="videoBox">
-                        <img src="${pageContext.request.contextPath}/static/ht_image/ht-video-img1.jpg" alt="">
-                        <p>
-                            上传用户：test
-                        </p>
-                        <p>
-                            上传时间：2017-8-15
-                        </p>
-                        <p>
-                            状态：未审核
-                        </p>
-                    </div>
-                    <div class="videoBox">
-                        <img src="${pageContext.request.contextPath}/static/ht_image/ht-video-img1.jpg" alt="">
-                        <p>
-                            上传用户：test
-                        </p>
-                        <p>
-                            上传时间：2017-8-15
-                        </p>
-                        <p>
-                            状态：未审核
-                        </p>
-                    </div>
-                    <div class="videoBox">
-                        <img src="${pageContext.request.contextPath}/static/ht_image/ht-video-img1.jpg" alt="">
-                        <p>
-                            上传用户：test
-                        </p>
-                        <p>
-                            上传时间：2017-8-15
-                        </p>
-                        <p>
-                            状态：未审核
-                        </p>
-                    </div>
-                    <div class="videoBox">
-                        <img src="${pageContext.request.contextPath}/static/ht_image/ht-video-img1.jpg" alt="">
-                        <p>
-                            上传用户：test
-                        </p>
-                        <p>
-                            上传时间：2017-8-15
-                        </p>
-                        <p>
-                            状态：未审核
-                        </p>
-                    </div>
-                </div>
-
-                <div class="videoItem">
-                    <div class="videoBox">
-                        <img src="${pageContext.request.contextPath}/static/ht_image/ht-video-img1.jpg" alt="">
-                        <p>
-                            上传用户：test
-                        </p>
-                        <p>
-                            上传时间：2017-8-15
-                        </p>
-                        <p>
-                            状态：未审核
-                        </p>
-                    </div>
-                    <div class="videoBox">
-                        <img src="${pageContext.request.contextPath}/static/ht_image/ht-video-img1.jpg" alt="">
-                        <p>
-                            上传用户：test
-                        </p>
-                        <p>
-                            上传时间：2017-8-15
-                        </p>
-                        <p>
-                            状态：未审核
-                        </p>
-                    </div>
                 </div>
 
             </div>
+
             <div class="adverManager">
                 <div id="adverTable">
                     <div class="tableHeader">
@@ -194,6 +108,7 @@
                     </form>
                 </div>
             </div>
+
             <div class="userManager">
                 <div class="userTable">
                     <div class="tableHeader">
