@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+}
+
+a{
+    text-decoration: none;
+    user-select:none;
+}
+
+table{
+    display: block;
+    width:1200px;
+    margin:0 auto;
+}
+
+table th, table td{
+    height:30px;
+}
+
+table th{
+    background-color: #e6e6e6;
+}
+
+table td{
+    border-bottom:1px solid #ccc;
+}
+
+.Metter, .Remarks{
+    width:215px;
+    text-align: center;
+}
+
+.cid{
+    width:50px;
+    text-align: center;
+}
+
+.time{
+    width:100px;
+    text-align: center;
+}
+
+.user{
+    width:150px;
+    text-align: center;
+}

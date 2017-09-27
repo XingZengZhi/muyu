@@ -1,10 +1,15 @@
 $(function(){
 	var inpFile =  $(".uploadBox form input[type='file']");
 	var startUpload = $(".startUpload");
+	var address = document.getElementsByClassName("personalMsg-address");
+	var detailAddress = document.getElementsByClassName("detailAddress");
+	var screenCount = document.getElementById("screenCount");
+    var timeCount = document.getElementById("timeCount");
 
 	inpFile.change(function(){
 		fileChange($(this));
 	});
+
 	startUpload.on("click", function(){
 	    $(".onprogress").fadeIn(0);
 		var fm = new FormData();
@@ -23,6 +28,8 @@ $(function(){
                     width: nowTotal + 'px'
                 },function(){
                     if(nowTotal == total){
+                        $("#SubmitVideoMessage").fadeIn(0);
+                        $("#videoBox video").fadeIn(0);
                         $(".onprogress").fadeOut(0);
                     }
                 });
@@ -33,6 +40,7 @@ $(function(){
 			    console.log(newSrc);
 				var video = document.createElement("video");
 				video.src = "http://" + newSrc;
+				video.style.display = "none";
 				video.controls = "controls";
 				video.className = "videoPlay";
 				video.preload = "true";
@@ -86,6 +94,7 @@ $(function(){
             return false;
         }
     }
+
     $(".personalMsg-address").click(function(){
         $(".addressItem").fadeIn(0);
     });
@@ -241,6 +250,7 @@ $(function(){
             $(".addressItem").fadeOut(0);
         }
     });
+
     //监听价格变化
     var count1, count2, totalPrice, days, dayName;
     $("#screenCount,#timeCount").on('input propertychange', function(e){
@@ -265,6 +275,7 @@ $(function(){
             }
         }
     });
+
     function Judgment(dayName){
         var totalPriceDay;
         var count1 = $("#screenCount").val();
@@ -279,4 +290,6 @@ $(function(){
         $(".allprice").html(totalPriceDay);
         return totalPriceDay;
     }
+
+
 });

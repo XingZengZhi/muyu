@@ -37,7 +37,7 @@
 					</li>
 					<li>
 						<span class="personalMsg-title">投放小区</span>
-						<span class="district"><input type="text" placeholder="输入详细地址" /></span>
+						<span class="district"><input class="detailAddress" type="text" placeholder="输入详细地址" /></span>
 					</li>
 					<li>
 						<span class="personalMsg-title">广告类型</span>
@@ -76,6 +76,7 @@
 				<div class="uploadBtns">
 					<label for="InputFile">上传视频</label>
 					<span class="startUpload">开始上传</span>
+					<button type="button" id="SubmitVideoMessage">提交信息</button>
 					<p class="onprogress">
 						<span class="onprogress-item"></span>
 					</p>

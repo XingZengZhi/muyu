@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qcys.mapper.LocalMapper">
+    <select id="getLocalList" resultType="com.qcys.pojo.Local">
+        SELECT * FROM localuser
+    </select>
+
+    <select id="insertLocal" parameterType="com.qcys.pojo.Local">
+        INSERT INTO localuser (clientName, clientPhone, metter, startTime, endTime, remarks, releaseTime, releaseUser)
+        VALUES (#{clientName}, #{clientPhone}, #{metter}, #{startTime}, #{endTime}, #{remarks}, #{releaseTime}, #{releaseUser})
+    </select>
+</mapper>
