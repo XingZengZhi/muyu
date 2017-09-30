@@ -16,43 +16,43 @@
     </blockquote>
 
     <div id="formBox">
-        <form action="${pageContext.request.contextPath}/pages/addLocal" method="post">
+        <form action="${pageContext.request.contextPath}/Local/addLocal" method="post">
             <ul>
                 <li>
                     <span>客户</span>
                 </li>
                 <li>
-                    <input type="text" name="ClientName" placeholder="输入客户名称" />
+                    <input type="text" id="ClientName" name="ClientName" placeholder="输入客户名称" />
                 </li>
 
                 <li>
                     <span>联系电话</span>
                 </li>
                 <li>
-                    <input type="number" name="ClientPhone" placeholder="输入电话号码" />
+                    <input type="number" id="ClientPhone" name="ClientPhone" placeholder="输入电话号码" />
                 </li>
 
                 <li>
                     <span>事项</span>
                 </li>
                 <li>
-                    <textarea name="Metter" cols="45" rows="6" placeholder="输入事项"></textarea>
+                    <textarea id="Metter" name="Metter" cols="45" rows="6" placeholder="输入事项"></textarea>
                 </li>
 
                 <li>
                     <span>备注</span>
                 </li>
                 <li>
-                    <textarea name="Remarks" cols="45" rows="6" placeholder="输入备注"></textarea>
+                    <textarea id="Remarks" name="Remarks" cols="45" rows="6" placeholder="输入备注"></textarea>
                 </li>
 
                 <li>
                     <span>开始、结束日期</span>
                 </li>
                 <li>
-                    <input type="date" name="StartTime" />
+                    <input id="StartTime" type="date" name="StartTime" />
                     -
-                    <input type="date" name="EndTime" />
+                    <input id="EndTime" type="date" name="EndTime" />
                 </li>
 
                 <li>

@@ -257,15 +257,18 @@ $(function(){
         if(e.target.id == 'screenCount'){//屏幕个数
             count1 = e.target.value;
             if(count1 == 0){
+                $(".allprice").html("0");
                 return;
             }
             if(count2 != null){
-                totalPrice = count1 * count2 * parseInt($(".price span").html());
-                $(".allprice").html(totalPrice);
+                dayName = $(".firstTime").html();
+                console.log(dayName);
+                Judgment(dayName);
             }
         }else if(e.target.id == 'timeCount'){//时长
             count2 = e.target.value;
             if(count2 == 0){
+                $(".allprice").html("0");
                 return;
             }
             if(count1 != null){
@@ -288,7 +291,6 @@ $(function(){
         if(dayName == '年')days = 365;
         totalPriceDay = count1 * count2 * parseInt($(".price span").html()) * days;
         $(".allprice").html(totalPriceDay);
-        return totalPriceDay;
     }
 
 

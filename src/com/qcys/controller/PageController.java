@@ -14,31 +14,6 @@ import java.util.List;
 @Controller
 @RequestMapping("/pages")
 public class PageController {
-	@Autowired
-	private LocalService localService;
-
-	@RequestMapping("/yuii")
-	public String pageYuii(HttpServletRequest request){
-		List<Local> locals = localService.getLocalList();
-		request.setAttribute("locals", locals);
-		return "yuii";
-	}
-
-	@RequestMapping("/yuiiadd")
-	public String pageYuiiAdd(){
-		return "yuiiadd";
-	}
-
-	@RequestMapping("/addLocal")
-	public String pageAddLocal(Local local){
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-		Date date = new Date();
-		String currentTime = simpleDateFormat.format(date);
-		local.setReleaseTime(currentTime);
-		localService.insertLocal(local);
-		return "redirect:yuiiadd";
-	}
-
 	@RequestMapping("/index")
 	public String pageIndex(){
 		return "index";
